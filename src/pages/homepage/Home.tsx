@@ -2,6 +2,7 @@ import Carousel from "../../components/Carousel";
 import carousel_1 from "../../assets/images/homepage/carousel_1.png";
 import carousel_2 from "../../assets/images/homepage/carousel_2.png";
 import plane_bg from "../../assets/images/homepage/our_solutions_plane.png";
+import shipment_needs from "../../assets/images/homepage/shipment_needs_bg.png";
 import sea_transport from "../../assets/icons/homepage/sea_transport.svg";
 import warehousing from "../../assets/icons/homepage/warehousing.svg";
 import air_fright from "../../assets/icons/homepage/air_fright.svg";
@@ -88,6 +89,60 @@ function Home() {
           </div>
         </div>
         <button className="clear-btn">See all solutions</button>
+      </section>
+      {/* Your shipment needs met */}
+      <section className="flex flex-col items-center justify-center gap-10">
+        <div
+          className="h-[270px] bg-cover flex items-center justify-end pr-10 gap-2 w-full"
+          style={{ backgroundImage: `url(${shipment_needs})` }}
+        >
+          <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col gap-10 items-center">
+              <div className="flex flex-col items-center justify-center gap-1">
+                <p className="text-center font-bold text-[24px] text-white">
+                  MOY logistics Storage <br /> Solutions
+                </p>
+                <div className="h-1 w-[90px] bg-[#4d8147]"></div>
+              </div>
+              <button className="clear-btn w-fit text-[14px] px-2 bg-white">
+                More about storage solutions
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center gap-1">
+          <p className="section-header">Your Shipping Needs Met</p>
+          <div className="h-1 w-[90px] bg-[#4d8147]"></div>
+        </div>
+        <p className=" w-[650px] text-[0.9rem] font-medium leading-[18px] text-start ">
+          At MOY Logistics we pride ourselves on being a global container
+          shipping company that delivers tailored solutions designed to meet the
+          specific needs of each of our customers. Regardless of your cargo
+          type, or final destination, we offer versatile solutions that cover
+          air, land, and sea.
+          <br />
+          <br /> Thanks to the extensive capacity of our container fleet, MOY
+          Logistics is the trusted transportation partner and shipping company
+          for numerous companies the world over. Combining this with our global
+          port coverage and extensive equipment availability means, we are able
+          to deliver a professional, efficient shipping service, tailored to the
+          specific needs of your business.
+        </p>
+        <div
+          className="h-[270px] bg-cover flex items-center gap-2 w-[90%]"
+          style={{ backgroundImage: `url(${shipment_needs})` }}
+        >
+          <div className="flex w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-60">
+            <div className="flex items-center gap-5 flex-col ">
+              <img src={local_shipping} alt="" />
+              <p className="text-white text-[24px] font-semibold text-center">
+                In Land
+                <br />
+                Services
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
