@@ -7,6 +7,12 @@ import sea_transport from "../../assets/icons/homepage/sea_transport.svg";
 import warehousing from "../../assets/icons/homepage/warehousing.svg";
 import air_fright from "../../assets/icons/homepage/air_fright.svg";
 import local_shipping from "../../assets/icons/homepage/local_shipping.svg";
+import liquid_transportation from "../../assets/images/homepage/liquid_transport.png";
+import packaging_solutions from "../../assets/images/homepage/packaging_solution.png";
+import contract_logistics from "../../assets/images/homepage/contract_logistics.png";
+import warehouse_distribution from "../../assets/images/homepage/warehouse_distribution.png";
+import specialized_transport from "../../assets/images/homepage/specialized_transport.png";
+import containers from "../../assets/images/homepage/containers.png";
 
 function Home() {
   return (
@@ -22,7 +28,7 @@ function Home() {
       </section>
       {/* Our Solutions */}
       <section className="flex flex-col items-center justify-center gap-10">
-        <div className="flex flex-col items-center gap-1">
+        <div className="flex flex-col items-center gap-2">
           <p className="section-header">Our Solutions</p>
           <div className="h-1 w-[90px] bg-[#4d8147]"></div>
         </div>
@@ -91,7 +97,7 @@ function Home() {
         <button className="clear-btn">See all solutions</button>
       </section>
       {/* Your shipment needs met */}
-      <section className="flex flex-col items-center justify-center gap-10">
+      <section className="relative flex flex-col items-center justify-center gap-10 pb-[180px]">
         <div
           className="h-[270px] bg-cover flex items-center justify-end pr-10 gap-2 w-full"
           style={{ backgroundImage: `url(${shipment_needs})` }}
@@ -114,7 +120,7 @@ function Home() {
           <p className="section-header">Your Shipping Needs Met</p>
           <div className="h-1 w-[90px] bg-[#4d8147]"></div>
         </div>
-        <p className=" w-[650px] text-[0.9rem] font-medium leading-[18px] text-start ">
+        <p className=" w-[750px] text-[0.9rem] font-medium leading-[18px] text-start ">
           At MOY Logistics we pride ourselves on being a global container
           shipping company that delivers tailored solutions designed to meet the
           specific needs of each of our customers. Regardless of your cargo
@@ -128,20 +134,129 @@ function Home() {
           to deliver a professional, efficient shipping service, tailored to the
           specific needs of your business.
         </p>
-        <div
-          className="h-[270px] bg-cover flex items-center gap-2 w-[90%]"
-          style={{ backgroundImage: `url(${shipment_needs})` }}
-        >
-          <div className="flex w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-60">
-            <div className="flex items-center gap-5 flex-col ">
-              <img src={local_shipping} alt="" />
-              <p className="text-white text-[24px] font-semibold text-center">
-                In Land
-                <br />
-                Services
-              </p>
+        <div className=" z-10 h-[250px] bg-cover flex items-center gap-2 w-[90%]">
+          <div
+            className="flex w-1/5 h-full items-end justify-start "
+            style={{ backgroundImage: `url(${liquid_transportation})` }}
+          >
+            <div className="w-full">
+              <div className="flex gap-1 flex-col text-white p-4 bg-gradient-to-t to-transparent from-[#0f2506] ">
+                <p className="text-[18px] font-semibold">
+                  Liquid Transportation
+                </p>
+                <p>Premium Tankers</p>
+              </div>
             </div>
           </div>
+          <div
+            className="flex w-1/5 h-full items-end justify-start "
+            style={{ backgroundImage: `url(${packaging_solutions})` }}
+          >
+            <div className="w-full">
+              <div className="flex gap-1 flex-col text-white p-4 bg-gradient-to-t to-transparent from-[#0f2506] ">
+                <p className="text-[18px] font-semibold">Packaging Solutions</p>
+                <p>Warehouse Solutions</p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="flex w-1/5 h-full items-end justify-start "
+            style={{ backgroundImage: `url(${contract_logistics})` }}
+          >
+            <div className="w-full">
+              <div className="flex gap-1 flex-col text-white p-4 bg-gradient-to-t to-transparent from-[#0f2506] ">
+                <p className="text-[18px] font-semibold">Contract Logistics</p>
+                <p>Road Transportation</p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="flex w-1/5 h-full items-end justify-start "
+            style={{ backgroundImage: `url(${warehouse_distribution})` }}
+          >
+            <div className="w-full">
+              <div className="flex gap-1 flex-col text-white p-4 bg-gradient-to-t to-transparent from-[#0f2506] ">
+                <p className="text-[18px] font-semibold">
+                  Warehouse & Distribution
+                </p>
+                <p>Large Warehouse</p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="flex w-1/5 h-full items-end justify-start "
+            style={{ backgroundImage: `url(${specialized_transport})` }}
+          >
+            <div className="w-full">
+              <div className="flex gap-1 flex-col text-white p-4 bg-gradient-to-t to-transparent from-[#0f2506] ">
+                <p className="text-[18px] font-semibold">
+                  Specialized Transport
+                </p>
+                <p>Ocean Transports</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button className="clear-btn">More Work</button>
+        <div className="absolute bottom-0 border-4 border-solid border-primary_green w-full bg-transparent h-[300px]"></div>
+      </section>
+      {/* moving the world together */}
+      <section
+        className=" relative w-full h-[550px] "
+        style={{ backgroundImage: `url(${containers})` }}
+      >
+        <div className="absolute w-full flex flex-col justify-between pt-14 pb-4 h-full bg-black bg-opacity-70">
+          <div className="flex flex-col items-center justify-center gap-5 ">
+            <div className="flex flex-col items-center gap-2">
+              <p className="section-header text-white">
+                Moving the World, Together
+              </p>
+              <div className="h-1 w-[90px] bg-white"></div>
+            </div>
+            <p className="text-white text-center text-[13px] w-[600px] leading-[20px] ">
+              Our global shipping network is developed for our customers. By
+              focusing on delivering best-in-class service to our customers, we
+              are always available to help you with your particular needs and
+              offer you a one-stop-shop solution for your next shipping request.
+            </p>
+            <button className="clear-btn bg-white">More Read</button>
+          </div>
+          <div className="w-full flex justify-center gap-5 border-t-[0.2px] border-solid border-[#969696]">
+            <div className="flex gap-2 border-solid border-[#969696] border-r-[1px] pt-5 pr-10 pb-10">
+              <p className="text-[40px] text-white font-bold">24</p>
+              <div className="flex items-center gap-2">
+                <div className="w-[12px] h-[12px] bg-white"></div>
+                <p className="text-white">Our Location</p>
+              </div>
+            </div>
+            <div className="flex gap-2 border-solid border-[#969696] border-r-[1px] pt-5 pr-10 pb-10">
+              <p className="text-[40px] text-white font-bold">1294</p>
+              <div className="flex items-center gap-2">
+                <div className="w-[12px] h-[12px] bg-white"></div>
+                <p className="text-white">Delivered Packages</p>
+              </div>
+            </div>
+            <div className="flex gap-2 border-solid border-[#969696] border-r-[1px] pt-5 pr-10 pb-10">
+              <p className="text-[40px] text-white font-bold">3594</p>
+              <div className="flex items-center gap-2">
+                <div className="w-[12px] h-[12px] bg-white"></div>
+                <p className="text-white">Satisfied Clients</p>
+              </div>
+            </div>
+            <div className="flex gap-2 pt-5 pr-10 pb-10">
+              <p className="text-[40px] text-white font-bold">247+</p>
+              <div className="flex items-center gap-2">
+                <div className="w-[12px] h-[12px] bg-white"></div>
+                <p className="text-white">Owned Vehicles</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="flex flex-col items-center justify-center gap-10">
+        <div className="flex flex-col items-center gap-2">
+          <p className="section-header">Discover the Latest News About MOY Logistics</p>
+          <div className="h-1 w-[90px] bg-[#4d8147]"></div>
         </div>
       </section>
     </main>

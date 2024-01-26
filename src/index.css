@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,9 +13,6 @@
     @apply text-[16px] shadow-lg font-medium flex items-center justify-center text-[#4d8137] border border-solid border-primary_green px-[12px] md:px-[18px] lg:px-[40px] py-[12px] lg:py-[15px];
   }
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap");
 
 /*
 CSS reset
