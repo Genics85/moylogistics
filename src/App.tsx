@@ -1,7 +1,7 @@
-import NavigationBar from "./components/NavigationBar";
+import AppRouter from "./routing/AppRouter";
 
 function App() {
-  return <NavigationBar />;
+  return <AppRouter/>;
 }
 
 export default App;

@@ -7,7 +7,7 @@ import facebook from "../assets/icons/facebook.svg";
 
 function NavigationBar() {
   return (
-    <nav className=" bg-red-200 text-[#4d8137] flex items-center justify-center gap-20 py-2">
+    <nav className=" bg-white text-[#4d8137] flex items-center justify-center gap-20 py-2">
       <div className=" w-52">
         <img src={logo} className="w-full h-auto " alt="" />
       </div>
@@ -26,7 +26,7 @@ function NavigationBar() {
           className={({ isActive }) =>
             `${isActive ? " border-solid border-b-2 " : ""} pb-2`
           }
-          to={"home"}
+          to={"Service"}
         >
           Service
         </NavLink>
@@ -35,7 +35,7 @@ function NavigationBar() {
           className={({ isActive }) =>
             `${isActive ? " border-solid border-b-2 " : ""} pb-2`
           }
-          to={"home"}
+          to={"Pages"}
         >
           Pages
         </NavLink>
@@ -44,7 +44,7 @@ function NavigationBar() {
           className={({ isActive }) =>
             `${isActive ? " border-solid border-b-2 " : ""} pb-2`
           }
-          to={"home"}
+          to={"Project"}
         >
           Project
         </NavLink>
@@ -53,7 +53,7 @@ function NavigationBar() {
           className={({ isActive }) =>
             `${isActive ? " border-solid border-b-2 " : ""} pb-2`
           }
-          to={"home"}
+          to={"Contact"}
         >
           Contact
         </NavLink>

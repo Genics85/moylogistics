@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .section-header {
+    @apply font-semibold text-[22px] text-[#1a2914];
+  }
+  .clear-btn {
+    @apply text-[16px] font-medium flex items-center justify-center text-[#4d8137] border border-solid border-primary_green px-[12px] md:px-[18px] lg:px-[40px] py-[12px] lg:py-[15px];
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap");
 
 /*
@@ -136,6 +146,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body{
+nav {
   font-family: "Krub", sans-serif;
+}
+body {
+  font-family: "Rubik", sans-serif;
 }
