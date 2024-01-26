@@ -13,6 +13,13 @@ import contract_logistics from "../../assets/images/homepage/contract_logistics.
 import warehouse_distribution from "../../assets/images/homepage/warehouse_distribution.png";
 import specialized_transport from "../../assets/images/homepage/specialized_transport.png";
 import containers from "../../assets/images/homepage/containers.png";
+import discover_1 from "../../assets/images/homepage/discover-1.png";
+import discover_2 from "../../assets/images/homepage/discover-2.png";
+import discover_3 from "../../assets/images/homepage/discover-3.png";
+import discover_4 from "../../assets/images/homepage/discover-4.png";
+import read_more from "../../assets/icons/homepage/read_more.svg";
+import chevron_left from "../../assets/icons/homepage/chevron-left-round.svg";
+import chevron_right from "../../assets/icons/homepage/chevron-right-round.svg";
 
 function Home() {
   return (
@@ -255,9 +262,95 @@ function Home() {
       </section>
       <section className="flex flex-col items-center justify-center gap-10">
         <div className="flex flex-col items-center gap-2">
-          <p className="section-header">Discover the Latest News About MOY Logistics</p>
+          <p className="section-header">
+            Discover the Latest News About MOY Logistics
+          </p>
           <div className="h-1 w-[90px] bg-[#4d8147]"></div>
         </div>
+        <div className="flex gap-2 items-center">
+          <button className="w-[66px]">
+            <img src={chevron_right} alt="" />
+          </button>
+
+          <div className="flex gap-2 w-full">
+            <div
+              className="flex font-bold flex-col text-white w-1/4 h-[350px] justify-between items-start"
+              style={{ backgroundImage: `url(${discover_1})` }}
+            >
+              <div className="bg-primary_green ml-3 flex py-1 px-3 items-center justify-center ">
+                <p>United States</p>
+              </div>
+              <div className="flex flex-col gap-2  bg-gradient-to-t from-black via-[#000000a8] to-transparent w-full  pb-2 pt-4 px-3">
+                <p className="">29/12/2023</p>
+                <p className="text-[28px] ">Moving the World, Together.</p>
+                <div className="flex pt-1 gap-2 items-center">
+                  <p>Read More</p>
+                  <div className="w-[24px]">
+                    <img src={read_more} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="flex font-bold flex-col text-white w-1/4 h-[350px] justify-between items-start"
+              style={{ backgroundImage: `url(${discover_2})` }}
+            >
+              <div className="bg-primary_green ml-3 flex py-1 px-3 items-center justify-center ">
+                <p>United States</p>
+              </div>
+              <div className="flex flex-col gap-2  bg-gradient-to-t from-black via-[#000000a8] to-transparent w-full  pb-2 pt-4 px-3">
+                <p className="">29/12/2023</p>
+                <p className="text-[28px] ">Moving the World, Together.</p>
+                <div className="flex pt-1 gap-2 items-center">
+                  <p>Read More</p>
+                  <div className="w-[24px]">
+                    <img src={read_more} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="flex font-bold flex-col text-white w-1/4 h-[350px] justify-between items-start"
+              style={{ backgroundImage: `url(${discover_3})` }}
+            >
+              <div className="bg-primary_green ml-3 flex py-1 px-3 items-center justify-center ">
+                <p>United States</p>
+              </div>
+              <div className="flex flex-col gap-2  bg-gradient-to-t from-black via-[#000000a8] to-transparent w-full  pb-2 pt-4 px-3">
+                <p className="">29/12/2023</p>
+                <p className="text-[28px] ">Moving the World, Together.</p>
+                <div className="flex pt-1 gap-2 items-center">
+                  <p>Read More</p>
+                  <div className="w-[24px]">
+                    <img src={read_more} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="flex font-bold flex-col text-white w-1/4 h-[350px] justify-between items-start"
+              style={{ backgroundImage: `url(${discover_4})` }}
+            >
+              <div className="bg-primary_green ml-3 flex py-1 px-3 items-center justify-center ">
+                <p>United States</p>
+              </div>
+              <div className="flex flex-col gap-2  bg-gradient-to-t from-black via-[#000000a8] to-transparent w-full  pb-2 pt-4 px-3">
+                <p className="">29/12/2023</p>
+                <p className="text-[28px] ">Moving the World, Together.</p>
+                <div className="flex pt-1 gap-2 items-center">
+                  <p>Read More</p>
+                  <div className="w-[24px]">
+                    <img src={read_more} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button className="w-[66px]">
+            <img src={chevron_left} alt="" />
+          </button>
+        </div>
+        <button className="clear-btn">See all news</button>
       </section>
     </main>
   );
