@@ -20,6 +20,19 @@ import discover_4 from "../../assets/images/homepage/discover-4.png";
 import read_more from "../../assets/icons/homepage/read_more.svg";
 import chevron_left from "../../assets/icons/homepage/chevron-left-round.svg";
 import chevron_right from "../../assets/icons/homepage/chevron-right-round.svg";
+import opportunity from "../../assets/images/homepage/opportunity.png";
+import ship_everyware from "../../assets/icons/homepage/ship_everywhere.svg";
+import support from "../../assets/icons/homepage/support.svg";
+import transparent_pricing from "../../assets/icons/homepage/transport_pricing.svg";
+import flight_logo from "../../assets/icons/homepage/flight_logo.svg";
+import footer_banner from "../../assets/images/homepage/footer_banner.png";
+import logo from "../../assets/icons/logo.svg";
+import email_icon from "../../assets/icons/homepage/email_icon.svg";
+import call_icon from "../../assets/icons/homepage/call_icon.svg";
+import whatsapp from "../../assets/icons/whatsapp.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
+import twitter from "../../assets/icons/x.svg";
+import facebook from "../../assets/icons/facebook.svg";
 
 function Home() {
   return (
@@ -260,7 +273,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col items-center justify-center gap-10">
+      <section className="flex flex-col items-center justify-center gap-10 ">
         <div className="flex flex-col items-center gap-2">
           <p className="section-header">
             Discover the Latest News About MOY Logistics
@@ -351,6 +364,201 @@ function Home() {
           </button>
         </div>
         <button className="clear-btn">See all news</button>
+      </section>
+      {/* customer advisories */}
+      <section className="flex flex-col items-center justify-center gap-10 bg-[#EDF1EB] pt-10 pb-20">
+        <div className="flex justify-between w-[90%] ">
+          <p className="section-header text-primary_green">
+            CUSTOMER ADVISORIES
+          </p>
+          <div className="flex pt-1 gap-2 items-center">
+            <p className="text-primary_green">Read More</p>
+            <div className="w-[24px]">
+              <img src={read_more} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="flex gap-2">
+          <button className="w-[66px]">
+            <img src={chevron_right} alt="" />
+          </button>
+          <div className="flex gap-2 w-full">
+            <div className="px-1 text-[#1a2914] py-5 flex flex-col gap-4 w-1/4 font-bold bg-white rounded-md">
+              <p>29/12/2023</p>
+              <p className="text-[28px] leading-[28px]">
+                EU Price Announcement- Trade from Sri lanka &Bangladesh To
+                Europe
+              </p>
+              <p className="text-[#676f64]">
+                EU Price Announcement- Trade from Sri lanka &Bangladesh To
+                Europe
+              </p>
+            </div>
+            <div className="px-1 text-[#1a2914] py-5 flex flex-col gap-4 w-1/4 font-bold bg-white rounded-md">
+              <p>29/12/2023</p>
+              <p className="text-[28px] leading-[28px]">
+                EU Price Announcement- Trade from Sri lanka &Bangladesh To
+                Europe
+              </p>
+              <p className="text-[#676f64]">
+                EU Price Announcement- Trade from Sri lanka &Bangladesh To
+                Europe
+              </p>
+            </div>
+            <div className="px-1 text-[#1a2914] py-5 flex flex-col gap-4 w-1/4 font-bold bg-white rounded-md">
+              <p>29/12/2023</p>
+              <p className="text-[28px] leading-[28px]">
+                EU Price Announcement- Trade from Sri lanka &Bangladesh To
+                Europe
+              </p>
+              <p className="text-[#676f64]">
+                EU Price Announcement- Trade from Sri lanka &Bangladesh To
+                Europe
+              </p>
+            </div>
+            <div className="px-1 text-[#1a2914] py-5 flex flex-col gap-4 w-1/4 font-bold bg-white rounded-md">
+              <p>29/12/2023</p>
+              <p className="text-[28px] leading-[28px]">
+                EU Price Announcement- Trade from Sri lanka &Bangladesh To
+                Europe
+              </p>
+              <p className="text-[#676f64]">
+                EU Price Announcement- Trade from Sri lanka &Bangladesh To
+                Europe
+              </p>
+            </div>
+          </div>
+          <button className="w-[66px]">
+            <img src={chevron_left} alt="" />
+          </button>
+        </div>
+      </section>
+      {/* Opportunity */}
+      <section className="flex items-center justify-start pt-20 gap-10 text-[#1a2914]">
+        <div className=" relative h-auto  pl-[5%] py-[5%] ">
+          <div className="absolute -z-10 left-0 top-0 border-2 border-solid border-primary_green h-[100%] w-[90%] "></div>
+          <div className="w-[600px] relative">
+            <img src={opportunity} alt="" />
+            <div className="absolute left-1/2 -translate-x-[50%] bottom-0 bg-white items-center p-3 flex gap-2">
+              <div className="w-[50px]">
+                <img src={flight_logo} alt="" />
+              </div>
+              <p>
+                Moving your products <br />
+                across borders
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-start gap-10">
+          <div className="flex flex-col gap-4 items-start">
+            <div className="border-l-[3px] text-[12px] border-solid px-1 border-primary_green bg-[#E8E8E880]">
+              Why Choose
+            </div>
+            <div className="section-header">
+              We create opportunity to
+              <br /> reach potential
+            </div>
+          </div>
+          <div className="flex flex-col gap-5">
+            <div className="flex gap-2 items-center">
+              <img className="w-[47px]" src={ship_everyware} alt="" />
+              <p>Ship Everyware</p>
+            </div>
+            <div className="flex gap-2 items-center">
+              <img className="w-[47px]" src={support} alt="" />
+              <p>24/7 Support</p>
+            </div>
+            <div className="flex gap-2 items-center">
+              <img className="w-[47px]" src={transparent_pricing} alt="" />
+              <p>Transparent Pricing</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* footer */}
+      <section className="flex flex-col text-primary_green items-center justify-center ">
+        <div
+          className="h-[270px] bg-cover flex items-center justify-end pr-10 gap-2 w-full"
+          style={{ backgroundImage: `url(${footer_banner})` }}
+        ></div>
+        <div className="flex font-medium border-l-[1px] border-b-[1px] py-8 border-primary_green border-opacity-25 border-solid w-full gap-20 pl-40">
+          <div className="w-52">
+            <img src={logo} alt="" />
+          </div>
+          <div>
+            <p>Pages</p>
+          </div>
+          <div>
+            <p>Utitlity</p>
+          </div>
+          <div>
+            <p>Subscribe</p>
+          </div>
+        </div>
+        <div className="flex items-start w-full pl-40 gap-[70px] pt-6">
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-4 text-[12px]">
+              <div className="flex gap-2 items-center ">
+                <div className="w-[47px]">
+                  <img src={email_icon} alt="" />
+                </div>
+                <p>
+                  Email
+                  <br />
+                  Support@moylogistics.com
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col gap-4 text-[12px]">
+              <div className="flex gap-2 items-center ">
+                <div className="w-[47px]">
+                  <img src={call_icon} alt="" />
+                </div>
+                <p>
+                  Call Us
+                  <br />
+                  (00) 112 365 489 Call Us
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-3 text-[13px]">
+            <a href="">About Us</a>
+            <a href="">Our Team</a>
+            <a href="">Our Project</a>
+            <a href="">Pricing</a>
+            <a href="">Contact</a>
+          </div>
+          <div className="flex flex-col gap-3 text-[13px]">
+            <a href="">Style Guide</a>
+            <a href="">Changelog</a>
+            <a href="">Licenses</a>
+            <a href="">Protected</a>
+            <a href="">Not Found</a>
+          </div>
+          <div className="flex flex-col gap-3">
+            <input
+              type="text"
+              placeholder="Email here*"
+              className="border border-primary_green placeholder:text-primary_green placeholder:text-[13px] p-3"
+            />
+            <div className="flex gap-3">
+              <button className="clear-btn text-[13px]">Send Now</button>
+              <img className="w-[24px]" src={whatsapp} alt="" />
+              <img className="w-[24px]" src={linkedin} alt="" />
+              <img className="w-[24px]" src={twitter} alt="" />
+              <img className="w-[24px]" src={facebook} alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="flex py-2 border-t border-primary_green border-solid pl-20 gap-40 text-primary_green">
+            <div className="w-52">
+                <img src={logo } alt="" />
+            </div>
+            <p>Logistics Supply Chain Solutions</p>
       </section>
     </main>
   );
