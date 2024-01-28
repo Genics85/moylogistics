@@ -5,6 +5,15 @@ import services_laptop from "../../assets/images/services/laptop_start_here.png"
 import check_mark from "../../assets/icons/services/check_mark.svg";
 import details_icon from "../../assets/icons/services/more_details.svg";
 import read_more from "../../assets/icons/services/service_read_more.svg";
+import norto from "../../assets/images/services/norto.png";
+import points_one from "../../assets/images/services/points_one.png";
+import studio_green from "../../assets/images/services/studio_green.png";
+import outofthe_sandbox from "../../assets/images/services/outofthe_sandbox.png";
+import avatar from "../../assets/images/services/avatar.png";
+import star from "../../assets/icons/services/star.svg";
+import quotation from "../../assets/icons/services/quotation.svg";
+import back from "../../assets/icons/services/back.svg";
+import forward from "../../assets/icons/services/forward.svg";
 
 function TruckloadService() {
   return (
@@ -34,10 +43,10 @@ function TruckloadService() {
           </div>
         </div>
       </section>
-      <section className="flex ">
-        <div className="flex flex-col">
-          <div className="flex items-center gap-2 text-[13px]">
-            <div>
+      <section className="pl-4 lg:pl-20 gap-20 flex flex-col lg:flex-row justify-between ">
+        <div className="flex lg:w-1/2 flex-col gap-5 itemx-center md:items-start lg:items-center">
+          <div className="flex items-center self-start gap-2 text-[13px]">
+            <div className="w-[18px]">
               <img src={home_icon} alt="" />
             </div>
             <p>
@@ -45,14 +54,14 @@ function TruckloadService() {
               <span className="font-semibold ">Truckload Service</span>
             </p>
           </div>
-          <div className="w-[500px]">
+          <div className="w-[300px] md:w-[500px] self-center">
             <img src={services_laptop} alt="" />
           </div>
-          <div className="flex flex-col gap-4">
-            <p className="font-semibold text-[30px]">
+          <div className="flex flex-col gap-5 items-center md:items-start ">
+            <p className="font-semibold text-[20px] md:text-[30px]">
               Truckload MOY Logistics Shipping
             </p>
-            <p className="point-p w-[620px]">
+            <p className="point-p w-[340px] md:w-[620px]">
               Getting the best Truckload MOY Logistics Services is just a few
               steps away. Fill in a few short details about your shipment and
               receive instant Truckload rates from leading truckload freight
@@ -61,7 +70,7 @@ function TruckloadService() {
               shipping needs.
             </p>
             <div className="flex flex-col gap-5">
-              <div className="flex gap-5">
+              <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
@@ -119,9 +128,9 @@ function TruckloadService() {
           </div>
           <p></p>
         </div>
-        <div className="relative bg">
-          <div className="flex flex-col gap-[24px]">
-            <div className=" bg-white p-7 w-[520px] rounded-[20px] shadow-md flex flex-col items-start gap-[38px]">
+        <div className="relative bg px-4 lg:w-1/2">
+          <div className=" lg:absolute w-full -top-40 flex items-center flex-col gap-[24px]">
+            <div className=" bg-white p-7 w-full items-start md:items-center lg:w-[480px] rounded-[20px] shadow-md flex flex-col lg:items-start gap-[38px] ">
               <p className="font-semibold self-center">
                 Logistics rate calculator
               </p>
@@ -129,7 +138,7 @@ function TruckloadService() {
                 <p className="text-primary_green font-bold text-[15px]">
                   Shipping option
                 </p>
-                <div className="flex gap-4">
+                <div className="flex flex-col md:flex-row gap-4">
                   <div className="flex gap-2">
                     <input className=" accent-primary_green" type="radio" />
                     <label className="point-p">LTL(Less-Than-Truckload)</label>
@@ -146,51 +155,51 @@ function TruckloadService() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 ">
                 <p className="text-primary_green font-bold text-[15px]">
                   Pickup and delivery locations
                 </p>
-                <div className="flex gap-4">
+                <div className="flex flex-col md:flex-row gap-4">
                   <div className="flex flex-col gap-2">
                     <label className="text-[12px]">
                       Pickup city or postal code
                     </label>
                     <input
-                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[200px] h-[45px]"
+                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[310px]  md:w-[200px] h-[45px]"
                       type="text"
                     />
                   </div>
-                  <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-2 ">
                     <label className="text-[12px]">
                       Destination city or postal code
                     </label>
                     <input
-                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[200px] h-[45px]"
+                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-full md:w-[200px] h-[45px]"
                       type="text"
                     />
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 ">
                 <p className="text-primary_green font-bold text-[15px]">
                   Shipment information
                 </p>
-                <div className="flex gap-4">
+                <div className="flex flex-col md:flex-row gap-4">
                   <div className="flex flex-col gap-2">
                     <label className="text-[12px]">Weight</label>
-                    <div className="flex gap-1 w-[200px]">
+                    <div className="flex gap-1 w-full md:w-[200px]">
                       <input
                         className=" border border-solid border-[#4d8137] border-opacity-20 rounded-s-[20px] pl-5 placeholder:text-point-p w-1/2 h-[45px]"
                         type="text"
                       />
-                      <select className=" bg-transparent border border-solid border-[#4d8137] border-opacity-20 rounded-e-[20px] pl-5 placeholder:text-point-p w-1/2 h-[45px]">
+                      <select className=" bg-white border border-solid border-[#4d8137] border-opacity-20 rounded-e-[20px] pl-5 placeholder:text-point-p w-1/2 h-[45px]">
                         <option value="">lbs</option>
                       </select>
                     </div>
                   </div>
                   <div className="flex flex-col gap-2">
                     <label className="text-[12px]">Choose Equipment</label>
-                    <select className=" bg-transparent border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[200px] h-[45px]">
+                    <select className=" bg-white border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-full md:w-[200px] h-[45px]">
                       <option value="">Drayage</option>
                     </select>
                   </div>
@@ -202,7 +211,7 @@ function TruckloadService() {
                 </p>
                 <div className="flex flex-col gap-2">
                   <input
-                    className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[440px] h-[80px]"
+                    className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[310px] md:w-[420px] h-[80px]"
                     type="text"
                   />
                   <label className="text-[12px]">limit of 70 characters</label>
@@ -227,6 +236,114 @@ function TruckloadService() {
           </div>
         </div>
       </section>
+      <div className="flex flex-col gap-20 pt-20">
+        <section className="flex w-full items-center justify-center">
+          <div className="flex  flex-col  lg:flex-row">
+            <div className="w-[160px] md:w-[230px]">
+              <img src={studio_green} alt="" />
+            </div>
+            <div className=" w-[160px] border-[2px] border-solid border-primary_green lg:border-none md:w-[230px]">
+              <img src={norto} alt="" />
+            </div>
+          </div>
+          <div className="flex flex-col lg:flex-row ">
+            <div className="w-[160px] md:w-[230px] border-[2px] border-solid border-primary_green lg:border-none">
+              <img src={points_one} alt="" />
+            </div>
+            <div className="w-[160px] md:w-[230px] border-[2px] border-solid border-l-0 border-t-0 border-primary_green lg:border-none">
+              <img src={outofthe_sandbox} alt="" />
+            </div>
+          </div>
+        </section>
+        <section className="flex flex-col w-full items-center justify-center gap-10">
+          <p className=" section-header ">What our customers are saying</p>
+          <div className="flex w-[90%] gap-5">
+            <button>
+              <img src={back} alt="" />
+            </button>
+            <div className="flex w-full gap-x-20">
+              <div className="flex flex-col gap-5 w-1/3">
+                <div className="w-[21px]">
+                  <img src={quotation} alt="" />
+                </div>
+                <p className="font-semibold text-[23px]">
+                  Great Service At Low Price
+                </p>
+                <p className="text-[13px] leading-[17px]">
+                  Great Service At Low Price and amazing customer service
+                </p>
+                <div className="flex gap-2 items-center">
+                  <div className="w-[47px]">
+                    <img src={avatar} alt="" />
+                  </div>
+                  <div className="flex flex-col">
+                    <p className="text-[13px] font-semibold">Steve Rogers</p>
+                    <div className="flex">
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-5 w-1/3">
+                <div className="w-[21px]">
+                  <img src={quotation} alt="" />
+                </div>
+                <p className="font-semibold text-[23px]">
+                  Great Service At Low Price
+                </p>
+                <p className="text-[13px] leading-[17px]">
+                  Great Service At Low Price and amazing customer service
+                </p>
+                <div className="flex gap-2 items-center">
+                  <div className="w-[47px]">
+                    <img src={avatar} alt="" />
+                  </div>
+                  <div className="flex flex-col">
+                    <p className="text-[13px] font-semibold">Steve Rogers</p>
+                    <div className="flex">
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-5 w-1/3">
+                <div className="w-[21px]">
+                  <img src={quotation} alt="" />
+                </div>
+                <p className="font-semibold text-[23px]">
+                  Great Service At Low Price
+                </p>
+                <p className="text-[13px] leading-[17px]">
+                  Great Service At Low Price and amazing customer service
+                </p>
+                <div className="flex gap-2 items-center">
+                  <div className="w-[47px]">
+                    <img src={avatar} alt="" />
+                  </div>
+                  <div className="flex flex-col">
+                    <p className="text-[13px] font-semibold">Steve Rogers</p>
+                    <div className="flex">
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                      <img width={"18px"} src={star} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button>
+              <img src={forward} alt="" />
+            </button>
+          </div>
+        </section>
+      </div>
     </main>
   );
 }
