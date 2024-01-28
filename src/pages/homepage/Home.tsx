@@ -555,10 +555,10 @@ function Home() {
         </div>
       </section>
       <section className="flex py-2 border-t border-primary_green border-solid pl-20 gap-40 text-primary_green">
-            <div className="w-52">
-                <img src={logo } alt="" />
-            </div>
-            <p>Logistics Supply Chain Solutions</p>
+        <div className="w-52">
+          <img src={logo} alt="" />
+        </div>
+        <p>Logistics Supply Chain Solutions</p>
       </section>
     </main>
   );

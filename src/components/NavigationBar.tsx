@@ -26,7 +26,7 @@ function NavigationBar() {
           className={({ isActive }) =>
             `${isActive ? " border-solid border-b-2 " : ""} pb-2`
           }
-          to={"Service"}
+          to={"service"}
         >
           Service
         </NavLink>
@@ -35,7 +35,7 @@ function NavigationBar() {
           className={({ isActive }) =>
             `${isActive ? " border-solid border-b-2 " : ""} pb-2`
           }
-          to={"Pages"}
+          to={"pages"}
         >
           Pages
         </NavLink>
@@ -44,7 +44,7 @@ function NavigationBar() {
           className={({ isActive }) =>
             `${isActive ? " border-solid border-b-2 " : ""} pb-2`
           }
-          to={"Project"}
+          to={"project"}
         >
           Project
         </NavLink>
@@ -53,7 +53,7 @@ function NavigationBar() {
           className={({ isActive }) =>
             `${isActive ? " border-solid border-b-2 " : ""} pb-2`
           }
-          to={"Contact"}
+          to={"contact"}
         >
           Contact
         </NavLink>

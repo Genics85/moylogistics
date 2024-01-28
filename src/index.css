@@ -9,6 +9,12 @@
   .section-header {
     @apply font-semibold text-[28px] text-[#1a2914];
   }
+  .point-p {
+    @apply text-[14px] leading-[20px] text-[#4E534C];
+  }
+  .check-mark-w {
+    @apply w-[20px];
+  }
   .clear-btn {
     @apply text-[16px] shadow-lg font-medium flex items-center justify-center text-[#4d8137] border border-solid border-primary_green px-[12px] md:px-[18px] lg:px-[40px] py-[12px] lg:py-[15px];
   }
