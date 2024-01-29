@@ -20,6 +20,7 @@ import talking_gents from "../../assets/images/services/talking_gents.png";
 import liquid_transport from "../../assets/images/homepage/liquid_transport.png";
 import freight_truck from "../../assets/images/services/freight_truck.png";
 import truck_freight from "../../assets/images/services/truck_freight.png";
+import advantage from "../../assets/images/services/advantages_moy.png";
 
 function TruckloadService() {
   return (
@@ -1527,6 +1528,58 @@ function TruckloadService() {
               </div>
             </div>
           </section>
+        </section>
+        <section className="flex flex-col w-full items-center justify-center gap-10 p-4">
+          <p className=" section-header ">
+            3 Advantages of Using MOY Logistics for Heavy Haul Shipping:
+          </p>
+          <div className="flex flex-col lg:flex-row gap-5">
+            <div className="flex flex-col w-full lg:w-1/3 gap-4">
+              <div>
+                <img className="w-full" src={advantage} />
+              </div>
+              <p className="font-semibold text-[23px]">Speed Up Transit:</p>
+              <p className="leading-[20px] ">
+                FTL shipments move directly from the pickup point to the
+                destination without stops or transfers, leading to faster
+                transit times. This direct route minimizes delays, ensuring
+                quicker deliveries, which is especially important for
+                time-sensitive goods.
+              </p>
+            </div>
+            <div className="flex flex-col w-full lg:w-1/3 gap-4">
+              <div>
+                <img className="w-full" src={advantage} />
+              </div>
+              <p className="font-semibold text-[23px]">
+                Reduces Risk of Damage:
+              </p>
+              <p className="leading-[20px] ">
+                Handling FTL shipments less frequently during transit
+                significantly lowers the risk of damage. The lack of multiple
+                loading and unloading processes makes FTL ideal for transporting
+                fragile, high-value, or sensitive items, as the goods remain in
+                the same truck throughout the journey, ensuring better
+                protection.
+              </p>
+            </div>
+            <div className="flex flex-col w-full lg:w-1/3 gap-4">
+              <div>
+                <img className="w-full" src={advantage} />
+              </div>
+              <p className="font-semibold text-[23px]">
+                Cost-Effective for Large Shipments:
+              </p>
+              <p className="leading-[20px] ">
+                FTL often proves more economical than Less Than Truckload (LTL)
+                options for shipments large enough to fill a truck. It optimizes
+                costs by spreading them over a large volume of goods, lowering
+                the transportation cost per unit. Also, for near-full loads, FTL
+                avoids the extra expense of paying for unused space, a common
+                issue with LTL.
+              </p>
+            </div>
+          </div>
         </section>
       </div>
     </main>
