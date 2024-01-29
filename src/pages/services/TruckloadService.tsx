@@ -14,6 +14,9 @@ import star from "../../assets/icons/services/star.svg";
 import quotation from "../../assets/icons/services/quotation.svg";
 import back from "../../assets/icons/services/back.svg";
 import forward from "../../assets/icons/services/forward.svg";
+import certification from "../../assets/icons/services/certification.svg";
+import award_tag from "../../assets/icons/services/award_tag.svg";
+import talking_gents from "../../assets/images/services/talking_gents.png";
 
 function TruckloadService() {
   return (
@@ -43,7 +46,7 @@ function TruckloadService() {
           </div>
         </div>
       </section>
-      <section className="pl-4 lg:pl-20 gap-20 flex flex-col lg:flex-row justify-between ">
+      <section className="pl-4 lg:pl-20 gap-14 flex flex-col lg:flex-row justify-between ">
         <div className="flex lg:w-1/2 flex-col gap-5 itemx-center md:items-start lg:items-center">
           <div className="flex items-center self-start gap-2 text-[13px]">
             <div className="w-[18px]">
@@ -128,9 +131,9 @@ function TruckloadService() {
           </div>
           <p></p>
         </div>
-        <div className="relative bg px-4 lg:w-1/2">
+        <div className="relative bg lg:w-1/2">
           <div className=" lg:absolute w-full -top-40 flex items-center flex-col gap-[24px]">
-            <div className=" bg-white p-7 w-full items-start md:items-center lg:w-[480px] rounded-[20px] shadow-md flex flex-col lg:items-start gap-[38px] ">
+            <div className=" bg-white p-3 md:p-7 w-full items-start md:items-center lg:w-[480px] rounded-[20px] shadow-md flex flex-col lg:items-start gap-[38px] ">
               <p className="font-semibold self-center">
                 Logistics rate calculator
               </p>
@@ -165,7 +168,7 @@ function TruckloadService() {
                       Pickup city or postal code
                     </label>
                     <input
-                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[310px]  md:w-[200px] h-[45px]"
+                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[300px]  md:w-[200px] h-[45px]"
                       type="text"
                     />
                   </div>
@@ -211,7 +214,7 @@ function TruckloadService() {
                 </p>
                 <div className="flex flex-col gap-2">
                   <input
-                    className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[310px] md:w-[420px] h-[80px]"
+                    className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[300px] md:w-[420px] h-[80px]"
                     type="text"
                   />
                   <label className="text-[12px]">limit of 70 characters</label>
@@ -236,7 +239,7 @@ function TruckloadService() {
           </div>
         </div>
       </section>
-      <div className="flex flex-col gap-20 pt-20">
+      <div className="flex flex-col gap-20 pt-20 ">
         <section className="flex w-full items-center justify-center">
           <div className="flex  flex-col  lg:flex-row">
             <div className="w-[160px] md:w-[230px]">
@@ -261,8 +264,8 @@ function TruckloadService() {
             <button>
               <img src={back} alt="" />
             </button>
-            <div className="flex w-full gap-x-20">
-              <div className="flex flex-col gap-5 w-1/3">
+            <div className="flex w-full gap-x-20 no-scrollbar overflow-x-auto">
+              <div className="flex flex-col gap-5 w-[100%] lg:w-1/3 shrink-0">
                 <div className="w-[21px]">
                   <img src={quotation} alt="" />
                 </div>
@@ -287,7 +290,7 @@ function TruckloadService() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-5 w-1/3">
+              <div className="flex flex-col gap-5 w-[100%] lg:w-1/3 shrink-0">
                 <div className="w-[21px]">
                   <img src={quotation} alt="" />
                 </div>
@@ -312,7 +315,7 @@ function TruckloadService() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-5 w-1/3">
+              <div className="flex flex-col gap-5 w-[100%] lg:w-1/3 shrink-0">
                 <div className="w-[21px]">
                   <img src={quotation} alt="" />
                 </div>
@@ -341,6 +344,253 @@ function TruckloadService() {
             <button>
               <img src={forward} alt="" />
             </button>
+          </div>
+        </section>
+        <section className="flex flex-col">
+          <div className="bg-primary_green px-4 py-10 flex flex-col gap-5 items-center justify-center">
+            <p className="section-header text-center text-white">
+              Let's Get Started! Compare shipping rates in an instant!
+            </p>
+            <button className="clear-btn bg-white">
+              <p className="px-5">Get a Quote</p>
+            </button>
+          </div>
+          <div className="p-4 md:p-10 flex gap-2 flex-col mt-10 items-center bg-[#EDF1EB]">
+            <p className="text-[13px] font-semibold">Our Certification</p>
+            <p className="section-header">Awards and Endorsements</p>
+            <div className="flex relative flex-col lg:flex-row mt-10 gap-5 lg:gap-24 ">
+              <img
+                className="absolute w-[150px] hidden lg:flex -top-16 -left-16"
+                src={award_tag}
+                alt=""
+              />
+              <img
+                className="absolute w-[150px] hidden lg:flex -top-16 -right-5"
+                src={award_tag}
+                alt=""
+              />
+              <div className="flex flex-col gap-5">
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2021, 2017 & 2016 Food Logistics' Top Green Providers
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2020 & 2019 Top Food Logistics' 3PL & Cold Storage
+                      Provider Award
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2020 & 2019 Business Observer's Top 500 Companies on the
+                      Gulf Coast
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2020 & 2017 SmartWay® Transport Partner
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2020 & 2017 Food Logistics' Champions: Rock Stars of the
+                      Supply Chain
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2020 Best of Palm Harbor Awards for Local Businesses
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-5">
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2017 Green Supply Chain Award from Supply & Demand Chain
+                      Executive
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2016, 2015, & 2012 Food Logistics Top 100 Software and
+                      Technology Providers
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2013 Tampa Bay Business 100 by Tampa Bay Business Journal
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2012 TIA Samaritan Award Honorable Mention
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2012, 2011 & 2010 TBBJ Fast 50 Recipient
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center">
+                  <div className="check-mark-w">
+                    <img src={certification} alt="" />
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <div className="bg-gray-500 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      2013, 2011, & 2010 Diversity Business Top Businesses
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="flex p-4 flex-col lg:flex-row w-full justify-center items-center gap-12">
+          <div className="w-full md:w-[600px] lg:w-[510px] ">
+            <img src={talking_gents} alt="" />
+          </div>
+          <div className="flex flex-col gap-6 w-full md:w-[600px] lg:w-[700px] ">
+            <p className="section-header">
+              Why Choose MOY Logistics For Truckload Services (FTL)?
+            </p>
+            <p className="point-p">
+              MOY Logistics is an excellent choice for FTL services due to its
+              extensive carrier network, competitive rates, comprehensive
+              services, technology-driven solutions, and exceptional customer
+              service.
+            </p>
+            <div className="flex flex-col gap-5 mt-5">
+              <div className="flex gap-3 items-start">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  <span className="font-bold">Extensive Carrier Network:</span>{" "}
+                  MOY Logistics has a vast network of pre-screened and certified
+                  carriers, ensuring access to various transportation options.
+                </p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  <span className="font-bold">Competitive Rates:</span> MOY
+                  Logistics negotiates rates with carriers, meaning you can
+                  enjoy cost savings and avoid the hassle of dealing with rates
+                  on your own.
+                </p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  <span className="font-bold">Comprehensive Services:</span> MOY
+                  Logistics offers end-to-end logistics services, including
+                  pickup and delivery, tracking, insurance, and customer
+                  support.
+                </p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  <span className="font-bold">
+                    {" "}
+                    Technology-Driven Solutions:
+                  </span>{" "}
+                  MOY Logistics utilizes cutting-edge technology to provide
+                  their customers with real-time tracking and visibility of
+                  their shipments.
+                </p>
+              </div>
+              <div className="flex gap-3 items-start">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  <span className="font-bold">
+                    Exceptional Customer Service:
+                  </span>{" "}
+                  MOY Logistics has a team of experienced and knowledgeable
+                  logistics experts available to assist you with any questions
+                  or concerns.
+                </p>
+              </div>
+              <button className="clear-btn self-center mt-3">
+                Get your Truck load Quote
+              </button>
+            </div>
           </div>
         </section>
       </div>
