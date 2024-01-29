@@ -17,6 +17,9 @@ import forward from "../../assets/icons/services/forward.svg";
 import certification from "../../assets/icons/services/certification.svg";
 import award_tag from "../../assets/icons/services/award_tag.svg";
 import talking_gents from "../../assets/images/services/talking_gents.png";
+import liquid_transport from "../../assets/images/homepage/liquid_transport.png";
+import freight_truck from "../../assets/images/services/freight_truck.png";
+import truck_freight from "../../assets/images/services/truck_freight.png";
 
 function TruckloadService() {
   return (
@@ -704,7 +707,9 @@ function TruckloadService() {
             </p>
           </div>
           <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10 ">
-            <p className="section-header">Types of Trucload Services Offered</p>
+            <p className="section-header">
+              Types of Truckload Services Offered
+            </p>
             <div className="flex flex-col gap-5">
               <div className="flex gap-3">
                 <div className="check-mark-w">
@@ -864,6 +869,391 @@ function TruckloadService() {
               determine the most appropriate method for their requirements.
             </p>
           </div>
+          <div className="w-full pt-0 lg:pt-0 p-4 lg:p-10">
+            <hr />
+          </div>
+          <div className="flex flex-col items-center gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header text-center">
+              Chosing The Right Type Of Truckload Equipment
+            </p>
+            <p className="point-p text-center">
+              Truckload freight commodities are large shipments of goods that
+              fill an entire trailer. A truckload shipment can refer to a full
+              trailer of any size, ranging from a standard dry van to a
+              refrigerated truck or flatbed with specialized materials. The size
+              and type of the freight determine how much the trailer can carry,
+              but typically loads range between 10,000-30,000 lbs.
+              <br />
+              <br /> Unlike LTL shipping, where multiple small shipments share
+              space on one truck, truckload shipments are exclusive to the
+              customer who ordered them. Before shipping your commodities, it is
+              essential to consider what form of truckload service you need and
+              what trailer type is best for your freight shipment. At MOY
+              Logistics, we can help determine what trailer type best fits your
+              shipment's needs.
+              <br />
+              <br /> Determining whether your shipment needs a semi-trailer,
+              drop deck, or flatbed will also help determine the best way to
+              package your shipment. Here are a few types of truckload services
+              that MOY Logistics carriers regularly offer:
+            </p>
+          </div>
+          <div className="flex flex-col items-center gap-3 pt-0 lg:pt-0 p-4 lg:p-10">
+            <div className="flex flex-col lg:flex-row items-center gap-3 ">
+              <div className="flex flex-col md:flex-row gap-3">
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${liquid_transport})`,
+                  }}
+                >
+                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
+                    <p className="leading-[18px] font-medium">
+                      Double-Drop Deck (Lowboy)
+                    </p>
+                    <p className="leading-[20px]">
+                      A Double-Drop Deck, also known as a Lowboy, is a
+                      semi-trailer that offers the ability to ship tall
+                      commodities that exceed normal height restrictions. These
+                      trailers can haul up to 45,000 pounds at a maximum length
+                      of 29 feet and a max height of 11.5 feet.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${liquid_transport})`,
+                  }}
+                >
+                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
+                    <p className="leading-[18px] font-medium">
+                      Double-Drop Deck with Detachable Deck (Lowboy, RGN)
+                    </p>
+                    <p className="leading-[20px]">
+                      A Double-Drop Deck with a detachable deck also referred to
+                      as a Lowboy with a Removable Goose Neck (RGN), is a
+                      trailer with a detachable neck to allow equipment to be
+                      driven on the trailer from the front. These trailers can
+                      haul up to 45,000 pounds of freight at a maximum length of
+                      29 feet and 12 feet in height.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col md:flex-row gap-3">
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${liquid_transport})`,
+                  }}
+                >
+                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
+                    <p className="leading-[18px] font-medium">
+                      Flatbed Trailers
+                    </p>
+                    <p className="leading-[20px]">
+                      A standard flatbed trailer is an open-air trailer used to
+                      transport bulky or abnormal freight such as vehicles,
+                      tractors, and bulky machinery items. These trailers can
+                      haul up to 48,000 pounds of freight at a maximum height of
+                      8.5 feet and a max of 48 feet in length.
+                    </p>
+                    <p className="font-medium">Learn More</p>
+                  </div>
+                </div>
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${liquid_transport})`,
+                  }}
+                >
+                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
+                    <p className="leading-[18px] font-medium">
+                      Stretch Flatbed Trailers
+                    </p>
+                    <p className="leading-[20px]">
+                      An extended flatbed trailer is an open-air trailer used to
+                      transport bulky or abnormal freight such as vehicles,
+                      tractors, and bulky machinery items. These trailers can
+                      haul up to 48,000 pounds of freight at a maximum height of
+                      8.5 feet and a max of 80 feet in length.
+                    </p>
+                    <p className="font-medium">Learn More</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col lg:flex-row items-center gap-3 ">
+              <div className="flex flex-col md:flex-row gap-3">
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${liquid_transport})`,
+                  }}
+                >
+                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
+                    <p className="leading-[18px] font-medium">
+                      Step Deck Trailers
+                    </p>
+                    <p className="leading-[20px]">
+                      A Single-Drop Deck, also known as a Stepdeck, is a flatbed
+                      trailer with a lowered front deck to allow for taller
+                      loads. These trailers can haul up to 48,000 pounds of
+                      freight at a max height of 10 feet and a max length of 37
+                      feet
+                    </p>
+                    <p className="font-medium">Learn More</p>
+                  </div>
+                </div>
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${liquid_transport})`,
+                  }}
+                >
+                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
+                    <p className="leading-[18px] font-medium">
+                      Dry Van Trailers
+                    </p>
+                    <p className="leading-[20px]">
+                      The standard semi-trailer dimensions, regulated by DOT,
+                      allow for 48 to 53 feet lengths. Size: 48 - 53 feet (576 -
+                      636 inches)Width: 8.5 feet (102 inches)Height: 13.5 feet
+                      (162 inches)
+                    </p>
+                    <p className="font-medium">Learn More</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col md:flex-row gap-3">
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${liquid_transport})`,
+                  }}
+                >
+                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
+                    <p className="leading-[18px] font-medium">
+                      Refrigerated Trailers
+                    </p>
+                    <p className="leading-[20px]">
+                      When you need to ship refrigerated, frozen, or
+                      temperature-sensitive items, We can help arrange safe
+                      refrigerated transport.
+                    </p>
+                    <p className="font-medium">Learn More</p>
+                  </div>
+                </div>
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${liquid_transport})`,
+                  }}
+                >
+                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
+                    <p className="leading-[18px] font-medium">
+                      Conestoga Trailers
+                    </p>
+                    <p className="leading-[20px]">
+                      Industrial, medical and CNC milling machines require
+                      special care and transport.
+                    </p>
+                    <p className="font-medium">Learn More</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button className="clear-btn mt-10">
+              See instant Truck load cost
+            </button>
+          </div>
+        </section>
+        <section className="flex flex-col gap-5">
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10 ">
+            <p className="section-header">
+              Types of Truckload Services Offered
+            </p>
+            <div className="flex flex-col gap-5">
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Standard Trailer 48ft or 53ft</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Trade Show Shipping</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Oversize or Heavy Haul Shipping</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Refrigerated Shipping</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Rail Service</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Dry Van Trailers</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Heavy Haul Shipping</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Expedited Freight Shipping</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Air-Ride Services</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Drayage Port Services</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              Truckload Shipping Seasons: Understanding Industry Fluctuations
+            </p>
+            <p className="point-p">
+              The transportation and logistics industry experiences regular
+              fluctuations throughout the year, driven by truckload shipping
+              seasons. These seasonal variations directly impact capacity and
+              rates, influencing the available options for shippers. By
+              understanding these shipping seasons, businesses can optimize
+              their supply chains and effectively plan for increased demand and
+              tighter capacity periods.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Slow Season – January to March:</p>
+            <p className="point-p">
+              Following the holiday rush, the transportation and logistics
+              industry enters a slower shipping season from January to March.
+              While shipping volumes decrease during this period, it is
+              important to note that the sector remains active. Essential items
+              such as medication, food, face masks, and hand sanitizers are in
+              high demand. Additionally, the transportation of COVID-19 vaccines
+              requires refrigerated trucks for nationwide distribution.
+              Moreover, consumers often return items they receive over the
+              holidays, resulting in shipping them back to the original seller.
+              During this slower season, truckload rates favor shippers due to
+              lower shipping volumes. Carriers are more willing to take on work,
+              making rates more favorable for shippers. By March, shipping
+              volumes begin to increase as spring and summer approach.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              Increased Volume Season – April to July:
+            </p>
+            <p className="point-p">
+              The arrival of spring increases shipping volumes, making it easier
+              for drivers to find work compared to the slower months. This
+              period marks a truckload shipping season where carrier
+              availability decreases, leading to tighter rates. The produce
+              harvest season also contributes to the rise in shipment volumes,
+              particularly for truckload shippers transporting food products or
+              produce. For instance, produce shipments often require
+              temperature-controlled equipment to minimize spoilage or damage,
+              especially during the hot summer.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              Peak Shipping Season – August to October:
+            </p>
+            <p className="point-p">
+              From August to October, the industry experiences the peak shipping
+              season, which coincides with the continued produce season.
+              Retailers and e-commerce stores witness a surge in product
+              shipments due to increased online consumer purchases. This
+              heightened demand for shipping results in further tightening of
+              capacity, necessitating more trucks than usual to meet the needs
+              of shippers.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              Holiday Shipping Season – November and December:
+            </p>
+            <p className="point-p">
+              November and December represent the busiest months for the
+              transportation and logistics industry. Consumers take advantage of
+              major sales events such as Black Friday, Cyber Monday, and Small
+              Business Saturday in November, with some retailers extending Black
+              Friday sales throughout the month. Consumers make last-minute
+              purchases in December before shipping gifts to friends and family.
+              Retailers ship more significant quantities of goods during this
+              period, further increasing shipping volumes. However, as
+              mid-December approaches and most consumers finish holiday
+              shopping, the industry slows down again.
+              <br />
+              <br /> Knowing the shipping seasons is crucial for businesses
+              aiming to optimize their shipping strategies. By understanding the
+              fluctuations in demand and capacity, companies can effectively
+              plan for each season and ensure a smooth and efficient
+              transportation process.
+            </p>
+          </div>
+          <section className="flex flex-col gap-5">
+            <div
+              className="w-full h-[300px] bg-cover"
+              style={{
+                backgroundImage: `url(${freight_truck})`,
+              }}
+            >
+              <div className="w-full h-full bg-[#1a2914] bg-opacity-60 gap-2 flex flex-col items-center justify-center p-2">
+                <div className="flex gap-1 font-semibold text-[10px] w-full md:w-auto">
+                  <div className="flex  flex-col p-2 gap-1 bg-white rounded-ss-[15px] rounded-es-[15px]">
+                    <p className="">Requested pickup date</p>
+                    <p className="font-bold text-[13px]">2024-1-1</p>
+                  </div>
+                  <div className="bg-white p-5 ">
+                    <p>Origin Zip Code</p>
+                  </div>
+                  <div className="bg-white p-5 rounded-ee-[15px] md:rounded-ee-none md:rounded-se-none rounded-se-[15px] ">
+                    <p>Destination Zip Code</p>
+                  </div>
+                  <div className="hidden md:flex border border-white border-solid rounded-ee-[15px] bg-primary_green rounded-se-[15px] p-2 items-center justify-center ">
+                    <p className="text-[16px] text-white">Get Quote</p>
+                  </div>
+                </div>
+                <div className="md:hidden rounded-[15px] border border-white border-solid flex items-center justify-center bg-primary_green w-full py-4">
+                  <p className="text-white font-semibold ">Get Quote</p>
+                </div>
+                <p className="text-[13px] font-semibold text-white text-center">
+                  Guaranteed competitive pricing every <br className="md:hidden"/> time you ship.
+                </p>
+              </div>
+            </div>
+          </section>
         </section>
       </div>
     </main>
