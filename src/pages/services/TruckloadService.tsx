@@ -1249,7 +1249,280 @@ function TruckloadService() {
                   <p className="text-white font-semibold ">Get Quote</p>
                 </div>
                 <p className="text-[13px] font-semibold text-white text-center">
-                  Guaranteed competitive pricing every <br className="md:hidden"/> time you ship.
+                  Guaranteed competitive pricing every{" "}
+                  <br className="md:hidden" /> time you ship.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col lg:flex-row gap-6 pt-10  p-4 lg:p-10 items-center">
+              <div className="w-full lg:w-[510px] self-center  shrink-0">
+                <img className="w-full" src={truck_freight} alt="" />
+              </div>
+              <div className=" flex flex-col gap-7 ">
+                <p className="section-header">What is Truck Freight?</p>
+                <p className="point-p">
+                  Truckload freight, or truck freight, is a robust
+                  transportation method for transporting significant quantities
+                  of goods from one location to another. This mode of
+                  transportation is particularly suitable when shipment sizes
+                  exceed the capabilities of other transportation options, such
+                  as parcel carriers or LTL carriers. Truck freight can be
+                  classified into two categories: FTL and partial truckload
+                  (PTL). FTL shipping involves dedicating an entire truck to a
+                  single shipment, while PTL shipping involves sharing the truck
+                  with other loads.
+                  <br />
+                  <br /> Truck freight can accommodate various commodities,
+                  including raw materials, finished products, and industrial
+                  equipment. This versatile mode of transportation can be
+                  employed for domestic and international shipping requirements.
+                  <br />
+                  <br />
+                  The utilization of truck freight offers several advantages
+                  compared to alternative transportation modes. Firstly, it
+                  provides faster transit times, ensuring expedited delivery of
+                  goods. Additionally, truck freight allows for more flexible
+                  pickup and delivery times, catering to specific scheduling
+                  needs. This mode of transportation also excels in handling
+                  fragile or hazardous shipments, offering enhanced security and
+                  specialized handling protocols. Furthermore, truck freight can
+                  result in cost savings for larger loads, as rates are
+                  typically more favorable for substantial shipments.
+                  <br />
+                  <br /> Truckload freight is a highly flexible and efficient
+                  transportation option for large goods. Its benefits encompass
+                  accelerated transit times, flexible pickup and delivery
+                  options, secure handling of fragile or hazardous shipments,
+                  and potential cost savings for substantial loads.
+                </p>
+                <button className="clear-btn self-center">
+                  Instant Truck load Quote
+                </button>
+              </div>
+            </div>
+            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+              <p className="section-header">
+                Simplifying Freight Shipping: Comparing Truck Freight Rates
+              </p>
+              <p className="point-p">
+                Finding the best rates and reliable carriers is crucial for
+                businesses and individuals in shipping. MOY Logistics offers a
+                user-friendly online platform that simplifies this process by
+                allowing users to compare truck freight rates from various
+                carriers. This essay will explore how MOY Logistics`s platform
+                works, empowering users to make informed decisions and secure
+                the best prices for their shipping needs.
+              </p>
+            </div>
+            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+              <p className="section-header">Comparison Made Easy:</p>
+              <p className="point-p">
+                MOY Logistics’s platform starts by collecting essential details
+                about the shipment. Users enter information such as the goods’
+                origin and destination, the shipment’s size and weight, and any
+                special requirements. This comprehensive input ensures accurate
+                rate comparisons tailored to specific shipping needs.
+                <br />
+                <br /> Next, the platform swiftly generates a list of available
+                carriers and their rates. This feature enables users to evaluate
+                multiple options side by side, considering both the cost and the
+                quality of services provided. The ability to compare rates from
+                different carriers at a glance empowers users to make
+                well-informed decisions that align with their priorities.
+              </p>
+            </div>
+            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+              <p className="section-header">Streamlined Booking Process:</p>
+              <p className="point-p">
+                Once the user has identified the carrier and rate best suits
+                their requirements, MOY Logistics’s platform streamlines the
+                booking process. Users can conveniently secure their shipment by
+                booking directly through the platform. By eliminating the need
+                for time-consuming paperwork, MOY Logistics simplifies the
+                process, saving users valuable time and effort. Furthermore, the
+                platform automatically generates all the necessary shipping
+                documents, including bills of lading and customs paperwork. This
+                automated feature reduces administrative burdens, ensuring a
+                hassle-free experience for users. By handling the paperwork, MOY
+                Logistics enables users to focus on other essential aspects of
+                their business or personal endeavors.
+              </p>
+            </div>
+            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+              <p className="section-header">
+                4 Advantages of Full Truckload Freight Shipping
+              </p>
+              <p className="point-p">
+                Great news, we have the solution for you, and let’s face it, you
+                are short on time and looking for ways to decrease your freight
+                spending. If you are a small to medium-sized business owner or
+                manager, you may be interested in our four advantages of full
+                truckload freight shipping. Below are some of the most common
+                advantages:
+                <br />
+                <br /> <span className="font-bold">Negotiable Rates:</span> The
+                rates quoted by carriers for LTL shipments are not negotiable.
+                You have your choice of carriers, but your 3PL (freight broker)
+                doesn’t have the opportunity to negotiate the already-discounted
+                rate. With a full truckload, the rates are set in real-time by
+                what the market will bear. That means your 3PL has more
+                opportunities to negotiate a better rate.
+                <br />
+                <br /> <span className="font-bold">Time Savings:</span> TL
+                shipping can shave two days off your transit time by eliminating
+                the extra handling involved with LTL shipments involving at
+                least three trucks and two freight terminals. Full truckload
+                shipments are picked up and delivered by the same truck with no
+                extra stops between the pickup and delivery locations. Fewer
+                Hassles: LTL shipping revolves around accuracy. Every shipping
+                unit (pallet, crate, etc.) Carriers audit the shipment and
+                re-weight and re-measure. Knowing the freight class and density
+                of your shipment, along with the requirement of certain
+                accessorial and options like liftgates and oversized freight,
+                can make LTL shipping more cumbersome.
+                <br />
+                <br /> <span className="font-bold">Reduced Risks:</span> When
+                your shipment has the entire truck to itself, you don’t have to
+                worry about another shipper’s cargo damaging yours. Or vice
+                versa, where another shipper may blame you for damage to their
+                shipment. While additional 3rd party cargo insurance is still
+                advisable in case of an unavoidable circumstance caused by
+                weather, accident, or unforeseen delay, FTL shipping reduces
+                some risks by eliminating shared trailer space.
+              </p>
+            </div>
+            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+              <p className="section-header">
+                MOY Logistics Simplifies Truckload Freight Services
+              </p>
+              <p className="point-p">
+                MOY Logistics offers a team of experienced and dedicated Truck
+                Freight Experts who provide exceptional service and support for
+                your shipping needs. With their extensive knowledge of the truck
+                freight industry and understanding of shipping regulations, they
+                assist you in selecting the right carriers and shipping options.
+                They work closely with you to create customized shipping plans
+                considering your budget, timeline, and goods. Regular updates,
+                addressing concerns, and ensuring on-time and perfect shipments
+                are part of their service. Contact MOY Logistics today to
+                experience their commitment to customer satisfaction.
+                <br />
+                <br /> Benefits of choosing MOY Logistics include access to an
+                extensive network of carriers, guaranteeing competitive rates
+                and reliable services. Their platform simplifies freight
+                shipping by allowing users to compare truck freight rates from
+                various carriers, empowering informed decisions and securing the
+                best prices. Streamlined booking and automated document
+                generation ensure a hassle-free experience.
+                <br />
+                <br /> MOY Logistics’s extensive carrier network provides
+                competitive rates and reliable services. Simplify your freight
+                shipping process by utilizing their platform and easily
+                comparing truck freight rates.
+                <br />
+                <br /> Regardless of the commodity being shipped, truckload
+                freight services offer fast, secure, and cost-effective delivery
+                solutions for large quantities or items unsuitable for LTL
+                shipment. TL freight shipping is invaluable for meeting
+                production deadlines and restocking inventory quickly. Truckload
+                freight is an ideal solution for reliable freight services. With
+                over 20 years of experience, MOY Logistics has the expertise to
+                ship various commodities across different locations. Their
+                carriers are equipped to handle shipments ranging from shingles
+                to farm equipment or used excavators, ensuring safe and timely
+                delivery. MOY Logistics prides itself on excellent customer
+                service and on-time delivery.
+                <br />
+                <br /> Their team listens and understands your needs, asking
+                relevant questions to provide the best-fit options.
+                Transportation specialists assist in navigating details to get
+                your freight moving locally, regionally, or nationally. MOY
+                Logistics is considered the best solution for freight shipping.
+                For further discussions and exploring options, contact their
+                truckload experts today at 8007167608.
+              </p>
+            </div>
+            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+              <p className="section-header">Truckload Freight FAQs</p>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. What is truckload freight shipping?
+                </p>
+                <p className="point-p">
+                  A. Truckload freight shipping refers to transporting goods
+                  that fill an entire truck trailer. It is typically used when a
+                  shipper has enough cargo to occupy the whole trailer when the
+                  shipment is time-sensitive or requires special handling.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. What are the advantages of truckload shipping?
+                </p>
+                <p className="point-p">
+                  A. Some benefits of truckload shipping include faster transit
+                  times, reduced handling and fewer risks of damage, dedicated
+                  capacity for your shipment, and more flexibility in
+                  scheduling.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. How is truckload shipping different from
+                  less-than-truckload (LTL) shipping?
+                </p>
+                <p className="point-p">
+                  A. Truckload shipping involves using a whole truck trailer for
+                  a single shipment, while LTL shipping combines smaller
+                  shipments from other customers into a single truck. Truckload
+                  shipping is generally faster and more cost-effective for
+                  larger shipments, whereas LTL shipping suits smaller loads.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. What types of goods are typically shipped via truckload?
+                </p>
+                <p className="point-p">
+                  A. Truckload shipping is suitable for a wide range of goods,
+                  including manufactured products, raw materials, machinery,
+                  perishable items, and other large or heavy items that require
+                  exclusive trailer use.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. How are truckload rates determined?
+                </p>
+                <p className="point-p">
+                  A. Truckload rates depend on various factors such as the
+                  distance to be traveled, the weight and dimensions of the
+                  shipment, the type of goods being transported, fuel costs,
+                  current market conditions, and any additional services
+                  required (such as liftgate or inside delivery).
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. How do I find a truckload carrier or freight broker?
+                </p>
+                <p className="point-p">
+                  A. You can find truckload carriers or freight brokers online,
+                  contact logistics companies, or utilize freight matching
+                  platforms. These platforms connect shippers with available
+                  carriers based on their specific shipping requirements.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. What information should I provide when requesting a
+                  truckload freight quote?
+                </p>
+                <p className="point-p">
+                  A. When getting a quote, you should provide details such as
+                  the shipment’s origin and destination, the cargo’s weight and
+                  dimensions, the desired pickup and delivery dates, any special
+                  requirements, and your contact information.
                 </p>
               </div>
             </div>
