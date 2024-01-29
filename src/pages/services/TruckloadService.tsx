@@ -133,7 +133,7 @@ function TruckloadService() {
         </div>
         <div className="relative bg lg:w-1/2">
           <div className=" lg:absolute w-full -top-40 flex items-center flex-col gap-[24px]">
-            <div className=" bg-white p-3 md:p-7 w-full items-start md:items-center lg:w-[480px] rounded-[20px] shadow-md flex flex-col lg:items-start gap-[38px] ">
+            <div className=" bg-white p-3 md:p-7 w-full items-start md:items-center lg:w-[480px] rounded-[15px] shadow-md flex flex-col lg:items-start gap-[38px] ">
               <p className="font-semibold self-center">
                 Logistics rate calculator
               </p>
@@ -168,7 +168,7 @@ function TruckloadService() {
                       Pickup city or postal code
                     </label>
                     <input
-                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[300px]  md:w-[200px] h-[45px]"
+                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[15px] pl-5 placeholder:text-point-p w-[300px]  md:w-[200px] h-[45px]"
                       type="text"
                     />
                   </div>
@@ -177,7 +177,7 @@ function TruckloadService() {
                       Destination city or postal code
                     </label>
                     <input
-                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-full md:w-[200px] h-[45px]"
+                      className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[15px] pl-5 placeholder:text-point-p w-full md:w-[200px] h-[45px]"
                       type="text"
                     />
                   </div>
@@ -202,7 +202,7 @@ function TruckloadService() {
                   </div>
                   <div className="flex flex-col gap-2">
                     <label className="text-[12px]">Choose Equipment</label>
-                    <select className=" bg-white border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-full md:w-[200px] h-[45px]">
+                    <select className=" bg-white border border-solid border-[#4d8137] border-opacity-20 rounded-[15px] pl-5 placeholder:text-point-p w-full md:w-[200px] h-[45px]">
                       <option value="">Drayage</option>
                     </select>
                   </div>
@@ -214,7 +214,7 @@ function TruckloadService() {
                 </p>
                 <div className="flex flex-col gap-2">
                   <input
-                    className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[20px] pl-5 placeholder:text-point-p w-[300px] md:w-[420px] h-[80px]"
+                    className=" border border-solid border-[#4d8137] border-opacity-20 rounded-[15px] pl-5 placeholder:text-point-p w-[300px] md:w-[420px] h-[80px]"
                     type="text"
                   />
                   <label className="text-[12px]">limit of 70 characters</label>
@@ -591,6 +591,278 @@ function TruckloadService() {
                 Get your Truck load Quote
               </button>
             </div>
+          </div>
+        </section>
+        {/* Moy logistic by number */}
+        <section className="flex flex-col gap-5">
+          <div className="flex flex-col lg:flex-row gap-16 justify-center py-10 bg-[#EDF1EB] items-center">
+            <div className="flex flex-col gap-2">
+              <p className="section-header">MOY Logistics</p>
+              <p className="section-header font-normal">by the numbers</p>
+            </div>
+            <div className="flex gap-5 flex-col md:flex-row">
+              <div className="flex gap-5 ">
+                <div className="flex flex-col w-1/2 gap-2">
+                  <p className="section-header">25</p>
+                  <p className="">Years in Business</p>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <p className="section-header">1.5m+</p>
+                  <p className="">Shipment Delivered</p>
+                </div>
+              </div>
+              <div className="flex gap-5">
+                <div className="flex flex-col gap-2">
+                  <p className="section-header">93%+</p>
+                  <p className="">On-time Performance</p>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <p className="section-header">99.1%+</p>
+                  <p className="">Damage Free Shipments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-6 p-4 lg:p-10">
+            <p className="section-header">Truckload Transportation Service</p>
+            <p className="point-p">
+              Truckload MOY Logistics shipping involves the transportation of a
+              single freight shipment from one location to another using one
+              truck. This freight service is often the most cost-effective since
+              only one shipment is moved at a time, unlike multiple loads on
+              different trucks. It also allows for faster transit times, as
+              fewer stops are required, and a single route can be planned.
+              <br />
+              <br /> One of the most significant differences between LTL and FTL
+              shipments is dependable pickup and delivery times. Full truckload
+              services offer strict pickup and delivery dates for freight
+              shipments, ensuring your load makes it from its pickup point to
+              its final destination on time. Additionally, FTL MOY Logistics
+              shipping offers more safety and security than other freight
+              options, as each piece of cargo gets its dedicated truck.
+              <br />
+              <br /> The reliability and security offered by TL MOY Logistics
+              make it an ideal choice for companies shipping large volumes of
+              goods during springtime. This helps to reduce the risk of damage
+              or theft, which can occur when multiple shipments are loaded onto
+              one truck. Furthermore, truckload freight makes it easier for
+              companies to track their shipments while in transit, providing
+              visibility into the location of their goods throughout the
+              journey.
+              <br />
+              <br /> For instance, manufacturers may transport parts or raw
+              materials long distances to meet production deadlines or restock
+              their inventory after a lull caused by winter weather conditions.
+              <br />
+              <br />
+              Similarly, retailers may require additional supplies for peak
+              shopping seasons such as Easter or Mother's Day, necessitating
+              quick delivery times and careful handling of fragile merchandise.
+              <br />
+              <br />
+              For all these reasons, freight shipping remains an essential part
+              of logistics operations throughout the United States during
+              springtime, providing customers with cost-efficient transportation
+              solutions and ensuring goods arrive safely at their scheduled
+              destination. Companies seeking dependable freight solutions this
+              season should consider partnering with MOY Logistics when shipping
+              FTL.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              What is Considered Truckload MOY Logistics?
+            </p>
+            <p className="point-p">
+              Truckload MOY Logistics, or FTL MOY Logistics, is a mode of
+              transportation that involves using a truck to transport a
+              substantial amount of goods from one location to another. In
+              truckload shipping, the entire truck is dedicated to carrying a
+              single shipment, typically belonging to a single customer or
+              consignor.
+              <br />
+              <br /> Truckload MOY Logistics is utilized when the size or weight
+              of the shipment exceeds the capacity or requirements of other
+              transportation modes, such as LTL carriers or parcel carriers. It
+              is often more cost-effective for large or bulk shipments, as the
+              cost is typically based on the distance traveled and the space
+              occupied by the cargo within the truck.
+              <br />
+              <br /> This mode of transportation offers several advantages. It
+              provides faster transit times than LTL shipping since the truck
+              travels directly from the origin to the destination without
+              multiple stops. Additionally, truckload freight offers greater
+              flexibility in pickup and delivery times, as the truck can be
+              scheduled according to the customer's specific requirements.
+              <br />
+              <br />
+              Truckload MOY Logistics suits various goods, including raw
+              materials, finished products, and industrial equipment. It can be
+              used for domestic and international shipping, offering businesses
+              and individuals a reliable and efficient option for transporting
+              large goods.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10 ">
+            <p className="section-header">Types of Trucload Services Offered</p>
+            <div className="flex flex-col gap-5">
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Double-Drop Deck (Lowboy)</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Double-Drop Deck with Detachable Deck (Lowboy, RGN)
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Flatbed Trailers</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Step Deck Trailers</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Dry Van Trailers</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Refrigerated Trailers</p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">Conestoga Trailers</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              Full Truckload vs. Less Than Truckload Shipping: A Comparative
+              Analysis
+            </p>
+            <p className="point-p">
+              Freight transportation plays a vital role in today's globalized
+              economy, ensuring the efficient movement of goods from
+              manufacturers to consumers. Two commonly used methods for shipping
+              goods are FTL and LTL shipping. FTL and LTL have distinct
+              advantages and disadvantages, and understanding their differences
+              is crucial for businesses to make informed decisions about their
+              shipping needs. Let's compare FTL and LTL shipping, highlighting
+              their key features, benefits, and considerations.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Definition and Scope:</p>
+            <p className="point-p">
+              <span className="font-bold">FTL:</span> Full Truckload shipping
+              refers to transporting goods that occupy an entire trailer,
+              typically involving larger shipments or items that require
+              dedicated space.
+              <br />
+              <br /> <span className="font-bold"> LTL:</span> Less Than
+              Truckload shipping involves shipments that do not require a full
+              trailer. Multiple shipments from different shippers are
+              consolidated into a single truck, sharing space and costs.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Cost Consideration:</p>
+            <p className="point-p">
+              <span className="font-bold">FTL:</span> FTL shipments are
+              typically priced based on the space the goods occupy. While FTL
+              may be more expensive for smaller loads, it offers cost advantages
+              for more extensive and bulkier shipments due to economies of
+              scale.
+              <br />
+              <br /> <span className="font-bold">LTL:</span> LTL shipments are
+              priced based on weight, dimensions, and distance traveled. LTL
+              shipping can be cost-effective for smaller loads, as the cost is
+              shared among multiple shippers.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Transit time and Speed:</p>
+            <p className="point-p">
+              <span className="font-bold">FTL:</span> With FTL shipping, there
+              is usually a direct route from the pickup location to the
+              destination, resulting in shorter transit times and faster
+              delivery.
+              <br />
+              <br /> <span className="font-bold">LTL:</span> LTL shipments
+              involve multiple stops for pickups and drop-offs, which can
+              increase transit times. However, advancements in LTL logistics
+              have improved speed and efficiency in recent years.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Flexibility and Capacity:</p>
+            <p className="point-p">
+              <span className="font-bold">FTL:</span> FTL shipping offers
+              greater flexibility in scheduling and pickup/delivery times. It is
+              ideal for businesses with time-sensitive or high-volume shipments
+              that require dedicated space and immediate delivery.
+              <br />
+              <br /> <span className="font-bold">LTL:</span> LTL shipping
+              provides flexibility for businesses with smaller shipments,
+              allowing them to share truck space with other shippers. However,
+              it may have limitations in terms of specific delivery schedules.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Risk of Damage and Loss:</p>
+            <p className="point-p">
+              <span className="font-bold">FTL:</span> FTL shipping minimizes the
+              risk of damage or loss as the goods are not handled or transferred
+              during transit. The shipment remains secure and intact throughout
+              the journey.
+              <br />
+              <br /> <span className="font-bold">LTL:</span> LTL shipments are
+              more susceptible to handling and transfers during consolidation
+              and deconsolidation processes, which may increase the risk of
+              damage or loss.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Documentation and Tracking:</p>
+            <p className="point-p">
+              <span className="font-bold">FTL:</span> FTL shipping involves more
+              detailed documentation and tracking processes since the truckload
+              belongs to a single shipper. The shipper has greater control and
+              visibility over their shipment.
+              <br />
+              <br /> <span className="font-bold">LTL:</span> LTL shipments
+              require more complex documentation and tracking, as multiple
+              shippers are involved. However, modern technology has improved LTL
+              tracking capabilities, providing increased visibility.
+              <br />
+              <br /> In summary, the choice between FTL and LTL shipping depends
+              on various factors, including shipment size, volume, urgency,
+              budget, and specific requirements. FTL shipping offers advantages
+              such as faster transit times, dedicated space, and reduced risk of
+              damage, making it suitable for large shipments or time-sensitive
+              deliveries. On the other hand, LTL shipping provides cost savings
+              for smaller loads, flexibility in sharing truck space, and
+              advancements in speed and efficiency. Businesses should carefully
+              evaluate their shipping needs and consider these factors to
+              determine the most appropriate method for their requirements.
+            </p>
           </div>
         </section>
       </div>
