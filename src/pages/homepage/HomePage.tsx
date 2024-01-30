@@ -1,13 +1,15 @@
-import NavigationBar from '../../components/NavigationBar'
-import { Outlet } from 'react-router-dom'
+import NavigationBar from "../../components/NavigationBar";
+import Footer from "../../components/Footer";
+import { Outlet } from "react-router-dom";
 
 function HomePage() {
   return (
     <div>
-      <NavigationBar/>
-      <Outlet/>
+      <NavigationBar />
+      <Outlet />
+      <Footer/>
     </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
