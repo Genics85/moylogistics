@@ -2,10 +2,12 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/icons/logo.svg";
 import whatsapp from "../assets/icons/whatsapp.svg";
 import linkedin from "../assets/icons/linkedin.svg";
+import drop_down from "../assets/icons/drop_down.svg";
 import twitter from "../assets/icons/x.svg";
 import facebook from "../assets/icons/facebook.svg";
 import burger_menu from "../assets/icons/burger_menu.svg";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { useClickOutsideToClose } from "../hooks/useClickOutsideToClose";
 
 function NavigationBar() {
   const [dropMenu, setDropMenu] = useState<boolean>(false);
@@ -18,6 +20,9 @@ function NavigationBar() {
   const toggleDropMenu = () => {
     setDropMenu(!dropMenu);
   };
+
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  useClickOutsideToClose(wrapperRef, () => setServiceMenu(false));
 
   return (
     <nav className="sticky z-50 inset-0 bg-white text-[#4d8137] flex items-center justify-between  lg:justify-center gap-20 py-4 lg:py-2">
@@ -36,19 +41,46 @@ function NavigationBar() {
             Home
           </NavLink>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2 "></div>
-          <button onClick={toggleServiceMenu} className={` relative pb-2`}>
-            <p>Service</p>
-            <div className={`${serviceMenu?"flex":"hidden"} bg-white gap-5 py-5 flex-col items-center top-[150%] right-1/2 translate-x-[50%] absolute w-[220px]`}>
-              <NavLink to={"service/truckload"}>
+          <div
+            ref={wrapperRef}
+            onClick={toggleServiceMenu}
+            className={`hover:cursor-pointer relative pb-2`}
+          >
+            <div className="flex gap-1 items-center">
+              <p>Service</p>
+              <img src={drop_down} alt="" />
+            </div>
+            <div
+              className={`${
+                serviceMenu ? "flex" : "hidden"
+              } bg-white text-[14px] font-semibold pb-2 flex-col items-center px-2 top-[150%] right-1/2 rounded-ee-lg rounded-es-lg translate-x-[50%] absolute w-[220px]`}
+            >
+              <NavLink
+                to={"service/truckload"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
                 Freight Truck Service
               </NavLink>
-              <NavLink to={"service/partial-truckload"}>
+              <NavLink
+                to={"service/partial-truckload"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
                 Partial Truckload Service
               </NavLink>
-              <NavLink to={"freezer-freight"}>Freight Truck Service</NavLink>
-              <NavLink to={"golden-freight"}>Freight Truck Service</NavLink>
+              {/* <NavLink
+                to={"freezer-freight"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Freight Truck Service
+              </NavLink>
+              <NavLink
+                to={"golden-freight"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Freight Truck Service
+              </NavLink> */}
             </div>
-          </button>
+          </div>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2"></div>
           <NavLink
             className={({ isActive }) =>

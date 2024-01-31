@@ -13,15 +13,15 @@ import back from "../../assets/icons/services/back.svg";
 import forward from "../../assets/icons/services/forward.svg";
 import certification from "../../assets/icons/services/certification.svg";
 import award_tag from "../../assets/icons/services/award_tag.svg";
-import liquid_transport from "../../assets/images/homepage/liquid_transport.png";
 import freight_truck from "../../assets/images/services/freight_truck.png";
 import truck_freight from "../../assets/images/services/truck_freight.png";
-import advantage from "../../assets/images/services/advantages_moy.png";
 import banner_d from "../../assets/images/partial-truckload/partial_truckload_banner_homepage.png";
 import banner_t from "../../assets/images/partial-truckload/homepage_banner_t.png";
 import customers_say from "../../assets/images/partial-truckload/customers_say.png";
 import weight_size from "../../assets/images/partial-truckload/weight_size.png";
 import type_freight from "../../assets/images/partial-truckload/type_freight.png";
+import type_delivery from "../../assets/images/partial-truckload/type_delivery.png";
+import accessorial from "../../assets/images/partial-truckload/accessorial.png";
 
 function PartialTruckloadService() {
   return (
@@ -743,228 +743,292 @@ function PartialTruckloadService() {
                   style={{
                     backgroundImage: `url(${weight_size})`,
                   }}
-                >
-                </div>
+                ></div>
                 <div
                   className="flex gap-2 bg-cover w-[300px] h-[380px]"
                   style={{
-                    backgroundImage: `url(${liquid_transport})`,
+                    backgroundImage: `url(${type_freight})`,
                   }}
-                >
-                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
-                    <p className="leading-[18px] font-medium">
-                      Double-Drop Deck with Detachable Deck (Lowboy, RGN)
-                    </p>
-                    <p className="leading-[20px]">
-                      A Double-Drop Deck with a detachable deck also referred to
-                      as a Lowboy with a Removable Goose Neck (RGN), is a
-                      trailer with a detachable neck to allow equipment to be
-                      driven on the trailer from the front. These trailers can
-                      haul up to 45,000 pounds of freight at a maximum length of
-                      29 feet and 12 feet in height.
-                    </p>
-                  </div>
-                </div>
+                ></div>
               </div>
               <div className="flex flex-col md:flex-row gap-3">
                 <div
                   className="flex gap-2 bg-cover w-[300px] h-[380px]"
                   style={{
-                    backgroundImage: `url(${liquid_transport})`,
+                    backgroundImage: `url(${type_delivery})`,
                   }}
-                >
-                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
-                    <p className="leading-[18px] font-medium">
-                      Flatbed Trailers
-                    </p>
-                    <p className="leading-[20px]">
-                      A standard flatbed trailer is an open-air trailer used to
-                      transport bulky or abnormal freight such as vehicles,
-                      tractors, and bulky machinery items. These trailers can
-                      haul up to 48,000 pounds of freight at a maximum height of
-                      8.5 feet and a max of 48 feet in length.
-                    </p>
-                    <p className="font-medium">Learn More</p>
-                  </div>
-                </div>
+                ></div>
                 <div
                   className="flex gap-2 bg-cover w-[300px] h-[380px]"
                   style={{
-                    backgroundImage: `url(${liquid_transport})`,
+                    backgroundImage: `url(${accessorial})`,
                   }}
-                >
-                  <div className=" text-[13px] flex flex-col justify-end p-3 w-full text-white bg-gradient-to-t from-[#102906] to-transparent">
-                    <p className="leading-[18px] font-medium">
-                      Stretch Flatbed Trailers
-                    </p>
-                    <p className="leading-[20px]">
-                      An extended flatbed trailer is an open-air trailer used to
-                      transport bulky or abnormal freight such as vehicles,
-                      tractors, and bulky machinery items. These trailers can
-                      haul up to 48,000 pounds of freight at a maximum height of
-                      8.5 feet and a max of 80 feet in length.
-                    </p>
-                    <p className="font-medium">Learn More</p>
-                  </div>
-                </div>
+                ></div>
               </div>
             </div>
             <button className="clear-btn mt-10">Instant Partial Rate</button>
           </div>
         </section>
         <section className="flex flex-col gap-5">
-          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10 ">
-            <p className="section-header">
-              Types of Truckload Services Offered
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">PTL Typical Demographics</p>
+            <p className="point-p">
+              Partial truckload (PTL) shipping is a transportation solution that
+              caters to specific demographics and shipment characteristics. It
+              is particularly well-suited for small to medium-sized businesses
+              with moderate shipping needs within the weight and volume ranges
+              of 5,000 to 25,000 pounds and 5 to 22 pallets.
+              <br />
+              <br /> One of the main advantages of PTL for small to medium-sized
+              businesses is its cost-effectiveness. These businesses may not
+              have enough goods to fill an entire truck, making full truckload
+              (FTL) shipping financially impractical. By utilizing PTL, they can
+              share the transportation cost with other shippers with compatible
+              shipment sizes and destinations. This shared cost model allows
+              businesses to access the benefits of truckload shipping without
+              incurring the expenses associated with dedicated truck services.
+              <br />
+              <br /> Small to medium-sized businesses across various industries
+              can benefit from PTL shipping. Manufacturers, wholesalers,
+              distributors, and retailers often have moderate quantities of
+              goods to ship regularly, making them ideal candidates for PTL. The
+              weight and volume ranges associated with PTL align with their
+              shipping needs and allow them to optimize their transportation
+              operations. By utilizing PTL, these businesses can ensure their
+              goods are transported efficiently, cost-effectively, and in line
+              with their shipment requirements.
+              <br />
+              <br /> Flexibility is another critical advantage of PTL for
+              businesses with varying or fluctuating shipping needs. Seasonal
+              companies, startups, or businesses experiencing periods of growth
+              or change may find it challenging to commit to a fixed schedule or
+              the rigid nature of FTL shipping. PTL offers the flexibility to
+              accommodate changing shipment volumes and frequencies. As business
+              needs evolve, PTL allows for adjustments in shipment sizes without
+              the constraints associated with FTL. This adaptability enables
+              businesses to maintain efficiency in their shipping operations and
+              meet changing customer demands.
+              <br />
+              <br />
+              Furthermore, businesses that prioritize minimizing handling and
+              reducing the risk of damage find PTL appealing. With PTL,
+              shipments are typically loaded directly onto the truck at the
+              origin and delivered directly to the destination. This reduces the
+              number of handling points and transfers, minimizing the risk of
+              damage or loss during transit. For businesses that ship fragile or
+              delicate goods, PTL provides the peace of mind that their
+              shipments will be handled carefully and delivered safely to their
+              destinations.
+              <br />
+              <br /> In conclusion, the typical demographics of PTL users
+              include small to medium-sized businesses that require
+              transportation for shipments ranging from 5,000 to 25,000 pounds
+              and occupying the space of 5 to 22 pallets. These businesses
+              benefit from the cost savings, flexibility, and reduced handling
+              that PTL offers. By leveraging PTL services, small to medium-sized
+              businesses can optimize their shipping operations, adapt to
+              changing shipment needs, and ensure their goods’ efficient and
+              cost-effective transportation.
             </p>
-            <div className="flex flex-col gap-5">
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              Types of Shippers Using Partial Truckloads: Catering to Small and
+              Medium-Sized Businesses
+            </p>
+            <p className="point-p">
+              Partial truckload (PTL) shipping is a transportation solution that
+              caters to a specific demographic of shippers, primarily small and
+              medium-sized businesses (SMBs). These shippers often have unique
+              shipping needs that fall between the capacity of less than
+              truckload (LTL) and full truckload (FTL) shipments. Understanding
+              the types of shippers who utilize PTL services can shed light on
+              the benefits and advantages this shipping method offers.
+              <br />
+              <br />
+              Small-medium-sized businesses, commonly called SMBs, are the
+              primary users of PTL services. These businesses typically have
+              moderate shipping needs that exceed the capabilities of LTL
+              shipping but don’t require the space and cost associated with FTL
+              shipping. SMBs encompass various industries, including
+              manufacturing, retail, wholesale, and distribution. They may
+              produce or distribute goods in quantities that range from 5 to 20
+              pallets, making PTL an ideal solution to meet their shipping
+              requirements.
+              <br />
+              <br /> For SMBs, PTL offers a cost-effective alternative to FTL
+              shipping. FTL shipping can be costly for smaller businesses, as
+              they may not have enough goods to fill an entire truck. By sharing
+              the truck space with other shippers in a PTL arrangement, SMBs can
+              split the cost of transportation, making it more affordable for
+              their budget. This cost-sharing model allows SMBs to access the
+              benefits of truckload shipping without paying for unused space,
+              ultimately maximizing their shipping efficiency and
+              cost-effectiveness.
+              <br />
+              <br /> PTL is also attractive to SMBs due to its flexibility and
+              agility. Unlike FTL, which requires a full truck’s worth of goods
+              to be shipped simultaneously, PTL allows businesses to send their
+              goods in smaller quantities. This flexibility is particularly
+              beneficial for SMBs with varying shipment volumes or irregular
+              shipping patterns. For example, seasonal businesses may experience
+              fluctuations in their shipping needs throughout the year, and PTL
+              enables them to adjust their shipment sizes accordingly without
+              committing to a full truckload.
+              <br />
+              <br /> Another advantage of PTL for SMBs is the reduced risk of
+              damage and the potential for faster transit times compared to LTL.
+              With LTL shipments, goods are typically handled and transferred
+              multiple times during transit, increasing the risk of damage and
+              extending the delivery timeline. In contrast, PTL shipments remain
+              on the same truck, reducing the number of handling points and
+              minimizing the risk of damage. Additionally, since PTL shipments
+              are consolidated with other shippers’ loads, the delivery route
+              can be more direct, resulting in shorter transit times than
+              traditional LTL shipments.
+              <br />
+              <br /> MOY Logistics, as a leading logistics provider, understands
+              the unique needs of SMBs and offers tailored PTL solutions to
+              cater to their shipping requirements. By leveraging our extensive
+              carrier network, industry expertise, and advanced technology
+              platform, we connect SMBs with reliable and cost-effective PTL
+              services. We aim to simplify the shipping process, provide
+              transparent pricing, and offer exceptional customer support to
+              ensure a smooth and efficient shipping experience.
+              <br />
+              <br /> Whether you’re a small manufacturer, a retail business, or
+              a distributor, MOY Logistics is committed to helping you navigate
+              the complexities of transportation and find the right PTL solution
+              for your needs. Request a rate estimate today and experience the
+              convenience and cost savings of PTL shipping with MOY Logistics
+            </p>
+          </div>
+          <div className="flex flex-col gap-5 items-center md:items-start pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
+              Advantages of Arranging a Partial Truckload:
+            </p>
+            <p className="point-p">
+              Faster Delivery for a Lower Price. Weight limits on partials are
+              between 5K lbs and 25k lbs. This type of shipping will compete
+              with LTL rates while giving the delivery times of FTL services—the
+              benefits of Partial shipping offer fewer stops, less handling, and
+              cargo insurance options.
+            </p>
+            <div className="flex flex-col gap-5 ">
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Standard Trailer 48ft or 53ft</p>
+                <p className="point-p">
+                  Partial truckload services do not need freight class
+                  classifications and have some limitations.
+                </p>
               </div>
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Trade Show Shipping</p>
+                <p className="point-p">
+                  Freight shipping moves most shipments through trade routes. If
+                  you are within these routes, your service times will be fast
+                  for pickup and delivery.
+                </p>
               </div>
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Oversize or Heavy Haul Shipping</p>
+                <p className="point-p">
+                  Heavy products on a few pallets only sometimes qualify for PTL
+                  services.
+                </p>
               </div>
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Refrigerated Shipping</p>
+                <p className="point-p">
+                  Complete logistic management of your shipment
+                </p>
               </div>
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Rail Service</p>
+                <p className="point-p">
+                  Door-to-door delivery and cross-border logistics for shipping
+                  throughout North America (US, Mexico, and Canada)
+                </p>
               </div>
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Dry Van Trailers</p>
+                <p className="point-p">
+                  Expedited transport of emergency supplies & mission-critical
+                  equipment
+                </p>
               </div>
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Heavy Haul Shipping</p>
+                <p className="point-p">
+                  Guaranteed service quality at competitive rates
+                </p>
               </div>
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Expedited Freight Shipping</p>
+                <p className="point-p">
+                  GPS tracking & real-time location updates
+                </p>
               </div>
               <div className="flex gap-3">
                 <div className="check-mark-w">
                   <img src={check_mark} alt="" />
                 </div>
-                <p className="point-p">Air-Ride Services</p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">Drayage Port Services</p>
+                <p className="point-p">
+                  Comprehensive insurance for high-value loads
+                </p>
               </div>
             </div>
           </div>
           <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">
-              Truckload Shipping Seasons: Understanding Industry Fluctuations
-            </p>
+            <p className="section-header">When to Use PTL Shipping</p>
             <p className="point-p">
-              The transportation and logistics industry experiences regular
-              fluctuations throughout the year, driven by truckload shipping
-              seasons. These seasonal variations directly impact capacity and
-              rates, influencing the available options for shippers. By
-              understanding these shipping seasons, businesses can optimize
-              their supply chains and effectively plan for increased demand and
-              tighter capacity periods.
-            </p>
-          </div>
-          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">Slow Season – January to March:</p>
-            <p className="point-p">
-              Following the holiday rush, the transportation and logistics
-              industry enters a slower shipping season from January to March.
-              While shipping volumes decrease during this period, it is
-              important to note that the sector remains active. Essential items
-              such as medication, food, face masks, and hand sanitizers are in
-              high demand. Additionally, the transportation of COVID-19 vaccines
-              requires refrigerated trucks for nationwide distribution.
-              Moreover, consumers often return items they receive over the
-              holidays, resulting in shipping them back to the original seller.
-              During this slower season, truckload rates favor shippers due to
-              lower shipping volumes. Carriers are more willing to take on work,
-              making rates more favorable for shippers. By March, shipping
-              volumes begin to increase as spring and summer approach.
-            </p>
-          </div>
-          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">
-              Increased Volume Season – April to July:
-            </p>
-            <p className="point-p">
-              The arrival of spring increases shipping volumes, making it easier
-              for drivers to find work compared to the slower months. This
-              period marks a truckload shipping season where carrier
-              availability decreases, leading to tighter rates. The produce
-              harvest season also contributes to the rise in shipment volumes,
-              particularly for truckload shippers transporting food products or
-              produce. For instance, produce shipments often require
-              temperature-controlled equipment to minimize spoilage or damage,
-              especially during the hot summer.
-            </p>
-          </div>
-          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">
-              Peak Shipping Season – August to October:
-            </p>
-            <p className="point-p">
-              From August to October, the industry experiences the peak shipping
-              season, which coincides with the continued produce season.
-              Retailers and e-commerce stores witness a surge in product
-              shipments due to increased online consumer purchases. This
-              heightened demand for shipping results in further tightening of
-              capacity, necessitating more trucks than usual to meet the needs
-              of shippers.
-            </p>
-          </div>
-          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">
-              Holiday Shipping Season – November and December:
-            </p>
-            <p className="point-p">
-              November and December represent the busiest months for the
-              transportation and logistics industry. Consumers take advantage of
-              major sales events such as Black Friday, Cyber Monday, and Small
-              Business Saturday in November, with some retailers extending Black
-              Friday sales throughout the month. Consumers make last-minute
-              purchases in December before shipping gifts to friends and family.
-              Retailers ship more significant quantities of goods during this
-              period, further increasing shipping volumes. However, as
-              mid-December approaches and most consumers finish holiday
-              shopping, the industry slows down again.
+              As stated earlier, PTL may be a better option than LTL. This
+              applies to shipments with more than 4 pallets or if the total
+              weight exceeds 5,000 lbs. There are some cases when the cost of
+              PTL and LTL are the same. If you choose LTL, you’ll pay for a
+              longer transit time and have your shipment switch trailers several
+              times.
               <br />
-              <br /> Knowing the shipping seasons is crucial for businesses
-              aiming to optimize their shipping strategies. By understanding the
-              fluctuations in demand and capacity, companies can effectively
-              plan for each season and ensure a smooth and efficient
-              transportation process.
+              <br /> PTL shipping doesn’t charge you for dimensional weight.
+              Last but not least, as we stated before, there’s less chance that
+              your shipment will be damaged because it will go through fewer
+              unloads. We want to note here: sometimes, a company offering PTL
+              won’t ship something deemed sensitive, as they don’t want to deal
+              with unique classifications or the possibility of damage.
             </p>
           </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">When is LTL Better than PTL?</p>
+            <p className="point-p">
+              PTL is an excellent option for shipments that weigh more than
+              5,000 lbs and require 5 or more pallets. On the other hand, LTL
+              shipping is perfect for lightweight loads. LTL is almost always
+              the best solution when shipping less than 5 pallets. LTL also has
+              the advantage of getting a same-day pickup. This is due to the
+              number of freight carriers that provide LTL shipping over PTL
+              shipping. Due to capacity, while the transit time of an LTL may
+              take slightly longer than a PTL, an LTL will likely be delivered
+              faster. Finding a truck with enough space to handle your shipment
+              can take time.
+            </p>
+          </div>
+
           <section className="flex flex-col gap-5">
             <div
               className="w-full h-[300px] bg-cover"
@@ -1002,323 +1066,248 @@ function PartialTruckloadService() {
                 <img className="w-full" src={truck_freight} alt="" />
               </div>
               <div className=" flex flex-col gap-7 ">
-                <p className="section-header">What is Truck Freight?</p>
+                <p className="section-header">
+                  Compare Partial Truckload Prices Instantly
+                </p>
                 <p className="point-p">
-                  Truckload freight, or truck freight, is a robust
-                  transportation method for transporting significant quantities
-                  of goods from one location to another. This mode of
-                  transportation is particularly suitable when shipment sizes
-                  exceed the capabilities of other transportation options, such
-                  as parcel carriers or LTL carriers. Truck freight can be
-                  classified into two categories: FTL and partial truckload
-                  (PTL). FTL shipping involves dedicating an entire truck to a
-                  single shipment, while PTL shipping involves sharing the truck
-                  with other loads.
+                  Trust the experts at MOY Logistics to give you the best prices
+                  and options for your shipping. The cheapest shipping cost from
+                  all the top carriers is just a few steps away. Fill in brief
+                  details about your shipment and receive instant Specialized
+                  Freight Services from leading freight carriers in one easy
+                  place. Businesses that ship products quickly become aware of
+                  the many options available.
                   <br />
-                  <br /> Truck freight can accommodate various commodities,
-                  including raw materials, finished products, and industrial
-                  equipment. This versatile mode of transportation can be
-                  employed for domestic and international shipping requirements.
+                  <br /> You often have items you must send but can only fill
+                  part of the truck. PTL and LTL services give shippers the
+                  option of sending items to a location on an ongoing basis,
+                  whether shipping a few pallets or a complete load. Third-party
+                  logistics providers specialize in pairing shippers with the
+                  transportation services they need. Experts in logistics know
+                  how to find the right truck to fulfill the shippers’ needs.
                   <br />
-                  <br />
-                  The utilization of truck freight offers several advantages
-                  compared to alternative transportation modes. Firstly, it
-                  provides faster transit times, ensuring expedited delivery of
-                  goods. Additionally, truck freight allows for more flexible
-                  pickup and delivery times, catering to specific scheduling
-                  needs. This mode of transportation also excels in handling
-                  fragile or hazardous shipments, offering enhanced security and
-                  specialized handling protocols. Furthermore, truck freight can
-                  result in cost savings for larger loads, as rates are
-                  typically more favorable for substantial shipments.
-                  <br />
-                  <br /> Truckload freight is a highly flexible and efficient
-                  transportation option for large goods. Its benefits encompass
-                  accelerated transit times, flexible pickup and delivery
-                  options, secure handling of fragile or hazardous shipments,
-                  and potential cost savings for substantial loads.
+                  <br /> If the shipper only needs 20 feet of space in a truck.
+                  In that case, logistics professionals have the knowledge and
+                  resources to match that carrier needing a 20-foot load with
+                  the shipper that needs 20 feet of truck space. But PTL and LTL
+                  can be confusing since they seem, on the surface, to refer to
+                  the same thing. However, there are differences between the
+                  two.
                 </p>
-                <button className="clear-btn self-center">
-                  Instant Truck load Quote
-                </button>
+                <p className="section-header">Conclusion</p>
+                <p className="point-p">
+                  With the many parts of the shipping industry, LTL and FTL are
+                  the most dominant types of shipping. One is aimed at
+                  established businesses with massive shipping budgets, while
+                  the other is at smaller-medium-sized businesses. The rarer PTL
+                  isn’t in the same running as LTL and FTL, but it can be a
+                  hidden gem for a company that can utilize it. If that’s you,
+                  contact a freighter or broker and see what PTL can do for you!
+                </p>
               </div>
             </div>
+
             <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-              <p className="section-header">
-                Simplifying Freight Shipping: Comparing Truck Freight Rates
-              </p>
-              <p className="point-p">
-                Finding the best rates and reliable carriers is crucial for
-                businesses and individuals in shipping. MOY Logistics offers a
-                user-friendly online platform that simplifies this process by
-                allowing users to compare truck freight rates from various
-                carriers. This essay will explore how MOY Logistics`s platform
-                works, empowering users to make informed decisions and secure
-                the best prices for their shipping needs.
-              </p>
-            </div>
-            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-              <p className="section-header">Comparison Made Easy:</p>
-              <p className="point-p">
-                MOY Logistics’s platform starts by collecting essential details
-                about the shipment. Users enter information such as the goods’
-                origin and destination, the shipment’s size and weight, and any
-                special requirements. This comprehensive input ensures accurate
-                rate comparisons tailored to specific shipping needs.
-                <br />
-                <br /> Next, the platform swiftly generates a list of available
-                carriers and their rates. This feature enables users to evaluate
-                multiple options side by side, considering both the cost and the
-                quality of services provided. The ability to compare rates from
-                different carriers at a glance empowers users to make
-                well-informed decisions that align with their priorities.
-              </p>
-            </div>
-            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-              <p className="section-header">Streamlined Booking Process:</p>
-              <p className="point-p">
-                Once the user has identified the carrier and rate best suits
-                their requirements, MOY Logistics’s platform streamlines the
-                booking process. Users can conveniently secure their shipment by
-                booking directly through the platform. By eliminating the need
-                for time-consuming paperwork, MOY Logistics simplifies the
-                process, saving users valuable time and effort. Furthermore, the
-                platform automatically generates all the necessary shipping
-                documents, including bills of lading and customs paperwork. This
-                automated feature reduces administrative burdens, ensuring a
-                hassle-free experience for users. By handling the paperwork, MOY
-                Logistics enables users to focus on other essential aspects of
-                their business or personal endeavors.
-              </p>
-            </div>
-            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-              <p className="section-header">
-                4 Advantages of Full Truckload Freight Shipping
-              </p>
-              <p className="point-p">
-                Great news, we have the solution for you, and let’s face it, you
-                are short on time and looking for ways to decrease your freight
-                spending. If you are a small to medium-sized business owner or
-                manager, you may be interested in our four advantages of full
-                truckload freight shipping. Below are some of the most common
-                advantages:
-                <br />
-                <br /> <span className="font-bold">Negotiable Rates:</span> The
-                rates quoted by carriers for LTL shipments are not negotiable.
-                You have your choice of carriers, but your 3PL (freight broker)
-                doesn’t have the opportunity to negotiate the already-discounted
-                rate. With a full truckload, the rates are set in real-time by
-                what the market will bear. That means your 3PL has more
-                opportunities to negotiate a better rate.
-                <br />
-                <br /> <span className="font-bold">Time Savings:</span> TL
-                shipping can shave two days off your transit time by eliminating
-                the extra handling involved with LTL shipments involving at
-                least three trucks and two freight terminals. Full truckload
-                shipments are picked up and delivered by the same truck with no
-                extra stops between the pickup and delivery locations. Fewer
-                Hassles: LTL shipping revolves around accuracy. Every shipping
-                unit (pallet, crate, etc.) Carriers audit the shipment and
-                re-weight and re-measure. Knowing the freight class and density
-                of your shipment, along with the requirement of certain
-                accessorial and options like liftgates and oversized freight,
-                can make LTL shipping more cumbersome.
-                <br />
-                <br /> <span className="font-bold">Reduced Risks:</span> When
-                your shipment has the entire truck to itself, you don’t have to
-                worry about another shipper’s cargo damaging yours. Or vice
-                versa, where another shipper may blame you for damage to their
-                shipment. While additional 3rd party cargo insurance is still
-                advisable in case of an unavoidable circumstance caused by
-                weather, accident, or unforeseen delay, FTL shipping reduces
-                some risks by eliminating shared trailer space.
-              </p>
-            </div>
-            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-              <p className="section-header">
-                MOY Logistics Simplifies Truckload Freight Services
-              </p>
-              <p className="point-p">
-                MOY Logistics offers a team of experienced and dedicated Truck
-                Freight Experts who provide exceptional service and support for
-                your shipping needs. With their extensive knowledge of the truck
-                freight industry and understanding of shipping regulations, they
-                assist you in selecting the right carriers and shipping options.
-                They work closely with you to create customized shipping plans
-                considering your budget, timeline, and goods. Regular updates,
-                addressing concerns, and ensuring on-time and perfect shipments
-                are part of their service. Contact MOY Logistics today to
-                experience their commitment to customer satisfaction.
-                <br />
-                <br /> Benefits of choosing MOY Logistics include access to an
-                extensive network of carriers, guaranteeing competitive rates
-                and reliable services. Their platform simplifies freight
-                shipping by allowing users to compare truck freight rates from
-                various carriers, empowering informed decisions and securing the
-                best prices. Streamlined booking and automated document
-                generation ensure a hassle-free experience.
-                <br />
-                <br /> MOY Logistics’s extensive carrier network provides
-                competitive rates and reliable services. Simplify your freight
-                shipping process by utilizing their platform and easily
-                comparing truck freight rates.
-                <br />
-                <br /> Regardless of the commodity being shipped, truckload
-                freight services offer fast, secure, and cost-effective delivery
-                solutions for large quantities or items unsuitable for LTL
-                shipment. TL freight shipping is invaluable for meeting
-                production deadlines and restocking inventory quickly. Truckload
-                freight is an ideal solution for reliable freight services. With
-                over 20 years of experience, MOY Logistics has the expertise to
-                ship various commodities across different locations. Their
-                carriers are equipped to handle shipments ranging from shingles
-                to farm equipment or used excavators, ensuring safe and timely
-                delivery. MOY Logistics prides itself on excellent customer
-                service and on-time delivery.
-                <br />
-                <br /> Their team listens and understands your needs, asking
-                relevant questions to provide the best-fit options.
-                Transportation specialists assist in navigating details to get
-                your freight moving locally, regionally, or nationally. MOY
-                Logistics is considered the best solution for freight shipping.
-                For further discussions and exploring options, contact their
-                truckload experts today at 8007167608.
-              </p>
-            </div>
-            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-              <p className="section-header">Truckload Freight FAQs</p>
+              <p className="section-header">Partial Truckload FAQs</p>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. What is truckload freight shipping?
+                  Q. What is partial truckload shipping?
                 </p>
                 <p className="point-p">
-                  A. Truckload freight shipping refers to transporting goods
-                  that fill an entire truck trailer. It is typically used when a
-                  shipper has enough cargo to occupy the whole trailer when the
-                  shipment is time-sensitive or requires special handling.
+                  A. Partial truckload shipping is a transportation method that
+                  combines multiple smaller shipments from different shippers
+                  into a single trailer. It falls between less-than-truckload
+                  (LTL) and full-truckload (FTL) shipping. With a partial
+                  truckload, you pay for the space and weight your shipment
+                  occupies within the trailer, allowing you to share the costs
+                  with other shippers and achieve cost savings.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. What are the advantages of truckload shipping?
+                  Q. When should I choose partial truckload shipping?
                 </p>
                 <p className="point-p">
-                  A. Some benefits of truckload shipping include faster transit
-                  times, reduced handling and fewer risks of damage, dedicated
-                  capacity for your shipment, and more flexibility in
-                  scheduling.
+                  A. Partial truckload shipping is a great option when your
+                  shipment is too large for LTL but doesn’t require an entire
+                  truck. It is suitable for loads that weigh between 5,000 and
+                  20,000 pounds or occupy more than six pallets. If you have
+                  time-sensitive or fragile freight, partial truckload can also
+                  provide more control and reduced handling compared to LTL.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. How is truckload shipping different from
-                  less-than-truckload (LTL) shipping?
+                  Q. How does partial truckload differ from LTL and full
+                  truckload?
                 </p>
                 <p className="point-p">
-                  A. Truckload shipping involves using a whole truck trailer for
-                  a single shipment, while LTL shipping combines smaller
-                  shipments from other customers into a single truck. Truckload
-                  shipping is generally faster and more cost-effective for
-                  larger shipments, whereas LTL shipping suits smaller loads.
+                  A. Partial truckload differs from LTL because it involves
+                  sharing trailer space with other shippers, whereas LTL
+                  shipments are combined with multiple loads in a hub-and-spoke
+                  system. Partial truckload offers greater security and reduced
+                  handling compared to LTL. In contrast, a full truckload
+                  involves booking an entire truck for your shipment, providing
+                  maximum capacity and faster transit times but at a higher
+                  cost.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. What types of goods are typically shipped via truckload?
+                  Q. What are the advantages of partial truckload shipping?
                 </p>
                 <p className="point-p">
-                  A. Truckload shipping is suitable for a wide range of goods,
-                  including manufactured products, raw materials, machinery,
-                  perishable items, and other large or heavy items that require
-                  exclusive trailer use.
+                  A. Partial truckload shipping offers several advantages,
+                  including cost savings, reduced handling, increased security,
+                  and faster transit times compared to LTL. It allows more
+                  flexibility and control over your shipment than a full
+                  truckload. Additionally, partial truckload is more
+                  environmentally friendly as it reduces empty miles and
+                  optimizes trailer utilization.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. How are truckload rates determined?
+                  Q. How does MOY Logistics handle partial truckload shipments?
                 </p>
                 <p className="point-p">
-                  A. Truckload rates depend on various factors such as the
-                  distance to be traveled, the weight and dimensions of the
-                  shipment, the type of goods being transported, fuel costs,
-                  current market conditions, and any additional services
-                  required (such as liftgate or inside delivery).
+                  A. MOY Logistics specializes in providing efficient and
+                  cost-effective solutions for partial truckload shipments. We
+                  leverage our extensive network of carriers to find the most
+                  competitive rates and reliable transportation options for your
+                  specific needs. Our online platform lets you quickly obtain
+                  quotes, compare rates, book shipments, and track your cargo in
+                  real-time. Our dedicated customer support team can assist you
+                  throughout the shipping process, ensuring a smooth and
+                  hassle-free experience.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. How do I find a truckload carrier or freight broker?
+                  Q. Is partial truckload shipping suitable for all types of
+                  freight?
                 </p>
                 <p className="point-p">
-                  A. You can find truckload carriers or freight brokers online,
-                  contact logistics companies, or utilize freight matching
-                  platforms. These platforms connect shippers with available
-                  carriers based on their specific shipping requirements.
+                  A. Partial truckload shipping suits many freight types,
+                  including palletized goods, large or bulky items, fragile
+                  goods, and time-sensitive shipments. However, certain
+                  restrictions or limitations may depend on the carrier and
+                  specific shipment requirements. It’s best to consult with our
+                  team at MOY Logistics to determine if partial truckload is the
+                  right choice for your particular freight.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. What information should I provide when requesting a
-                  truckload freight quote?
+                  Q. How do I determine the cost of a partial truckload
+                  shipment?
                 </p>
                 <p className="point-p">
-                  A. When getting a quote, you should provide details such as
-                  the shipment’s origin and destination, the cargo’s weight and
-                  dimensions, the desired pickup and delivery dates, any special
-                  requirements, and your contact information.
+                  A. The cost of a partial truckload shipment is calculated
+                  based on factors such as the weight, dimensions, distance, and
+                  specific requirements of your freight. MOY Logistics advanced
+                  technology and expertise allow us to provide accurate and
+                  competitive pricing for your partial truckload shipments. We
+                  can generate customized quotes tailored to your needs by
+                  providing detailed information about your freight.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. How can I track my partial truckload shipment?
+                </p>
+                <p className="point-p">
+                  A. MOY Logistics provides a user-friendly online platform that
+                  allows you to track your partial truckload shipment in real
+                  time. You will receive tracking information once your shipment
+                  is booked, including the carrier details and a tracking
+                  number. Simply enter the tracking number on our website to
+                  access up-to-date tracking information and monitor the
+                  progress of your shipment from pickup to delivery.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. Can I insure my partial truckload shipment?
+                </p>
+                <p className="point-p">
+                  A. Yes, you can ensure your partial truckload shipment for
+                  added protection. MOY Logistics offers cargo insurance options
+                  to safeguard your freight against loss or damage during
+                  transit. It’s important to discuss your insurance needs with
+                  our team and understand your coverage options.
+                </p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. How do I get started with partial truckload shipping
+                  through MOY Logistics?
+                </p>
+                <p className="point-p">
+                  A. Getting started with partial truckload shipping through MOY
+                  Logistics is easy. Contact our team by phone or through our
+                  website to discuss your shipment requirements. Our experienced
+                  logistics experts will guide you through the process, provide
+                  you with competitive rates, and assist you in booking your
+                  partial truckload shipment.
                 </p>
               </div>
             </div>
           </section>
         </section>
-        <section className="flex flex-col w-full items-center justify-center gap-10 p-4">
+        <section className="flex flex-col w-full items-start justify-center gap-10 p-4">
           <p className=" section-header ">
-            3 Advantages of Using MOY Logistics for Heavy Haul Shipping:
+            3 Advantages of Using MOY Logistics for a Partial Truckload
           </p>
           <div className="flex flex-col lg:flex-row gap-5">
             <div className="flex flex-col w-full lg:w-1/3 gap-4">
-              <div>
-                <img className="w-full" src={advantage} />
-              </div>
-              <p className="font-semibold text-[23px]">Speed Up Transit:</p>
-              <p className="leading-[20px] ">
-                FTL shipments move directly from the pickup point to the
-                destination without stops or transfers, leading to faster
-                transit times. This direct route minimizes delays, ensuring
-                quicker deliveries, which is especially important for
-                time-sensitive goods.
+              <p className="font-semibold text-[23px]">Cost Savings:</p>
+              <p className="point-p leading-[20px] ">
+                One of the major advantages of utilizing MOY Logistics for
+                partial truckload shipping is the cost savings it provides. With
+                partial truckload shipping, you only pay for the space and
+                weight your shipment occupies within the trailer rather than
+                booking an entire truck. This cost-effective solution saves you
+                on transportation expenses, especially when shipping smaller or
+                less-than-truckload shipments. MOY Logistics leverages its
+                extensive network of carriers to find the most competitive rates
+                for your partial truckload shipments, ensuring you get the best
+                value for your money.
               </p>
             </div>
             <div className="flex flex-col w-full lg:w-1/3 gap-4">
-              <div>
-                <img className="w-full" src={advantage} />
-              </div>
               <p className="font-semibold text-[23px]">
-                Reduces Risk of Damage:
+                Increased Flexibility:
               </p>
-              <p className="leading-[20px] ">
-                Handling FTL shipments less frequently during transit
-                significantly lowers the risk of damage. The lack of multiple
-                loading and unloading processes makes FTL ideal for transporting
-                fragile, high-value, or sensitive items, as the goods remain in
-                the same truck throughout the journey, ensuring better
-                protection.
+              <p className=" point-p leading-[20px] ">
+                Partial truckload shipping offers greater flexibility than full
+                truckload shipping. With MOY Logistics, you can combine your
+                shipment with other compatible loads to maximize trailer
+                utilization. This flexibility allows for more efficient use of
+                transportation resources, reduces wasted space, and minimizes
+                empty miles. By leveraging our load consolidation and
+                optimization expertise, we can help you find the most suitable
+                partial truckload solution that meets your specific requirements
+                while optimizing cost and efficiency.
               </p>
             </div>
             <div className="flex flex-col w-full lg:w-1/3 gap-4">
-              <div>
-                <img className="w-full" src={advantage} />
-              </div>
               <p className="font-semibold text-[23px]">
-                Cost-Effective for Large Shipments:
+                Streamlined Logistics Management:
               </p>
-              <p className="leading-[20px] ">
-                FTL often proves more economical than Less Than Truckload (LTL)
-                options for shipments large enough to fill a truck. It optimizes
-                costs by spreading them over a large volume of goods, lowering
-                the transportation cost per unit. Also, for near-full loads, FTL
-                avoids the extra expense of paying for unused space, a common
-                issue with LTL.
+              <p className=" point-p leading-[20px] ">
+                MOY Logistics provides a comprehensive logistics management
+                platform simplifies partial truckload shipping. Our
+                user-friendly online portal allows you to obtain quotes, compare
+                rates, book shipments, and track your cargo all in one place.
+                Our advanced technology and automated systems enable real-time
+                tracking and proactive communication, informing you of your
+                shipment's status from pickup to delivery. Additionally, our
+                dedicated customer support team is available to assist you
+                throughout the process, offering guidance and resolving any
+                queries or issues that may arise. With MOY Logistics, you can
+                enjoy streamlined logistics management, saving you time and
+                effort.
               </p>
             </div>
           </div>

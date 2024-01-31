@@ -21,12 +21,12 @@
     "noFallthroughCasesInSwitch": true,
 
     /* import shortening */
-    "baseUrl": "./src",
-    "paths": {
-      "@images/*": ["assets/images/*"],
-      "@icons/*": ["assets/icons/*"],
-      "@components/*": ["components/*"]
-    }
+    // "baseUrl": "./src",
+    // "paths": {
+    //   "@images/*": ["assets/images/*"],
+    //   "@icons/*": ["assets/icons/*"],
+    //   "@components/*": ["components/*"]
+    // }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
