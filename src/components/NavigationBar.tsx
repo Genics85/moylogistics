@@ -67,13 +67,13 @@ function NavigationBar() {
               >
                 Partial Truckload Service
               </NavLink>
-              {/* <NavLink
-                to={"freezer-freight"}
+              <NavLink
+                to={"service/ltl-freight"}
                 className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
               >
-                Freight Truck Service
+                LTL Freight
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 to={"golden-freight"}
                 className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
               >
