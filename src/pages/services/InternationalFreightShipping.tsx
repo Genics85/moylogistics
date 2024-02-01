@@ -14,14 +14,18 @@ import forward from "../../assets/icons/services/forward.svg";
 import certification from "../../assets/icons/services/certification.svg";
 import award_tag from "../../assets/icons/services/award_tag.svg";
 import freight_truck from "../../assets/images/services/freight_truck.png";
-import truck_freight from "../../assets/images/services/truck_freight.png";
-import banner_d from "../../assets/images/partial-truckload/partial_truckload_banner_homepage.png";
-import banner_t from "../../assets/images/partial-truckload/homepage_banner_t.png";
-import customers_say from "../../assets/images/partial-truckload/customers_say.png";
-import weight_size from "../../assets/images/partial-truckload/weight_size.png";
-import type_freight from "../../assets/images/partial-truckload/type_freight.png";
-import type_delivery from "../../assets/images/partial-truckload/type_delivery.png";
-import accessorial from "../../assets/images/partial-truckload/accessorial.png";
+import banner_d from "../../assets/images/internation-freight/international_freight_d.png";
+import banner_t from "../../assets/images/internation-freight/internation_freight_t.png";
+import international_board from "../../assets/images/internation-freight/international_board.png";
+import international_board_pic from "../../assets/images/internation-freight/international_board_pic.png";
+import intern_1 from "../../assets/images/internation-freight/international_1.png";
+import intern_2 from "../../assets/images/internation-freight/international_2.png";
+import intern_3 from "../../assets/images/internation-freight/international_3.png";
+import intern_4 from "../../assets/images/internation-freight/international_4.png";
+import intern_5 from "../../assets/images/internation-freight/international_5.png";
+import intern_6 from "../../assets/images/internation-freight/international_6.png";
+import intern_7 from "../../assets/images/internation-freight/international_7.png";
+import intern_8 from "../../assets/images/internation-freight/international_8.png";
 
 function InternationFreightShipping() {
   return (
@@ -39,15 +43,14 @@ function InternationFreightShipping() {
             <p className="font-semibold">Call Us Today: (800) 29940123</p>
           </div>
           <div className="flex flex-col items-start gap-10 pt-12 h-full pl-3 lg:pl-20 ">
-            <p className="section-header text-white">Partial Truckload</p>
-            <p className=" leading-[24px] w-[380px] md:w-[604px] lg:w-[660px]">
-              See how partial truckload saves money and offers a Low-Cost
-              alternative for LTL shipping. Use our Instant Freight Rate
-              calculator to get instant quotes
+            <p className="section-header text-white">
+              International Freight Shipping
             </p>
-            <button className="clear-btn bg-white">
-              Get Shipping Rate Now
-            </button>
+            <p className=" leading-[24px] w-[380px] md:w-[604px] lg:w-[660px]">
+              MOY Logistics streamlines international freight shipping by
+              utilizing a network of top-rated international shipping carriers.
+            </p>
+            <button className="clear-btn bg-white">Get A Freight Quote</button>
           </div>
         </div>
       </section>
@@ -59,78 +62,54 @@ function InternationFreightShipping() {
             </div>
             <p>
               / Services /{" "}
-              <span className="font-semibold ">Partial Truckload</span>
+              <span className="font-semibold ">
+                International Freight Shipping
+              </span>
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center md:items-start ">
             <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
-              Why choose MOY Logistics For Your Partial Truckload?
-            </p>
-            <div className="flex flex-col gap-5">
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">Compare rates from 50+ carriers</p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">Instant rates anytime</p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Shipping solutions to anywhere in the US & Canada
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Unbeatable discounts on your PTL, LTL, FTL, rail, air, and
-                  more
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Automated tracking, paperwork & invoices
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Manage all freight quotes & shipments in one place
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  30+ years of transportation experience working for you!
-                </p>
-              </div>
-            </div>
-            <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
-              Experienced PTL Shipping
+              What Is International Freight Shipping?
             </p>
             <p className="point-p">
-              Our experienced staff will manage all the variables needed to
-              ensure a smooth shipping and safe arrival of your
-              less-than-truckload cargo, including coordinating pickup and
-              delivery, customs management, and permits. Planning is the key to
-              successful cargo transport. We have earned a reputation for
-              meeting and exceeding our customers’ expectations. 800.716.7608
+              International shipping involves the movement of freight across
+              international borders. In other words, unlike shipping
+              domestically, shipping internationally means transporting goods to
+              different countries. Shipping internationally is most frequently
+              done in containers via land and sea.
+              <br />
+              <br /> Transporting goods to another country is a complex process
+              of crossing borders and understanding the many rules and
+              regulations.
+              <br />
+              <br /> MOY Logistics streamlines international freight shipping
+              using a network of top-rated shipping carriers. MOY Logistics can
+              plan, coordinate, and execute your worldwide and cross-border
+              global shipping needs, including international Air Freight
+              Shipping and ocean freight shipping.
+            </p>
+
+            <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
+              Why Choose MOY Logistics For International Shipping?
+            </p>
+            <p className="point-p">
+              We are an award-winning logistics company and an American
+              veteran-owned business. At MOY Logistics, we looked have
+              simplified shipping internationally. We bring a lot to the table
+              when it comes to shipping internationally. Our history,
+              competitive pricing, and level of service are unmatched in the
+              industry.
+              <br />
+              <br /> Over the years and many miles, we have formed a dedicated
+              and respected network of partners in the industry to help
+              customers meet deadlines. Our mission is to meet and exceed
+              customer expectations in all that we do. We take care of
+              international freight shipping from pickup to delivery.
+              <br />
+              <br /> When customers select MOY Logistics to handle their
+              shipping anywhere in the world, they trust us to do the job. You
+              save time and money; you don’t have to worry about shipping
+              because that is our job.
             </p>
           </div>
           <p></p>
@@ -518,34 +497,22 @@ function InternationFreightShipping() {
         </section>
         <section className="flex p-4 flex-col lg:flex-row w-full justify-center items-center gap-12">
           <div className="w-full md:w-[600px] lg:w-[510px] ">
-            <img src={customers_say} alt="" />
+            <img src={international_board} alt="" />
           </div>
           <div className="flex flex-col gap-6 w-full md:w-[600px] lg:w-[700px] ">
             <p className="section-header">
-              What Our Customers Say about our PTL Service
+              How To Ship An International Shipment
             </p>
             <p className="point-p">
-              MOY offers reliable, on-time, cost-effective partial truckload
-              shipping services. Shipping Partial Load volumes can be expensive
-              if you pay for a full container or trailer to ship your smaller
-              freight. MOY logistics services coordinate LTL freight scheduling
-              to combine shipments from different companies to create a full
-              truckload. This lowers shipping costs for all companies utilizing
-              the LTL service.
+              Inquire about international freight shipping by calling
+              800.716.7608 and asking for help with an international shipment.
+              Our international shipping efforts will connect your global
+              shipping need to one of the many carriers in our network.
               <br />
-              <br /> As an experienced shipping broker, we have a broad network
-              of carriers that provides us with flexibility and the resources to
-              coordinate shipments throughout North America so that we can
-              arrange shipment to your destination, saving you freight costs and
-              allowing you greater visibility of your transportation spend.
-              <br />
-              <br /> Our network of over 11,000 carriers can provide access to
-              the type of LTL trucking setup you need to transport your freight,
-              including vans, flatbeds, step decks & double drops. The carriers
-              in our network are qualified professionals and maintain the
-              highest DOT safety ratings, substantial liability and cargo
-              insurance, industry certifications, and international
-              documentation.
+              <br /> Our quick quote online form includes the option to ship to
+              or from the United States and Canada; however, we work directly
+              with customs brokers and carriers to arrange international freight
+              shipping.
             </p>
           </div>
         </section>
@@ -580,144 +547,59 @@ function InternationFreightShipping() {
             </div>
           </div>
           <div className="flex flex-col gap-6 p-4 lg:p-10">
-            <p className="section-header">What Is A Partial Load?</p>
+            <p className="section-header">Work With a Customs Broker</p>
             <p className="point-p">
-              A partial truckload, also known as PTL shipping, refers to a
-              shipment that doesn’t require the entire capacity of a truck
-              trailer. It is a cost-effective and flexible transportation
-              solution that allows multiple smaller shipments from different
-              shippers to be combined and transported. In contrast to full
-              truckload (FTL) shipping, where the entire truck is dedicated to a
-              single shipment, partial loads optimize trailer space and
-              resources by consolidating multiple shipments.
-              <br />
-              <br /> The concept of a partial load arises from not all shipments
-              requiring a full truck’s space. Many businesses have smaller
-              quantities of goods or parcels that need to be transported, making
-              it inefficient and costly to book an entire truck. Partial loads
-              solve this problem by providing a shared transportation option
-              that allows shippers to split the cost of the truck and utilize
-              only the space they need.
-              <br />
-              <br /> Regarding partial load shipping, the critical advantage
-              lies in its cost-saving potential. By sharing trailer space with
-              other shippers, each party pays only for the space their shipment
-              occupies, effectively reducing transportation expenses. This cost
-              efficiency makes partial loads attractive to small and
-              medium-sized businesses with lower shipping volumes or irregular
-              shipment sizes. Another benefit of partial load shipping is the
-              flexibility it offers. Unlike FTL shipping, which requires precise
-              coordination and timing to fill an entire truck, partial loads can
-              accommodate shipments of varying sizes and be scheduled more
-              flexibly. This flexibility allows shippers to optimize their
-              logistics processes, as they can ship smaller quantities whenever
-              needed without waiting for a full truckload.
-              <br />
-              <br /> In addition to cost savings and flexibility, partial load
-              shipping offers improved transit times and reduced risk of damage.
-              Since partial loads involve multiple shipments in a single truck,
-              there is minimal handling and fewer chances for cargo to be
-              damaged or lost in transit. This is especially advantageous for
-              delicate or fragile goods requiring extra transportation care. To
-              facilitate the efficient handling and transportation of partial
-              loads, specialized carriers and logistics providers play a vital
-              role. These companies have expertise in consolidating and managing
-              multiple shipments, optimizing routes, and coordinating delivery
-              schedules. They have extensive networks and resources to handle
-              partial load shipments efficiently, minimizing transit times and
-              ensuring timely delivery.
-              <br />
-              <br /> In conclusion, a partial load is a shipment that doesn’t
-              require the full capacity of a truck trailer, allowing multiple
-              smaller shipments to be combined and transported together. It
-              offers cost savings, flexibility, improved transit times, and
-              reduced risk of damage. Businesses can efficiently transport
-              smaller goods and optimize their supply chain operations by
-              leveraging carriers’ and logistics providers’ shared resources and
-              expertise. Whether you have small or irregular shipments, partial
-              load shipping provides a practical and economical solution for
-              your transportation needs
+              Many freight forwarders work with and utilize the service of
+              customs brokers to streamline the customs-clearing process.
+              Customs brokers are experts in international trade and the
+              ever-changing regulations and specifics that come with it. Connect
+              with a customs broker to see if your documents are compliant and
+              if your goods meet state requirements and many other services. As
+              documentation needs can range vastly, they also offer advice on
+              personalized needs.
             </p>
           </div>
           <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">PTL vs. LTL Transit Times</p>
+            <p className="section-header">Tracking International Shipments</p>
             <p className="point-p">
-              Partial truckload shipments generally have reduced shipping times
-              compared to less-than-truckload (LTL) shipments due to several key
-              factors:
-              <br />
-              <br /> <span className="font-bold">Direct Routing:</span> PTL
-              shipments typically follow more direct routing from the origin to
-              the destination. Unlike LTL shipments that often make multiple
-              stops at various terminals and cross-docking facilities, PTL
-              shipments involve fewer intermediate transfers. This means fewer
-              delays are caused by additional handling, sorting, and rerouting
-              processes. The streamlined routing of PTL shipments allows faster
-              transit times and more efficient delivery.
-              <br />
-              <br />{" "}
-              <span className="font-bold">
-                Limited Handling and Transfers:
-              </span>{" "}
-              PTL shipments undergo less handling and fewer transfers compared
-              to LTL shipments. With LTL, freight from different shippers is
-              consolidated and deconsolidated at various terminals along the
-              route. Each transfer introduces potential delays, as shipments
-              must be sorted and organized before loading onto the appropriate
-              truck. In contrast, PTL shipments are typically loaded directly
-              onto the truck at the origin and delivered directly to the
-              destination, minimizing the number of stops and handling
-              processes. This reduction in handling and transfers leads to
-              faster shipping times for shipments.
-              <br />
-              <br /> <span>
-                Expedited Service and Priority Treatment:{" "}
-              </span>{" "}
-              Carriers specializing in PTL services often provide expedited
-              service and prioritize shipments due to their larger volumes or
-              more actual freight. Carriers understand that Partial load
-              shipments require dedicated truck space and allocate resources
-              accordingly to ensure efficient transport. This priority treatment
-              means shipments are given higher handling, loading, and
-              transportation precedence. Carriers strive to meet the specified
-              delivery timeframes for shipments, resulting in reduced shipping
-              times compared to LTL shipments.
-              <br />
-              <br />{" "}
-              <span className="font-bold">Optimized Trailer Utilization:</span>
-              PTL shipments allow for optimized trailer utilization compared to
-              LTL shipments. In LTL shipping, trucks are filled with smaller
-              shipments from different shippers, resulting in less efficient use
-              of trailer space. This can lead to longer transit times as the
-              truck makes multiple stops for loading and unloading. With PTL
-              shipments, however, the trailer is typically filled with fewer,
-              larger shipments or consolidated loads from a limited number of
-              shippers. This optimized trailer utilization allows for faster
-              transportation, as fewer stops are required for loading and
-              unloading along the route.
-              <br />
-              <br />{" "}
-              <span className="font-bold">
-                Efficient Carrier Networks and Resources:
-              </span>{" "}
-              Carriers specializing in PTL services often have well-established
-              networks and resources, contributing to reduced shipping times.
-              These carriers have developed efficient routes, strong
-              partnerships with reliable terminals, and a fleet of trucks
-              dedicated to shipments. Their expertise and network enable them to
-              plan and execute shipments more effectively, minimizing delays and
-              ensuring timely delivery. Additionally, carriers may leverage
-              technology and real-time tracking systems to closely monitor
-              shipments and proactively address any potential issues impacting
-              shipping times.
-              <br />
-              <br /> While PTL shipments generally offer reduced shipping times
-              compared to LTL, it’s essential to consider that actual transit
-              times can vary depending on factors such as the distance between
-              the origin and destination, traffic conditions, weather events,
-              and any specific shipping requirements. Working with a reputable
-              carrier and providing accurate and detailed shipment information
-              can help optimize shipping times and ensure smooth transportation.
+              You’ve built your shipping community. You’ve connected with a
+              customs broker and are well on your way to building success. One
+              last thing to cross off your list is to figure out how to track
+              your shipments.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              What You Need To Know For Shipping Internationally
+            </p>
+            <p className="point-p">
+              International shipping is a natural next step for many growing
+              businesses. Even for established companies that already ship
+              internationally, regulations change. Changes in laws, available
+              shipping lanes, and many other factors make shipping worldwide’s
+              complexities dynamic and unpredictable. However, there are still a
+              handful of constants when it comes to shipping freight
+              internationally, and that’s what we’ll review here.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              Basic International Shipping Information
+            </p>
+            <p className="point-p">
+              Like domestic shipments, international shipments require an origin
+              and destination address. Unlike domestic shipments, depending on
+              the country you’re shipping to, that destination address may have
+              a different format. For example, shipping to locations in Isreal
+              may have another address format, especially if it’s to a district
+              not in a major city. Even shipping to Puerto Rico, a US territory,
+              becomes difficult – some addresses are just intersections or maybe
+              streets with no numbers. Looking up some locations on Google Maps
+              shows only the road the area is on, no number. Having and knowing
+              the best carriers to provide shipping for various countries is
+              just one primary reason to utilize the services of MOY Logistics.
+              Let us be the experts in international shipments, and let your
+              shipping team focus on your specific needs.
             </p>
           </div>
 
@@ -726,13 +608,15 @@ function InternationFreightShipping() {
           </div>
           <div className="flex flex-col items-center gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
             <p className="section-header text-center">
-              Four factors of PTL Pricing:
+              Freight Shipping Across International Borders
             </p>
             <p className="point-p text-center">
-              When it comes to pricing for partial truckload (PTL) shipments,
-              several factors come into play. These factors can influence the
-              overall cost of the shipment and help determine the pricing
-              structure. Here are four key factors that impact PTL pricing:
+              What is International Freight Shipping? It is the transport of
+              freight over international border lines. MOY Logistics streamlines
+              shipping freight internationally using a network of the best
+              international shipping carriers. MOY Logistics can plan and
+              coordinate your worldwide and cross-border shipping needs,
+              including international air and ocean freight.
             </p>
           </div>
           <div className="flex flex-col items-center gap-3 pt-0 lg:pt-0 p-4 lg:p-10">
@@ -741,13 +625,13 @@ function InternationFreightShipping() {
                 <div
                   className="flex gap-2 bg-cover w-[300px] h-[380px]"
                   style={{
-                    backgroundImage: `url(${weight_size})`,
+                    backgroundImage: `url(${intern_1})`,
                   }}
                 ></div>
                 <div
                   className="flex gap-2 bg-cover w-[300px] h-[380px]"
                   style={{
-                    backgroundImage: `url(${type_freight})`,
+                    backgroundImage: `url(${intern_2})`,
                   }}
                 ></div>
               </div>
@@ -755,13 +639,43 @@ function InternationFreightShipping() {
                 <div
                   className="flex gap-2 bg-cover w-[300px] h-[380px]"
                   style={{
-                    backgroundImage: `url(${type_delivery})`,
+                    backgroundImage: `url(${intern_3})`,
                   }}
                 ></div>
                 <div
                   className="flex gap-2 bg-cover w-[300px] h-[380px]"
                   style={{
-                    backgroundImage: `url(${accessorial})`,
+                    backgroundImage: `url(${intern_4})`,
+                  }}
+                ></div>
+              </div>
+            </div>
+            <div className="flex flex-col lg:flex-row items-center gap-3 ">
+              <div className="flex flex-col md:flex-row gap-3">
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${intern_5})`,
+                  }}
+                ></div>
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${intern_6})`,
+                  }}
+                ></div>
+              </div>
+              <div className="flex flex-col md:flex-row gap-3">
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${intern_7})`,
+                  }}
+                ></div>
+                <div
+                  className="flex gap-2 bg-cover w-[300px] h-[380px]"
+                  style={{
+                    backgroundImage: `url(${intern_8})`,
                   }}
                 ></div>
               </div>
@@ -771,261 +685,258 @@ function InternationFreightShipping() {
         </section>
         <section className="flex flex-col gap-5">
           <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">PTL Typical Demographics</p>
+            <p className="section-header">
+              Each Country Has Its Unique Regulations
+            </p>
             <p className="point-p">
-              Partial truckload (PTL) shipping is a transportation solution that
-              caters to specific demographics and shipment characteristics. It
-              is particularly well-suited for small to medium-sized businesses
-              with moderate shipping needs within the weight and volume ranges
-              of 5,000 to 25,000 pounds and 5 to 22 pallets.
+              Experienced international shippers already know that each country
+              has its restrictions, licensing, and special provisions for
+              imported goods. You can look up these country-specific
+              requirements on most major carrier websites; UPS has one, as does
+              FedEx.
               <br />
-              <br /> One of the main advantages of PTL for small to medium-sized
-              businesses is its cost-effectiveness. These businesses may not
-              have enough goods to fill an entire truck, making full truckload
-              (FTL) shipping financially impractical. By utilizing PTL, they can
-              share the transportation cost with other shippers with compatible
-              shipment sizes and destinations. This shared cost model allows
-              businesses to access the benefits of truckload shipping without
-              incurring the expenses associated with dedicated truck services.
+              <br /> On top of that, there’s a list of items that may (or may
+              not) be unable to be shipped out of the US to another country.
+              These items include, but aren’t limited to:
+            </p>
+          </div>
+          <div className="flex flex-col gap-5 pt-0 lg:pt-0 p-4 lg:p-10">
+            <div className="flex gap-3">
+              <div className="check-mark-w">
+                <img src={check_mark} alt="" />
+              </div>
+              <p className="point-p">Human remains or Ashes</p>
+            </div>
+            <div className="flex gap-3">
+              <div className="check-mark-w">
+                <img src={check_mark} alt="" />
+              </div>
+              <p className="point-p">Fireworks or other types</p>
+            </div>
+            <div className="flex gap-3">
+              <div className="check-mark-w">
+                <img src={check_mark} alt="" />
+              </div>
+              <p className="point-p">Guns or Ammunition</p>
+            </div>
+            <div className="flex gap-3">
+              <div className="check-mark-w">
+                <img src={check_mark} alt="" />
+              </div>
+              <p className="point-p">Certain Vehicles</p>
+            </div>
+            <div className="flex gap-3">
+              <div className="check-mark-w">
+                <img src={check_mark} alt="" />
+              </div>
+              <p className="point-p">Precious metals or stones</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="point-p">
+              Some countries have stricter requirements than others, and while
+              what I listed above may seem obvious, not all restrictions are as
+              apparent. Russia restricts the importation of Alcohol, most
+              tobacco, precious metals, and specific radio reception equipment.
+              Egypt prohibits contact lenses, Viagra, electronic cigarettes, or
+              Cash on Delivery shipments.
               <br />
-              <br /> Small to medium-sized businesses across various industries
-              can benefit from PTL shipping. Manufacturers, wholesalers,
-              distributors, and retailers often have moderate quantities of
-              goods to ship regularly, making them ideal candidates for PTL. The
-              weight and volume ranges associated with PTL align with their
-              shipping needs and allow them to optimize their transportation
-              operations. By utilizing PTL, these businesses can ensure their
-              goods are transported efficiently, cost-effectively, and in line
-              with their shipment requirements.
-              <br />
-              <br /> Flexibility is another critical advantage of PTL for
-              businesses with varying or fluctuating shipping needs. Seasonal
-              companies, startups, or businesses experiencing periods of growth
-              or change may find it challenging to commit to a fixed schedule or
-              the rigid nature of FTL shipping. PTL offers the flexibility to
-              accommodate changing shipment volumes and frequencies. As business
-              needs evolve, PTL allows for adjustments in shipment sizes without
-              the constraints associated with FTL. This adaptability enables
-              businesses to maintain efficiency in their shipping operations and
-              meet changing customer demands.
-              <br />
-              <br />
-              Furthermore, businesses that prioritize minimizing handling and
-              reducing the risk of damage find PTL appealing. With PTL,
-              shipments are typically loaded directly onto the truck at the
-              origin and delivered directly to the destination. This reduces the
-              number of handling points and transfers, minimizing the risk of
-              damage or loss during transit. For businesses that ship fragile or
-              delicate goods, PTL provides the peace of mind that their
-              shipments will be handled carefully and delivered safely to their
-              destinations.
-              <br />
-              <br /> In conclusion, the typical demographics of PTL users
-              include small to medium-sized businesses that require
-              transportation for shipments ranging from 5,000 to 25,000 pounds
-              and occupying the space of 5 to 22 pallets. These businesses
-              benefit from the cost savings, flexibility, and reduced handling
-              that PTL offers. By leveraging PTL services, small to medium-sized
-              businesses can optimize their shipping operations, adapt to
-              changing shipment needs, and ensure their goods’ efficient and
-              cost-effective transportation.
+              <br /> The point is that there’s much more to shipping your
+              freight internationally. Again, that type of experience and
+              knowledge is why partnering with an international logistics
+              provider like MOY Logistics can be valuable.
             </p>
           </div>
           <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
             <p className="section-header">
-              Types of Shippers Using Partial Truckloads: Catering to Small and
-              Medium-Sized Businesses
+              Expedited International Shipping Options
             </p>
             <p className="point-p">
-              Partial truckload (PTL) shipping is a transportation solution that
-              caters to a specific demographic of shippers, primarily small and
-              medium-sized businesses (SMBs). These shippers often have unique
-              shipping needs that fall between the capacity of less than
-              truckload (LTL) and full truckload (FTL) shipments. Understanding
-              the types of shippers who utilize PTL services can shed light on
-              the benefits and advantages this shipping method offers.
+              Not all international freight is created equal. If your shipment
+              is dense, meaning it has a small footprint that takes up minimum
+              space but weighs more than 150 pounds, then air freight may be the
+              best mode of transportation. These cargo planes are much larger
+              than commercial passenger planes, but that’s not the only
+              difference.
               <br />
+              <br /> While both require the same special FAA license, a cargo
+              freighter has multiple decks and an oversized cargo door at the
+              plane’s underbelly. Some newer Boeing freighters have nose cargo
+              doors. That means the entire face of the aircraft lifts so other
+              vehicles can roll in.
               <br />
-              Small-medium-sized businesses, commonly called SMBs, are the
-              primary users of PTL services. These businesses typically have
-              moderate shipping needs that exceed the capabilities of LTL
-              shipping but don’t require the space and cost associated with FTL
-              shipping. SMBs encompass various industries, including
-              manufacturing, retail, wholesale, and distribution. They may
-              produce or distribute goods in quantities that range from 5 to 20
-              pallets, making PTL an ideal solution to meet their shipping
-              requirements.
-              <br />
-              <br /> For SMBs, PTL offers a cost-effective alternative to FTL
-              shipping. FTL shipping can be costly for smaller businesses, as
-              they may not have enough goods to fill an entire truck. By sharing
-              the truck space with other shippers in a PTL arrangement, SMBs can
-              split the cost of transportation, making it more affordable for
-              their budget. This cost-sharing model allows SMBs to access the
-              benefits of truckload shipping without paying for unused space,
-              ultimately maximizing their shipping efficiency and
-              cost-effectiveness.
-              <br />
-              <br /> PTL is also attractive to SMBs due to its flexibility and
-              agility. Unlike FTL, which requires a full truck’s worth of goods
-              to be shipped simultaneously, PTL allows businesses to send their
-              goods in smaller quantities. This flexibility is particularly
-              beneficial for SMBs with varying shipment volumes or irregular
-              shipping patterns. For example, seasonal businesses may experience
-              fluctuations in their shipping needs throughout the year, and PTL
-              enables them to adjust their shipment sizes accordingly without
-              committing to a full truckload.
-              <br />
-              <br /> Another advantage of PTL for SMBs is the reduced risk of
-              damage and the potential for faster transit times compared to LTL.
-              With LTL shipments, goods are typically handled and transferred
-              multiple times during transit, increasing the risk of damage and
-              extending the delivery timeline. In contrast, PTL shipments remain
-              on the same truck, reducing the number of handling points and
-              minimizing the risk of damage. Additionally, since PTL shipments
-              are consolidated with other shippers’ loads, the delivery route
-              can be more direct, resulting in shorter transit times than
-              traditional LTL shipments.
-              <br />
-              <br /> MOY Logistics, as a leading logistics provider, understands
-              the unique needs of SMBs and offers tailored PTL solutions to
-              cater to their shipping requirements. By leveraging our extensive
-              carrier network, industry expertise, and advanced technology
-              platform, we connect SMBs with reliable and cost-effective PTL
-              services. We aim to simplify the shipping process, provide
-              transparent pricing, and offer exceptional customer support to
-              ensure a smooth and efficient shipping experience.
-              <br />
-              <br /> Whether you’re a small manufacturer, a retail business, or
-              a distributor, MOY Logistics is committed to helping you navigate
-              the complexities of transportation and find the right PTL solution
-              for your needs. Request a rate estimate today and experience the
-              convenience and cost savings of PTL shipping with MOY Logistics
+              <br /> The distance from the nose to the back of a cargo freighter
+              flight deck is about 130 feet. Imagine how many goods fly over our
+              heads every day!
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center md:items-start pt-0 lg:pt-0 p-4 lg:p-10">
             <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
-              Advantages of Arranging a Partial Truckload:
+              Freight Shipping Across International Borders
             </p>
             <p className="point-p">
-              Faster Delivery for a Lower Price. Weight limits on partials are
-              between 5K lbs and 25k lbs. This type of shipping will compete
-              with LTL rates while giving the delivery times of FTL services—the
-              benefits of Partial shipping offer fewer stops, less handling, and
-              cargo insurance options.
+              What is International Freight Shipping? It is the transport of
+              freight over international border lines. MOY Logistics streamlines
+              shipping freight internationally using a network of the best
+              international shipping carriers. MOY Logistics can plan and
+              coordinate your worldwide and cross-border shipping needs,
+              including international air and ocean freight.
             </p>
-            <div className="flex flex-col gap-5 ">
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Partial truckload services do not need freight class
-                  classifications and have some limitations.
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Freight shipping moves most shipments through trade routes. If
-                  you are within these routes, your service times will be fast
-                  for pickup and delivery.
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Heavy products on a few pallets only sometimes qualify for PTL
-                  services.
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Complete logistic management of your shipment
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Door-to-door delivery and cross-border logistics for shipping
-                  throughout North America (US, Mexico, and Canada)
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Expedited transport of emergency supplies & mission-critical
-                  equipment
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Guaranteed service quality at competitive rates
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  GPS tracking & real-time location updates
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Comprehensive insurance for high-value loads
-                </p>
-              </div>
-            </div>
           </div>
           <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">When to Use PTL Shipping</p>
+            <p className="section-header">Is Air freight or Ocean Better?</p>
             <p className="point-p">
-              As stated earlier, PTL may be a better option than LTL. This
-              applies to shipments with more than 4 pallets or if the total
-              weight exceeds 5,000 lbs. There are some cases when the cost of
-              PTL and LTL are the same. If you choose LTL, you’ll pay for a
-              longer transit time and have your shipment switch trailers several
-              times.
+              There are two shipping methods for long-distance international
+              freight: Ocean or Air Freight.
               <br />
-              <br /> PTL shipping doesn’t charge you for dimensional weight.
-              Last but not least, as we stated before, there’s less chance that
-              your shipment will be damaged because it will go through fewer
-              unloads. We want to note here: sometimes, a company offering PTL
-              won’t ship something deemed sensitive, as they don’t want to deal
-              with unique classifications or the possibility of damage.
+              <br /> Ocean freight cost significantly less than air freight.
+              Ocean however takes longer and can be affected by heat and cold
+              during transit. If your shipment is sensitive to temperature or
+              humidity fluctuations, you should talk with your international
+              logistics provider about the best product solution.
+              <br />
+              <br /> Air freight is significantly faster, but with that comes a
+              price increase. Understanding the cost vs. benefit analysis of
+              speed vs. low price is essential to deciding if air freight is the
+              appropriate shipping method for your products.
+              <br />
+              <br /> When shipping smaller quantities with higher profit
+              margins, it can make more sense to have expedited air freight
+              handle those shipments. But when it comes to large amounts of
+              low-profit margin items, especially those that aren’t perishable,
+              ocean freight can be an exceptionally cost-effective way to ship
+              large quantities of freight.
             </p>
           </div>
           <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">When is LTL Better than PTL?</p>
+            <p className="section-header">
+              International Freight Through Ocean Ports
+            </p>
             <p className="point-p">
-              PTL is an excellent option for shipments that weigh more than
-              5,000 lbs and require 5 or more pallets. On the other hand, LTL
-              shipping is perfect for lightweight loads. LTL is almost always
-              the best solution when shipping less than 5 pallets. LTL also has
-              the advantage of getting a same-day pickup. This is due to the
-              number of freight carriers that provide LTL shipping over PTL
-              shipping. Due to capacity, while the transit time of an LTL may
-              take slightly longer than a PTL, an LTL will likely be delivered
-              faster. Finding a truck with enough space to handle your shipment
-              can take time.
+              The most cost-efficient way to ship internationally is in a cargo
+              container on an ocean freighter. Ocean freighters are huge boats
+              designed to accommodate massive cargo containers and regularly
+              take them across international waters. Ocean container shipping
+              may be the most efficient form of international transport, but it
+              is also the slowest.
+              <br />
+              <br /> Transporting containers from China to the United States can
+              take two to five weeks. Transit times will vary depending on the
+              US coast. Variables for travel time include weather patterns, port
+              locations, boat conditions, gas bunker capacity, and time to fill
+              the vessel with cargo.
+              <br />
+              <br /> Another option that is going to be faster is expedited air
+              cargo. MOY Logistics agent can discuss the best course for your
+              shipment.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Port to Final Destination</p>
+            <p className="point-p">
+              Need help getting freight from the port to its final destination?
+              We will help plan the exact travel route for your load and help
+              ensure your cargo arrives on time and intact. We will coordinate
+              the domestic freight shipments within the United States, Puerto
+              Rico, Mexico, and Canada.
+              <br />
+              <br /> Our trusted carrier network can handle LTL freight, TL
+              freight, intermodal freight, rail, heavy haul, volume, expedited,
+              and any other means to get your freight shipment to its final
+              destination. Additional insurance is even available to give you
+              peace of mind.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Canada Cross Border Shipping</p>
+            <p className="point-p">
+              Customs paperwork and duty restrictions from the Canada Border
+              Service Agency (CBSA) are fundamental to shipping goods from the
+              United States to Canada and the other way around. Your freight
+              agent can help with paperwork and explain the intricacies of
+              crossing Canada’s border.
+              <br />
+              <br /> The United States has nearly 100 border crossings, and
+              these crossings, known as land ports of entry, are where border
+              inspection services occur. These land ports of entry are where
+              border inspections occur.
+              <br />
+              <br /> Ensuring the proper customs paperwork and declarations are
+              complete and accompanying your other shipping paperwork can help
+              reduce the time your shipment stays at the land port of entry. By
+              working with MOY Logistics, we use carriers who transport goods
+              between the United States and other countries daily and can do the
+              same for you.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              Shipping to United States Islands and Territories
+            </p>
+            <p className="point-p">
+              Although Hawaii is a state, because it is outside the continental
+              US, like Puerto Rico, cargo is transported the same way as
+              international freight shipments. For shipments to Puerto Rico, we
+              suggest trucking down to the port of Fort Lauderdale; then, an
+              ocean freighter can make the delivery. We recommend trucking to a
+              California port before forwarding the freight via ocean container
+              for shipments going to Hawaii.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">Expedited Air Cargo</p>
+            <p className="point-p">
+              Air freight may be the best option if you are shipping dense and
+              heavy (over 150 lbs). From the nose to the tail, the length can be
+              anywhere from 150-230 ft. That’s a lot of cargo space. Since cargo
+              planes are larger than the average passenger plane with multiple
+              storage decks and an oversized cargo door, they are a viable
+              option for getting freight overseas fast.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">International Shipping Surcharges</p>
+            <p className="point-p">
+              Demurrage and detention. You will hear these common surcharge
+              terms, and for a good reason. Demurrage and detention add up fast
+              and can be extremely expensive.
+              <br />
+              <br /> “Demurrage” refers to the overtime a container spends at a
+              port or port terminal, while “detention” refers to the extended
+              use of the container detained elsewhere.
+              <br />
+              <br /> If a document is missing, the port is congested; or a truck
+              breaks down, anything that exceeds the agreed timeframe or “free
+              time” will cost you money. You will have to pay the shipping
+              carrier a daily surcharge fee.
+              <br />
+              <br /> If you are not careful, you’ll quickly pay a hefty $225+
+              per container daily. You risk paying these surcharges when using
+              carrier-owned containers (COCs).
+              <br />
+              <br /> Our solution to avoiding these fees? Using shipper-owned
+              containers (SOCs) instead. When a freight forwarder, BCO, or NVOCC
+              leases a container from the shipper, they don’t have to pay any of
+              these charges. This is one of the many reasons SOCs are becoming
+              increasingly popular.
+            </p>
+          </div>
+          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">International Customs Forms</p>
+            <p className="point-p">
+              Customs requirements vary from country to country. A standardized
+              guide called the Harmonized System identifies imported goods.
+              <br />
+              <br /> The Harmonized System identifies the correct tariff code to
+              include on your customs forms. With this code, your freight
+              shipment can be accepted or completed.
+              <br />
+              <br /> There are usually multiple pages to international customs
+              forms, and you’ll want to be sure you’ve correctly filled out
+              every one. If you don’t have these crucial documents at the time
+              of shipping, expect delays and frustration. Your container may be
+              detained without them, resulting in additional admin, expenses,
+              and negative customer reviews.
             </p>
           </div>
 
@@ -1063,255 +974,249 @@ function InternationFreightShipping() {
             </div>
             <div className="flex flex-col lg:flex-row gap-6 pt-10  p-4 lg:p-10 items-center">
               <div className="w-full lg:w-[510px] self-center  shrink-0">
-                <img className="w-full" src={truck_freight} alt="" />
+                <img className="w-full" src={international_board_pic} alt="" />
               </div>
               <div className=" flex flex-col gap-7 ">
                 <p className="section-header">
-                  Compare Partial Truckload Prices Instantly
+                  4 Required International Shipping Documents
                 </p>
                 <p className="point-p">
-                  Trust the experts at MOY Logistics to give you the best prices
-                  and options for your shipping. The cheapest shipping cost from
-                  all the top carriers is just a few steps away. Fill in brief
-                  details about your shipment and receive instant Specialized
-                  Freight Services from leading freight carriers in one easy
-                  place. Businesses that ship products quickly become aware of
-                  the many options available.
+                  4 vital documents regardless of origin and destination, you
+                  might require more. They are:
                   <br />
-                  <br /> You often have items you must send but can only fill
-                  part of the truck. PTL and LTL services give shippers the
-                  option of sending items to a location on an ongoing basis,
-                  whether shipping a few pallets or a complete load. Third-party
-                  logistics providers specialize in pairing shippers with the
-                  transportation services they need. Experts in logistics know
-                  how to find the right truck to fulfill the shippers’ needs.
+                  <br /> <span className="font-bold">
+                    Commercial Invoice:
+                  </span>{" "}
+                  People don’t ship products for free. 99% of the time, there’s
+                  a transaction that’s taken place. The commercial invoice
+                  specifies the proof of sale and binding contract between
+                  seller and buyer.
                   <br />
-                  <br /> If the shipper only needs 20 feet of space in a truck.
-                  In that case, logistics professionals have the knowledge and
-                  resources to match that carrier needing a 20-foot load with
-                  the shipper that needs 20 feet of truck space. But PTL and LTL
-                  can be confusing since they seem, on the surface, to refer to
-                  the same thing. However, there are differences between the
-                  two.
-                </p>
-                <p className="section-header">Conclusion</p>
-                <p className="point-p">
-                  With the many parts of the shipping industry, LTL and FTL are
-                  the most dominant types of shipping. One is aimed at
-                  established businesses with massive shipping budgets, while
-                  the other is at smaller-medium-sized businesses. The rarer PTL
-                  isn’t in the same running as LTL and FTL, but it can be a
-                  hidden gem for a company that can utilize it. If that’s you,
-                  contact a freighter or broker and see what PTL can do for you!
+                  <br /> <span className="font-bold">Bill of Lading:</span> This
+                  document proves the contract of carriage between the shipper
+                  and carrier. It lists all the vital details needed to process
+                  the shipment, such as the ID number of the container seal.
+                  <br />
+                  <br />{" "}
+                  <span className="font-bold"> Export Packing List:</span>
+                  The Export Packing List details each item in the shipment,
+                  like the total number of packages and the size and volume of
+                  each. Transportation companies use this document to check
+                  against the forms on their side and to confirm that what
+                  they’re shipping isn’t illegal or hazardous.
+                  <br />
+                  <br />{" "}
+                  <span className="font-bold">Certificate of Origin:</span> A
+                  Certificate of Origin proves your imports have come from a
+                  specific country or an ethical and permitted source.
+                  <br />
+                  <br /> Take cotton from Xinjiang, China – for example.
+                  Although it’s some of the finest cottons in the world, it’s
+                  produced by forced labor.
+                  <br />
+                  <br /> Many Xinjiang cotton products have been banned in the
+                  US to protest these human rights violations, which now
+                  actively block their import. For our complete list of customs
+                  clearance documents, click here.
                 </p>
               </div>
             </div>
+            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+              <p className="section-header">
+                Setting Up An International Shipment
+              </p>
+              <p className="point-p">
+                Ask about MOY Logistics international freight shipping services
+                by calling 800.716.7608 and speaking to a representative. Our
+                international shipping efforts will connect your global shipping
+                needs with a trusted carrier from our network.
+                <br /> Our online quote form only has shipping options for the
+                United States and Canada; however, we work directly with customs
+                brokers and carriers to arrange international shipments.
+              </p>
+            </div>
+            <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
+              <p className="section-header">
+                Need Help with International Freight?
+              </p>
+              <p className="point-p">
+                With a record of over 1 million successful shipments over the
+                last 25+ years, we have the experience and customer service to
+                help your business manage international logistics. Shipping
+                internationally is more than just looking up rates for you. We
+                are here for your team. MOY Logistics is more than just the
+                company you call to get a freight quote. We are your logistics
+                partner.
+              </p>
+            </div>
 
             <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-              <p className="section-header">Partial Truckload FAQs</p>
+              <p className="section-header">International Shipping FAQs</p>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. What is partial truckload shipping?
+                  Q. What documents are required for international shipping?
                 </p>
                 <p className="point-p">
-                  A. Partial truckload shipping is a transportation method that
-                  combines multiple smaller shipments from different shippers
-                  into a single trailer. It falls between less-than-truckload
-                  (LTL) and full-truckload (FTL) shipping. With a partial
-                  truckload, you pay for the space and weight your shipment
-                  occupies within the trailer, allowing you to share the costs
-                  with other shippers and achieve cost savings.
+                  A. The specific documents required for international shipping
+                  can vary depending on the shipment’s origin, destination, and
+                  nature. Standard documents include a commercial invoice,
+                  packing list, bill of lading or airway bill, export/import
+                  licenses or permits, certificate of origin, and any necessary
+                  customs documentation. It’s essential to research and comply
+                  with the customs requirements of the destination country and
+                  work with your shipping provider or freight forwarder to
+                  ensure all required documents are prepared accurately.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. When should I choose partial truckload shipping?
+                  Q. How do I calculate international shipping costs?
                 </p>
                 <p className="point-p">
-                  A. Partial truckload shipping is a great option when your
-                  shipment is too large for LTL but doesn’t require an entire
-                  truck. It is suitable for loads that weigh between 5,000 and
-                  20,000 pounds or occupy more than six pallets. If you have
-                  time-sensitive or fragile freight, partial truckload can also
-                  provide more control and reduced handling compared to LTL.
+                  A. International shipping costs are determined by various
+                  factors, including the weight and dimensions of the shipment,
+                  the destination country, the shipping method (e.g., air, sea,
+                  or land), the shipping terms (e.g., Ex Works, FOB, CIF), any
+                  additional services required (e.g., customs clearance,
+                  insurance, packaging), and any applicable taxes or duties.
+                  It’s best to consult with shipping providers or freight
+                  forwarders to obtain accurate quotes based on your specific
+                  shipment details and requirements.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. How does partial truckload differ from LTL and full
-                  truckload?
+                  Q. Are there any restrictions on what can be shipped
+                  internationally?
                 </p>
                 <p className="point-p">
-                  A. Partial truckload differs from LTL because it involves
-                  sharing trailer space with other shippers, whereas LTL
-                  shipments are combined with multiple loads in a hub-and-spoke
-                  system. Partial truckload offers greater security and reduced
-                  handling compared to LTL. In contrast, a full truckload
-                  involves booking an entire truck for your shipment, providing
-                  maximum capacity and faster transit times but at a higher
-                  cost.
+                  A. Yes, restrictions on what can be shipped internationally
+                  vary depending on the country and the type of goods. Certain
+                  items may be prohibited or restricted for legal, safety, or
+                  security reasons. These include hazardous materials, firearms,
+                  live animals, perishable items, counterfeit goods, etc. It’s
+                  crucial to research and comply with the destination country’s
+                  import/export regulations and restrictions and consult with
+                  shipping providers or freight forwarders for guidance.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. What are the advantages of partial truckload shipping?
+                  Q. How long does international shipping take?
                 </p>
                 <p className="point-p">
-                  A. Partial truckload shipping offers several advantages,
-                  including cost savings, reduced handling, increased security,
-                  and faster transit times compared to LTL. It allows more
-                  flexibility and control over your shipment than a full
-                  truckload. Additionally, partial truckload is more
-                  environmentally friendly as it reduces empty miles and
-                  optimizes trailer utilization.
+                  A. The transit time for international shipping depends on
+                  various factors, including the distance between the origin and
+                  destination, the shipping method, customs clearance
+                  procedures, and any potential delays or disruptions.
+                  International shipments can range from a few days to several
+                  weeks or months, depending on these factors. It’s important to
+                  note that transit times are estimates and not guaranteed
+                  delivery dates, as unforeseen circumstances can influence
+                  them.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. How does MOY Logistics handle partial truckload shipments?
+                  Q. Do I need to purchase international shipping insurance?
                 </p>
                 <p className="point-p">
-                  A. MOY Logistics specializes in providing efficient and
-                  cost-effective solutions for partial truckload shipments. We
-                  leverage our extensive network of carriers to find the most
-                  competitive rates and reliable transportation options for your
-                  specific needs. Our online platform lets you quickly obtain
-                  quotes, compare rates, book shipments, and track your cargo in
-                  real-time. Our dedicated customer support team can assist you
-                  throughout the shipping process, ensuring a smooth and
-                  hassle-free experience.
+                  A. While international shipping insurance is not mandatory,
+                  protecting your goods during transit is highly recommended.
+                  International shipments are exposed to various risks,
+                  including loss, damage, theft, and delays. Purchasing shipping
+                  insurance provides financial protection and peace of mind,
+                  ensuring you are adequately compensated for unfortunate
+                  incidents. Consult with your shipping provider or insurance
+                  company to understand the coverage options for your
+                  international shipments.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. Is partial truckload shipping suitable for all types of
-                  freight?
+                  Q. How do I track an international shipment?
                 </p>
                 <p className="point-p">
-                  A. Partial truckload shipping suits many freight types,
-                  including palletized goods, large or bulky items, fragile
-                  goods, and time-sensitive shipments. However, certain
-                  restrictions or limitations may depend on the carrier and
-                  specific shipment requirements. It’s best to consult with our
-                  team at MOY Logistics to determine if partial truckload is the
-                  right choice for your particular freight.
+                  A. Tracking international shipments can be done through the
+                  tracking services provided by shipping carriers or freight
+                  forwarders. You will typically receive a tracking number that
+                  can be used to monitor the shipment’s progress online or
+                  through the carrier’s tracking portal. Remember that tracking
+                  capabilities may vary depending on the carrier, the shipping
+                  method, and the destination country. It’s advisable to work
+                  with shipping providers that offer reliable tracking services
+                  and update you on the shipment’s status.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. How do I determine the cost of a partial truckload
-                  shipment?
+                  Q. Are there any customs duties or taxes for international
+                  shipments?
                 </p>
                 <p className="point-p">
-                  A. The cost of a partial truckload shipment is calculated
-                  based on factors such as the weight, dimensions, distance, and
-                  specific requirements of your freight. MOY Logistics advanced
-                  technology and expertise allow us to provide accurate and
-                  competitive pricing for your partial truckload shipments. We
-                  can generate customized quotes tailored to your needs by
-                  providing detailed information about your freight.
+                  A. Yes, customs duties and taxes may apply to international
+                  shipments. The customs authorities of the destination country
+                  impose these charges. They are based on factors such as the
+                  nature of the goods, their declared value, and the applicable
+                  customs regulations and tariff schedules. Import duties and
+                  taxes are the responsibility of the importer, and it’s
+                  essential to research and understand the customs requirements
+                  and costs associated with your shipment. Consulting with
+                  customs brokers or freight forwarders can help navigate these
+                  complexities.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. How can I track my partial truckload shipment?
+                  Q. Can I ship to a residential address internationally?
                 </p>
                 <p className="point-p">
-                  A. MOY Logistics provides a user-friendly online platform that
-                  allows you to track your partial truckload shipment in real
-                  time. You will receive tracking information once your shipment
-                  is booked, including the carrier details and a tracking
-                  number. Simply enter the tracking number on our website to
-                  access up-to-date tracking information and monitor the
-                  progress of your shipment from pickup to delivery.
+                  A. Yes, it is possible to ship to a residential address
+                  internationally. However, additional considerations may apply,
+                  such as customs clearance procedures, local delivery
+                  capabilities, and any specific requirements of the destination
+                  country. Working with shipping providers or freight forwarders
+                  experienced in international residential deliveries is
+                  essential to ensure smooth and efficient shipment handling.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. Can I insure my partial truckload shipment?
+                  Q. How do I handle customs clearance for international
+                  shipments?
                 </p>
                 <p className="point-p">
-                  A. Yes, you can ensure your partial truckload shipment for
-                  added protection. MOY Logistics offers cargo insurance options
-                  to safeguard your freight against loss or damage during
-                  transit. It’s important to discuss your insurance needs with
-                  our team and understand your coverage options.
+                  A. Customs clearance involves complying with the customs
+                  regulations and procedures of the destination country to allow
+                  the entry of your shipment. It typically includes document
+                  preparation, submission of required forms, payment of customs
+                  duties and taxes, and any necessary inspections or approvals.
+                  Working with customs brokers or freight forwarders can help
+                  navigate the customs clearance process and ensure compliance
+                  with all relevant regulations.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q. How do I get started with partial truckload shipping
-                  through MOY Logistics?
+                  Q. Can I ship hazardous goods internationally?
                 </p>
                 <p className="point-p">
-                  A. Getting started with partial truckload shipping through MOY
-                  Logistics is easy. Contact our team by phone or through our
-                  website to discuss your shipment requirements. Our experienced
-                  logistics experts will guide you through the process, provide
-                  you with competitive rates, and assist you in booking your
-                  partial truckload shipment.
+                  A. Shipping hazardous goods internationally is subject to
+                  strict regulations and requirements. These goods are
+                  classified based on potential risks and may require special
+                  packaging, labeling, documentation, and handling procedures.
+                  It’s crucial to research and comply with international
+                  regulations, such as the International Maritime Dangerous
+                  Goods (IMDG) Code or International Air Transport Association
+                  (IATA) Dangerous Goods Regulations, and work with specialized
+                  shipping providers or freight forwarders experienced in
+                  handling hazardous materials to ensure compliance and safety.
                 </p>
               </div>
             </div>
           </section>
         </section>
-        <section className="flex flex-col w-full items-start justify-center gap-10 p-4">
-          <p className=" section-header ">
-            3 Advantages of Using MOY Logistics for a Partial Truckload
-          </p>
-          <div className="flex flex-col lg:flex-row gap-5">
-            <div className="flex flex-col w-full lg:w-1/3 gap-4">
-              <p className="font-semibold text-[23px]">Cost Savings:</p>
-              <p className="point-p leading-[20px] ">
-                One of the major advantages of utilizing MOY Logistics for
-                partial truckload shipping is the cost savings it provides. With
-                partial truckload shipping, you only pay for the space and
-                weight your shipment occupies within the trailer rather than
-                booking an entire truck. This cost-effective solution saves you
-                on transportation expenses, especially when shipping smaller or
-                less-than-truckload shipments. MOY Logistics leverages its
-                extensive network of carriers to find the most competitive rates
-                for your partial truckload shipments, ensuring you get the best
-                value for your money.
-              </p>
-            </div>
-            <div className="flex flex-col w-full lg:w-1/3 gap-4">
-              <p className="font-semibold text-[23px]">
-                Increased Flexibility:
-              </p>
-              <p className=" point-p leading-[20px] ">
-                Partial truckload shipping offers greater flexibility than full
-                truckload shipping. With MOY Logistics, you can combine your
-                shipment with other compatible loads to maximize trailer
-                utilization. This flexibility allows for more efficient use of
-                transportation resources, reduces wasted space, and minimizes
-                empty miles. By leveraging our load consolidation and
-                optimization expertise, we can help you find the most suitable
-                partial truckload solution that meets your specific requirements
-                while optimizing cost and efficiency.
-              </p>
-            </div>
-            <div className="flex flex-col w-full lg:w-1/3 gap-4">
-              <p className="font-semibold text-[23px]">
-                Streamlined Logistics Management:
-              </p>
-              <p className=" point-p leading-[20px] ">
-                MOY Logistics provides a comprehensive logistics management
-                platform simplifies partial truckload shipping. Our
-                user-friendly online portal allows you to obtain quotes, compare
-                rates, book shipments, and track your cargo all in one place.
-                Our advanced technology and automated systems enable real-time
-                tracking and proactive communication, informing you of your
-                shipment's status from pickup to delivery. Additionally, our
-                dedicated customer support team is available to assist you
-                throughout the process, offering guidance and resolving any
-                queries or issues that may arise. With MOY Logistics, you can
-                enjoy streamlined logistics management, saving you time and
-                effort.
-              </p>
-            </div>
-          </div>
-        </section>
+        
       </div>
     </main>
   );

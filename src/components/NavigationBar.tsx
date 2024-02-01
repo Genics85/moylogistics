@@ -59,7 +59,7 @@ function NavigationBar() {
                 to={"service/truckload"}
                 className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
               >
-                Freight Truck Service
+                Truckload Service
               </NavLink>
               <NavLink
                 to={"service/partial-truckload"}
@@ -73,12 +73,24 @@ function NavigationBar() {
               >
                 LTL Freight
               </NavLink>
-              {/* <NavLink
-                to={"golden-freight"}
+              <NavLink
+                to={"service/international-freight-shipping"}
                 className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
               >
-                Freight Truck Service
-              </NavLink> */}
+                International Freight Shipping
+              </NavLink>
+              <NavLink
+                to={"service/air-freight-shipping"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Air Freight Shipping
+              </NavLink>
+              <NavLink
+                to={"service/container-shipping"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Container Shipping
+              </NavLink>
             </div>
           </div>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2"></div>
