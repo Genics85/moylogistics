@@ -91,6 +91,12 @@ function NavigationBar() {
               >
                 Container Shipping
               </NavLink>
+              <NavLink
+                to={"service/expedited-freight"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Expedited Freight
+              </NavLink>
             </div>
           </div>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2"></div>

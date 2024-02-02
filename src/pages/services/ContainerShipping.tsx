@@ -14,13 +14,10 @@ import forward from "../../assets/icons/services/forward.svg";
 import certification from "../../assets/icons/services/certification.svg";
 import award_tag from "../../assets/icons/services/award_tag.svg";
 import freight_truck from "../../assets/images/services/freight_truck.png";
-import banner_d from "../../assets/images/internation-freight/international_freight_d.png";
-import banner_t from "../../assets/images/internation-freight/internation_freight_t.png";
-import international_board_pic from "../../assets/images/internation-freight/international_board_pic.png";
+import banner_d from "../../assets/images/container-shipping/containers_bg_d.png";
+import banner_t from "../../assets/images/container-shipping/containers_bg_t.png";
 import intern_1 from "../../assets/images/internation-freight/international_1.png";
 import intern_2 from "../../assets/images/internation-freight/international_2.png";
-import intern_3 from "../../assets/images/internation-freight/international_3.png";
-import intern_4 from "../../assets/images/internation-freight/international_4.png";
 import container_top from "../../assets/images/container-shipping/container_top.png";
 import container_stack from "../../assets/images/container-shipping/container_stack.png";
 import insurance from "../../assets/images/container-shipping/shipping_insurance.png";
@@ -214,7 +211,7 @@ function ContainerShipping() {
               </div>
               <div className="flex gap-4 items-center">
                 <p className="text-primary_green font-semibold">
-                  LTI LOGISTICS
+                  SHIPPING DELAY CAUSES
                 </p>
                 <img src={read_more} className="w-[28px]" alt="" />
               </div>
