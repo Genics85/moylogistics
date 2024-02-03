@@ -7,7 +7,7 @@
 
 @layer components {
   .section-header {
-    @apply font-semibold text-[20px] md:text-[28px] text-[#1a2914];
+    @apply font-semibold text-[20px] md:text-[26px] text-[#1a2914];
   }
   .point-p {
     @apply text-[14px] leading-[20px] text-[#4E534C];

@@ -9,6 +9,7 @@ import AirFreightShipping from "../pages/services/AirFreightShipping";
 import ContainerShipping from "../pages/services/ContainerShipping";
 import ExpeditedFreight from "../pages/services/ExpeditedFreight";
 import RefrigeratedFreight from "../pages/services/RefrigeratedFreight";
+import HeavyHaul from "../pages/services/HeavyHaul";
 
 function AppRouter() {
   return (
@@ -42,6 +43,10 @@ function AppRouter() {
         <Route
           path="service/refrigerated-freight"
           element={<RefrigeratedFreight />}
+        />
+        <Route
+          path="service/heavy-haul"
+          element={<HeavyHaul />}
         />
       </Route>
     </Routes>
