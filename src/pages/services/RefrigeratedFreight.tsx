@@ -17,7 +17,6 @@ import freight_truck from "../../assets/images/services/freight_truck.png";
 import banner_d from "../../assets/images/refrigerated-freight/refrigerated_bg_d.png";
 import banner_t from "../../assets/images/refrigerated-freight/refrigerated_bg_t.png";
 import expedited_board from "../../assets/images/refrigerated-freight/refrigerated_board.png";
-import expedited_board_2 from "../../assets/images/expedited-shipping/expedited_board_2.png";
 import exped_1 from "../../assets/images/refrigerated-freight/ref_1.png";
 import exped_2 from "../../assets/images/refrigerated-freight/ref_2.png";
 import exped_3 from "../../assets/images/refrigerated-freight/ref_3.png";
