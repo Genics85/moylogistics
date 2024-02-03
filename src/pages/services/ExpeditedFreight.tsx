@@ -611,6 +611,18 @@ function ExpeditedFreight() {
             <p className="section-header">
               When To Use Expedited Freight Services?
             </p>
+            <p className="point-p">
+              Expedited freight shipping is for the fast delivery of
+              time-sensitive freight. The expedited shipping process highlights
+              efficiency and eliminates wasted time. Many e-commerce businesses
+              have started offering delivery in as little as two days. Executing
+              these quick deliveries involves adjusting routes and modes of
+              transportation to cut down on transit time.<br/><br/> Often expedited
+              freight delivers a shipment to its final destination without extra
+              stops. For example, a shipper that typically uses
+              less-than-truckload (LTL) freight may need to use a faster method,
+              such as full truckload (FTL).
+            </p>
           </div>
           <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
             <p className="section-header">Standard vs. Expedited Freight</p>
