@@ -109,6 +109,18 @@ function NavigationBar() {
               >
                 Heavy Haul
               </NavLink>
+              <NavLink
+                to={"service/rail-freight"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Rail Freight
+              </NavLink>
+              <NavLink
+                to={"service/white-gloves"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                White Gloves
+              </NavLink>
             </div>
           </div>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2"></div>

@@ -10,6 +10,8 @@ import ContainerShipping from "../pages/services/ContainerShipping";
 import ExpeditedFreight from "../pages/services/ExpeditedFreight";
 import RefrigeratedFreight from "../pages/services/RefrigeratedFreight";
 import HeavyHaul from "../pages/services/HeavyHaul";
+import RailFreight from "../pages/services/RailFreight";
+import WhiteGloves from "../pages/services/WhiteGloves";
 
 function AppRouter() {
   return (
@@ -47,6 +49,14 @@ function AppRouter() {
         <Route
           path="service/heavy-haul"
           element={<HeavyHaul />}
+        />
+        <Route
+          path="service/rail-freight"
+          element={<RailFreight />}
+        />
+        <Route
+          path="service/white-gloves"
+          element={<WhiteGloves />}
         />
       </Route>
     </Routes>
