@@ -152,7 +152,7 @@ function NavigationBar() {
             className={({ isActive }) =>
               `${isActive ? " border-solid border-b-2 " : ""} pb-2`
             }
-            to={"contact"}
+            to={"freight-glossary"}
           >
             Contact
           </NavLink>

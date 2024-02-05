@@ -14,6 +14,7 @@ import RailFreight from "../pages/services/RailFreight";
 import WhiteGloves from "../pages/services/WhiteGloves";
 import SpecializedFreight from "../pages/services/SpecializedFreight";
 import FrequentlyAskedQuestions from "../pages/frequently-asked-question/FrequentlyAskedQuestion";
+import FreightGlossary from "../pages/freight-glossary/FreightGlossary";
 
 function AppRouter() {
   return (
@@ -55,10 +56,14 @@ function AppRouter() {
           path="service/specialized-freight"
           element={<SpecializedFreight />}
         />
-      <Route
-        path="frequently-asked-questions"
-        element={<FrequentlyAskedQuestions />}
-      />
+        <Route
+          path="frequently-asked-questions"
+          element={<FrequentlyAskedQuestions />}
+        />
+        <Route
+          path="freight-glossary"
+          element={<FreightGlossary />}
+        />
       </Route>
     </Routes>
   );
