@@ -10,8 +10,8 @@ import forward from "../../assets/icons/services/forward.svg";
 import certification from "../../assets/icons/services/certification.svg";
 import award_tag from "../../assets/icons/services/award_tag.svg";
 import freight_truck from "../../assets/images/services/freight_truck.png";
-import banner_d from "../../assets/images/gloves-freight/white_gloves_d.png";
-import banner_t from "../../assets/images/gloves-freight/white_gloves_t.png";
+import banner_d from "../../assets/images/specialized-freight/specialized_freight_d.png";
+import banner_t from "../../assets/images/specialized-freight/specialized_freight_t.png";
 import expedited_board from "../../assets/images/gloves-freight/white_gloves_board.png";
 import exped_1 from "../../assets/images/gloves-freight/gloves_1.png";
 import exped_2 from "../../assets/images/gloves-freight/gloves_2.png";
@@ -61,7 +61,7 @@ function SpecializedFreight() {
             <img src={services_laptop} alt="" />
           </div>
           <div className="flex flex-col gap-5 items-center md:items-start ">
-            <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
+            <p className="section-header">
               Compare Specialized Freight Services Quotes Instantly!
             </p>
             <p className="point-p">

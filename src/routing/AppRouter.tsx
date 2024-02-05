@@ -13,6 +13,7 @@ import HeavyHaul from "../pages/services/HeavyHaul";
 import RailFreight from "../pages/services/RailFreight";
 import WhiteGloves from "../pages/services/WhiteGloves";
 import SpecializedFreight from "../pages/services/SpecializedFreight";
+import FrequentlyAskedQuestions from "../pages/frequently-asked-question/FrequentlyAskedQuestion";
 
 function AppRouter() {
   return (
@@ -47,22 +48,17 @@ function AppRouter() {
           path="service/refrigerated-freight"
           element={<RefrigeratedFreight />}
         />
-        <Route
-          path="service/heavy-haul"
-          element={<HeavyHaul />}
-        />
-        <Route
-          path="service/rail-freight"
-          element={<RailFreight />}
-        />
-        <Route
-          path="service/white-gloves"
-          element={<WhiteGloves />}
-        />
+        <Route path="service/heavy-haul" element={<HeavyHaul />} />
+        <Route path="service/rail-freight" element={<RailFreight />} />
+        <Route path="service/white-gloves" element={<WhiteGloves />} />
         <Route
           path="service/specialized-freight"
           element={<SpecializedFreight />}
         />
+      <Route
+        path="frequently-asked-questions"
+        element={<FrequentlyAskedQuestions />}
+      />
       </Route>
     </Routes>
   );

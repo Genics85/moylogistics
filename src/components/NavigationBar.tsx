@@ -143,9 +143,9 @@ function NavigationBar() {
             className={({ isActive }) =>
               `${isActive ? " border-solid border-b-2 " : ""} pb-2`
             }
-            to={"project"}
+            to={"frequently-asked-questions"}
           >
-            Project
+            FAQs
           </NavLink>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2"></div>
           <NavLink

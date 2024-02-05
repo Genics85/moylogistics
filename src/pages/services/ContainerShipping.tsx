@@ -61,7 +61,7 @@ function ContainerShipping() {
             </p>
           </div>
           <div className="flex flex-col gap-5 items-center md:items-start ">
-            <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
+            <p className="section-header">
               What Is a Sea Cargo Container?
             </p>
             <p className="point-p">
@@ -89,7 +89,7 @@ function ContainerShipping() {
               and efficiently.
             </p>
 
-            <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
+            <p className="section-header">
               How Freight Center Can Help
             </p>
             <p className="point-p">
