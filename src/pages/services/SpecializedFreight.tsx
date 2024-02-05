@@ -1,8 +1,9 @@
 import home_icon from "../../assets/icons/services/home_icon.svg";
-import check_mark from "../../assets/icons/services/check_mark.svg";
 import details_icon from "../../assets/icons/services/more_details.svg";
+import check_mark from "../../assets/icons/services/check_mark.svg";
 import avatar from "../../assets/images/services/avatar.png";
 import star from "../../assets/icons/services/star.svg";
+import services_laptop from "../../assets/images/services/laptop_start_here.png";
 import quotation from "../../assets/icons/services/quotation.svg";
 import back from "../../assets/icons/services/back.svg";
 import forward from "../../assets/icons/services/forward.svg";
@@ -18,7 +19,7 @@ import exped_3 from "../../assets/images/gloves-freight/gloves_3.png";
 import exped_4 from "../../assets/images/gloves-freight/gloves_4.png";
 import StudioGreenBanner from "../../components/StudioGreenBanner";
 
-function WhiteGloves() {
+function SpecializedFreight() {
   return (
     <main className="flex flex-col gap-2 text-[#1A2914]">
       <section
@@ -34,16 +35,13 @@ function WhiteGloves() {
             <p className="font-semibold">Call Us Today: (800) 29940123</p>
           </div>
           <div className="flex flex-col items-start gap-10 pt-12 h-full pl-3 lg:pl-20 ">
-            <p className="section-header text-white">White Gloves</p>
+            <p className="section-header text-white">Specialiazed Freight</p>
             <p className=" leading-[24px] w-[380px] md:w-[604px] lg:w-[660px]">
-              White glove service extends services beyond those of the LTL
-              carrier. MOY Logistics offers a range of white glove services to
-              fit your need.Save money shipping refrigerated goods. Compare
-              multiple carriers servicing refrigerated services with current
-              instant pricing results.
+              Specialized freight shipping services provided by MOY Logistics
+              covers service for any project or expedited transportation need.
             </p>
             <button className="clear-btn bg-white">
-              See White Glove Shipping rates
+              See Specialized Freight rates
             </button>
           </div>
         </div>
@@ -55,79 +53,25 @@ function WhiteGloves() {
               <img src={home_icon} alt="" />
             </div>
             <p>
-              / Services / <span className="font-semibold ">White Glove</span>
+              / Services /{" "}
+              <span className="font-semibold ">Specialized Freight</span>
             </p>
+          </div>
+          <div className="w-[300px] md:w-[500px] self-center">
+            <img src={services_laptop} alt="" />
           </div>
           <div className="flex flex-col gap-5 items-center md:items-start ">
             <p className="font-semibold text-[20px] md:text-[30px] leading-[37px]">
-              What Is a White Glove?
+              Compare Specialized Freight Services Quotes Instantly!
             </p>
             <p className="point-p">
-              White glove shipping service provides the highest level of service
-              and support for your delicate cargo. That means drivers go above
-              and beyond the standard curbside pickup and delivery freight
-              service provided by carriers. White glove delivery covers extended
-              services outside of these responsibilities, which the LTL carrier
-              does not offer. Simply, white glove service means that drivers use
-              added care with handling and moving cargo. In freight shipping,
-              this means taking additional safety measures to deliver your
-              shipment, and you don’t lift a finger.
+              The cheapest Specialized Freight Services rates from all the top
+              carriers are just a few steps away. Fill in a few short details
+              about your shipment and receive instant Specialized Freight
+              Services from leading freight carriers in one easy place. Trust
+              the experts at MOY Logistics to give you the best prices and
+              options for your Specialized Freight Services needs.
             </p>
-            <div className="flex flex-col gap-5">
-              <p className="section-header">
-                Why Choose Us For A Freight Quote?
-              </p>
-              <div className="flex flex-col gap-3">
-
-              <div className="flex gap-3">
-                <div className="check-mark-w shrink-0">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">Shipping Quotes anytime</p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w shrink-0">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Get Freight Shipping Quotes to anywhere in the U.S. & Canada.
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w shrink-0">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Unbeatable discounts on your freight LTL, truckload, rail,
-                  air, and more
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w shrink-0">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Automated Freight tracking, paperwork & invoices
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w shrink-0 ">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  Manage all quotes & shipments in one place
-                </p>
-              </div>
-              <div className="flex gap-3">
-                <div className="check-mark-w shrink-0 ">
-                  <img src={check_mark} alt="" />
-                </div>
-                <p className="point-p">
-                  24+ years of logistics experience working for you!
-                </p>
-              </div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="relative bg lg:w-1/2">
@@ -502,31 +446,24 @@ function WhiteGloves() {
           </div>
           <div className="flex flex-col gap-6 w-full md:w-[600px] lg:w-[700px] ">
             <p className="section-header">
-              Why Choose MOY Logistics For White Glove Shipping Services?
+              Why Choose MOY Logistics For Specialized Shipping Services?
             </p>
             <p className="point-p">
-              We are a highly acclaimed logistics company and proudly
-              veteran-owned, offering unparalleled white glove delivery
-              services. With a remarkable track record, competitive pricing, and
-              exceptional service, we stand out as leaders in the industry.
-              Throughout our extensive journey, we have established a dedicated
-              and esteemed network of industry partners, ensuring timely
-              deliveries for our customers.
+              We are an award-winning logistics company and an American
+              veteran-owned business. We bring a lot to the table when it comes
+              to specialized freight shipping services. Our history, competitive
+              pricing, and level of service are unmatched in the industry. Over
+              the years and many miles, we have formed a dedicated and respected
+              network of partners in the industry to help customers meet
+              deadlines.
               <br />
-              <br /> At the core of our mission lies the commitment to surpass
-              customer expectations in every aspect. From start to finish, we
-              provide comprehensive white glove shipping services, meticulously
-              handling each process step. Our distinguishing feature is
-              excellent customer service, which serves as the cornerstone for
-              fostering trust-based relationships. When customers choose MOY
-              Logistics to handle their freight shipments, they place unwavering
-              trust in our capabilities to fulfill the job with utmost
-              professionalism.
+              <br /> Our mission is to meet and exceed customer expectations in
+              all that we do. We take care of specialized freight shipping from
+              pickup to delivery. Excellent customer service is our hallmark,
+              and it goes a long way in building a relationship of trust. When
+              customers select MOY Logistics to handle their freight shipment,
+              they trust us to do the job.
             </p>
-
-            <button className="clear-btn self-center">
-              Refrigerated Shipping Quote
-            </button>
           </div>
         </section>
         {/* Moy logistic by number */}
@@ -560,98 +497,160 @@ function WhiteGloves() {
             </div>
           </div>
           <div className="flex flex-col gap-6 p-4 lg:p-10">
-            <p className="section-header">When to Choose White Glove Service</p>
+            <p className="section-header">
+              Why Choose MOY Logistics For Specialized Freight Services?
+            </p>
+            <div className="flex flex-col gap-3">
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Compare Specialized Freight Services rates from 50+ carriers
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Instant Specialized Freight Services rates anytime
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Specialized Freight Services solutions to anywhere in the U.S.
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Unbeatable discounts on your Specialized Freight Services,
+                  LTL, FTL, rail, air, and more
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0 ">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Automated tracking, paperwork & invoices
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0 ">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Manage all freight quotes & shipments in one place
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0 ">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  30+ years of transportation experience working for you!
+                </p>
+              </div>
+            </div>
             <p className="point-p">
-              White glove services are an excellent choice for shippers with
-              specific requirements who want to ensure the utmost care and
-              attention for their shipments, particularly regarding shipping and
-              insuring valuable or sentimental items. At MOY Logistics, we
-              understand the significance of these items and offer comprehensive
-              white glove delivery services to meet your needs.
-              <br />
-              <br /> When you opt for our white glove service, you can expect a
-              superior level of care throughout the entire shipping process. Our
-              dedicated team takes care of every detail, starting from the
-              careful packaging of your items. We understand the importance of
-              proper packaging to prevent any damage during transit, and our
-              experts utilize industry-leading techniques and materials to
-              secure your cargo effectively.
-              <br />
-              <br /> Moving your items can be a cumbersome task, especially when
-              they are large or heavy. With our white glove service, you can
-              leave the moving process entirely in our hands. Our experienced
-              professionals are well-trained finding providers for handling
-              various shipments, including furniture and delicate items. We take
-              the utmost care when loading and unloading your cargo, ensuring it
-              is done safely and without harm.
-              <br />
-              <br /> One of the critical advantages of MOY Logistics white glove
-              service is the comprehensive nature of our offerings. Our expert
-              account managers ensure that the providers carefully unpack your
-              items, placing them in their designated locations as instructed,
-              ensuring a seamless transition for you. Once your shipment
-              arrives, our team will unload the items for you. We understand
-              that unpacking can be time-consuming and physically demanding, so
-              we take the responsibility off your shoulders.
-              <br />
-              <br /> We understand that packaging materials, blankets, or other
-              debris may need to be cleared after unpacking. Our team handles
-              this for you, leaving your home or business clean and
-              clutter-free. Additionally, our white glove service includes
-              debris removal. You can rest assured that all packaging materials
-              and garbage will be appropriately disposed of, saving you the
-              hassle and ensuring a hassle-free experience.
-              <br />
-              <br /> By choosing our white glove service, you can trust that
-              every aspect of your shipment, from packaging to unpacking and
-              debris removal, will be meticulously handled. We recognize the
-              value and importance of your items, and our commitment to
-              exceptional service guarantees that they will be treated with the
-              utmost care and respect throughout the process.
+              Specialized services require the expertise and care of experienced
+              logisticians. Third-party logistics (3PL) providers help ensure
+              your valuable freight gets where it’s expected, as it’s expected.
             </p>
           </div>
-          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">White Glove Shipping and Pickup</p>
-            <p className="point-p">
-              White glove shipping provides the highest level of service and
-              support. Standard freight shipping includes curbside pickup and
-              delivery. White glove delivery services include packaging(1) and
-              loading the item for you, and your goods will be picked up at the
-              origination point and delivered to your destination. Consider
-              white glove shipping when shipping delicate items or when you
-              simply don’t want to be bothered.
-              <br />
-              <br /> When your cargo reaches its destination, it will be
-              unloaded carefully and taken to the exact location where you want
-              it.
-              <br />
-              <br /> These services are beneficial when items are too bulky or
-              heavy for one person to move or if you live alone or don’t have
-              anyone to help you place your thing where you want it. All
-              packaging materials, blankets, and garbage are removed from your
-              home or business. (1)
+          <div className="flex flex-col gap-6 lg:pt-0 pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              What types of freight require specialized services?
             </p>
-          </div>
-          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">Getting White Glove Shipping</p>
-            <p className="point-p">
-              You receive VIP treatment when using any available specialized
-              services through MOY Logistics, such as white glove delivery
-              service. Our expert freight agents will identify your shipment’s
-              specific needs and requirements to move your goods safely and
-              securely.
-              <br />
-              <br /> If your cargo requires the utmost care, our freight agents
-              can arrange multi-person white glove services that include inside
-              pickup and delivery, packaging of your item, and using best
-              practices when handling your shipment.
-              <br />
-              <br /> You can also choose specialty equipment such as padded vans
-              and blanket wrap services. Lift gates are available when needed at
-              both ends of the process. All equipment required for transporting
-              your shipment can be added as an accessorial at the time of quote
-              or by telling your freight agent.
-            </p>
+            <div className="flex gap-2">
+              <p className="point-p">1.</p>
+              <p className="point-p">
+                Fragile, oversized, or complex items that need an additional
+                layer of protection, such as:
+              </p>
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Sensitive electronics and devices: office equipment or medical
+                  devices and instruments—anything sensitive to bumps, jolts, or
+                  knocks
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Fragile robotics and industrial equipment: complex machinery
+                  with moving parts that require extra protection from jostling
+                  or pinging
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Commercial refrigeration and restaurant equipment: large,
+                  bulky items that require extra padding and protection from
+                  damage and dents
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <div className="check-mark-w shrink-0">
+                  <img src={check_mark} alt="" />
+                </div>
+                <p className="point-p">
+                  Fixtures, furniture, and fragile goods: retail store fixtures,
+                  hotel furniture, casino gaming equipment, exercise equipment,
+                  residential and hotel furniture, household goods such as
+                  mirrors, glass, or pottery, and even Great Grandma’s precious
+                  antique chandelier
+                </p>
+              </div>
+              <div className="flex flex-col gap-3">
+                <div className="flex gap-2">
+                  <p className="point-p">2.</p>
+                  <p className="point-p">
+                    Military freight projects that require specific paperwork,
+                    processes, and pricing, such as special SDDC authorizations
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="point-p">3.</p>
+                  <p className="point-p">
+                    Supply chain transactions, including both input materials
+                    and finished products, moving items from origin to
+                    destination throughout the supply chain
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="point-p">4.</p>
+                  <p className="point-p">
+                    Motorcycles, which may require a fully enclosed ride,
+                    air-suspension trucking, tilt-free storage, and more
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="point-p">5.</p>
+                  <p className="point-p">
+                    Trade show exhibits, which need to be protected and pristine
+                    upon arrival for the ultimate high-impact presentation
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="w-full pt-0 lg:pt-0 p-4 lg:p-10">
@@ -703,152 +702,82 @@ function WhiteGloves() {
           </div>
         </section>
         <section className="flex flex-col gap-5">
-          <div className="flex flex-col gap-6 pt-0 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">How to: White Glove Delivery</p>
-            <p className="point-p">
-              Arranging white glove delivery through MOY Logistics is a
-              straightforward process ensuring your shipment receives the
-              highest care and attention. Here are the steps you need to follow:
+          <div className="flex flex-col gap-4 pt-0 lg:pt-0 p-4 lg:p-10">
+            <p className="section-header">
+              What Types of Specialized Services are Available?
             </p>
-            <div className="flex flex-col gap-1">
-              <div className="flex gap-2">
-                <p className="point-p">1.</p>
-                <p className="point-p">
-                  <span className="font-bold">Contact MOY Logistics:</span>{" "}
-                   Contact our dedicated customer service team via phone, email,
-                  or our online platform. Provide them with the details of your
-                  shipment, including the nature of the items, dimensions,
-                  weight, pickup location, and delivery destination.
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <p className="point-p">2.</p>
-                <p className="point-p">
-                  <span className="font-bold">
-                    Consultation and Assessment:
-                  </span>{" "}
-                   Our team will work closely with you to understand your
-                  requirements and provide guidance on the best white glove
-                  delivery options. We will assess the unique needs of your
-                  shipment to determine the appropriate level of service and any
-                  additional requirements, such as specialized equipment or
-                  handling instructions.
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <p className="point-p">3.</p>
-                <p className="point-p">
-                  <span className="font-bold">Quotation and Pricing:</span> We
-                  will generate a detailed quote for your white glove delivery
-                  service based on the information you provide. The quote will
-                  include the cost of packaging, loading, unloading, unpacking,
-                  debris removal, and any other requested services. We strive to
-                  offer competitive pricing that aligns with the value and
-                  quality of our service.
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <p className="point-p">4.</p>
-                <p className="point-p">
-                  <span className="font-bold">Confirmation and Booking: </span>{" "}
-                   Once you review and accept the quote, our team will confirm
-                  the booking and provide you with all the necessary
-                  documentation and shipment details. We will coordinate the
-                  pickup date, time, and estimated delivery timeframe, ensuring
-                  a smooth and reliable logistics process.
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <p className="point-p">5.</p>
-                <p className="point-p">
-                  <span className="font-bold">Packaging and Preparation:</span>{" "}
-                   Ensure your items are adequately prepared for shipping before
-                  the pickup date. If needed, our team can guide proper
-                  packaging techniques or arrange professional packing services
-                  to safeguard your valuable items during transit.
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <p className="point-p">6.</p>
-                <p className="point-p">
-                  <span className="font-bold">Pickup and Transit:</span>  Our
-                  experienced white glove delivery specialists will arrive at
-                  the designated location to carefully load your shipment onto
-                  our secure vehicles on the scheduled pickup day. Throughout
-                  the transit, we will track and monitor the progress of your
-                  shipment, providing regular updates to keep you informed.
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <p className="point-p">7.</p>
-                <p className="point-p">
-                  <span className="font-bold">Delivery and Unpacking:</span> Our
-                  team will unload the items with utmost care once your shipment
-                  arrives at the destination. Following your instructions, we
-                  will unpack the items and place them in their designated
-                  locations, ensuring a seamless and hassle-free delivery
-                  experience. Any packaging materials, blankets, or debris will
-                  be removed, leaving your space clean and organized
-                </p>
-              </div>
-            </div>
             <p className="point-p">
-              By following these steps, you can arrange white glove delivery
-              through MOY Logistics and experience our exceptional level of
-              service, attention to detail, and commitment to customer
-              satisfaction. We aim to make the process as smooth as possible,
-              providing peace of mind and ensuring that your valuable items
-              receive the care they deserve.
+              <span className="font-bold underline">Whit Glove Service:</span>
+              <br />
+              <br />
+              Everything is taken care of for you. Your item is picked up from
+              its location and delivered as requested. All packaging and
+              unpackaging is included.
+            </p>
+            <p className="point-p">
+              <span className="font-bold underline">Furniture Shipping:</span>
+              <br />
+              <br />
+              Whether shipping furniture purchased online or direct to
+              customers, furniture shipping involves paperwork, tracking and
+              status notifications, proper packing, and delivery.
+            </p>
+            <p className="point-p">
+              <span className="font-bold underline">Tradeshow Shipping:</span>
+              <br />
+              <br />
+              Tradeshows, expos, and conventions require special arrangements to
+              ensure proper handling and timely delivery.
+            </p>
+            <p className="point-p">
+              <span className="font-bold underline">Blanket Wrap Fregiht:</span>
+              <br />
+              <br />
+              Your fragile, oversized, or complex items are wrapped in blankets
+              and transported by a blanket wrap carrier.
+            </p>
+            <p className="point-p">
+              <span className="font-bold underline">
+                Time Critical or Expedited Freight:
+              </span>
+              <br />
+              <br />
+              Expedited freight service is for urgent or time-sensitive loads.
+              Predominately used by supply chains, expedited freight moves as
+              priority freight. Trucks shipping expedited freight rarely stop
+              along the way.
+            </p>
+            <p className="point-p">
+              <span className="font-bold underline">Oversize Freight:</span>
+              <br />
+              <br />
+              Oversize freight sometimes requires special trucks or handling
+              equipment, as well as permitting or packaging requirements.
             </p>
           </div>
           <div className="flex flex-col gap-6 lg:pt-0 p-4 lg:p-10">
-            <p className="section-header">The White Glove Experience</p>
+            <p className="section-header">How Can MOY Logistics Help?</p>
             <p className="point-p">
-              Experience the Next Level of Care with MOY Logistics White Glove
-              Shipping Solutions
+              MOY Logistics offers all of these specialized services and more.
+              No matter what the shipping trends are, When you partner with MOY
+              Logistics, our experts will work with you to secure any
+              specialized services needed for your shipment, using our trusted
+              and established carrier network.Do you ever:
               <br />
-              <br /> When it comes to shipping furniture, antiques, or any other
-              valuable items, you deserve an unparalleled level of care and
-              attention. That’s where our white glove shipping services go above
-              and beyond. While an LTL carrier’s responsibilities typically end
-              with transportation, we offer a comprehensive range of extended
-              services that ensure your cargo receives the utmost care from
-              start to finish.
+              <br /> Need a fleet of trucks to move multiple truckloads?
               <br />
-              <br /> With MOY Logistics white glove services, you can leave the
-              daunting tasks of packaging, moving, loading, and unloading your
-              cargo entirely in our hands. Our experienced team will handle
-              every process step with precision and care, providing peace of
-              mind and allowing you to focus on other important matters.
+              <br /> Need freeze protection in the winter months? Require
+              multiple destination points?
               <br />
-              <br /> But it doesn’t stop there. Our white-glove service goes the
-              extra mile by including unpacking the shipment and removing debris
-              for you. We understand that unpacking and dealing with packaging
-              materials can be time-consuming and burdensome. That’s why we take
-              on the responsibility of unpacking your items and ensuring that
-              your space is left clean and clutter-free, so you can immediately
-              enjoy your new arrivals.
+              <br /> Have to adhere to special military or governmental
+              circumstances?
               <br />
-              <br /> At MOY Logistics, we believe in tailoring our services to
-              your unique needs. We have partnered with several trusted white
-              glove shipping companies to provide a customized solution that
-              meets your requirements. Our access to lift gates ensures seamless
-              loading and unloading at both ends of the process. Whether you
-              need special equipment like padded vans or blanket wrap services,
-              we have you covered.
-              <br />
-              <br /> It’s important to note that not all white glove carriers
-              offer packaging or debris removal services. However, our team is
-              dedicated to meeting your expectations, and if these services are
-              essential to you, let your agent know, and we will connect you
-              with a white-glove service provider who can accommodate your
-              needs.
-              <br />
-              <br /> Don’t settle for anything less than exceptional white glove
-              shipping when transporting your valuable items. Choose MOY
-              Logistics and experience the next level of care and convenience
-              for your shipments. Contact us today and let us exceed your
-              expectations with our unparalleled white glove shipping solutions.
+              <br /> MOY Logistics has you covered. We’ll handle the logistics
+              and ensure cost-friendly, safe, and on-time deliveries. Get your
+              instant freight quote today, or give us a call to speak directly
+              to a MOY Logistics agent who can assist you every step of the way
+              in booking your specialized freight shipment. We look forward to
+              working with you!
             </p>
           </div>
 
@@ -886,134 +815,246 @@ function WhiteGloves() {
             </div>
 
             <div className="flex flex-col gap-6 pt-0  p-4 lg:p-10">
-              <p className="section-header">White Glove FAQs</p>
+              <p className="section-header">Specialized Freight FAQs</p>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: What is white glove shipping?
+                  Q. What is specialized freight?
                 </p>
                 <p className="point-p">
-                  A: White glove shipping is a premium service beyond standard
-                  transportation. It involves a higher level of care and
-                  attention to detail, including services such as packaging,
-                  loading, unloading, unpacking, and debris removal. White glove
-                  carriers handle valuable, fragile, or specialized items
-                  professionally, ensuring a seamless and hassle-free customer
-                  experience.
+                  A. Specialized freight refers to transporting goods requiring
+                  specialized handling, equipment, or expertise due to their
+                  unique characteristics, size, shape, or sensitivity. It
+                  involves customized solutions to meet the specific
+                  requirements of the cargo being transported.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: When should I choose white glove shipping?
+                  Q. What types of cargo require specialized freight services?
                 </p>
                 <p className="point-p">
-                  A: White glove shipping is recommended when delicate,
-                  valuable, or oversized items require extra care during
-                  transit. It is ideal for shipping furniture, antiques,
-                  electronics, artwork, and other things that demand special
-                  handling. If you want a comprehensive solution that covers all
-                  aspects of the shipping process, from start to finish, white
-                  glove services are the way to go.
+                  A. Various types of cargo may require specialized freight
+                  services, including:
+                  <br />
+                  <br />
+                  <span className="font-bold">Oversized or heavy loads:</span>
+                   Cargo that exceeds the standard legal limits for size or
+                  weight, such as large machinery, industrial equipment, or
+                  sensitive items that require extra care during transportation,
+                  oversized structures.
+                  <br />
+                  <br />{" "}
+                  <span className="font-bold">Fragile or sensitive goods:</span>
+                   Delicate or such as fine art, antiques, glassware, or
+                  electronics.
+                  <br />
+                  <br />
+                  <span className="font-bold">Hazardous materials:</span> Cargo
+                  classified as hazardous goods due to their potential risks,
+                  such as chemicals, flammable substances, or radioactive
+                  materials.
+                  <br />
+                  <br /> <span className="font-bold">Perishable goods</span>
+                   Temperature-sensitive goods that require refrigerated or
+                  temperature-controlled transportation, such as fresh produce,
+                  pharmaceuticals, or flowers.
+                  <br />
+                  <br />{" "}
+                  <span className="font-bold">Livestock or live animals:</span>
+                   Transportation of live animals, including livestock, horses,
+                  or exotic animals, requiring specialized facilities and
+                  handling procedures.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: What services are included in white glove shipping?
+                  Q. How do I arrange specialized freight services for my cargo?
                 </p>
                 <p className="point-p">
-                  A: White glove shipping typically includes services such as
-                  professional packaging, secure loading, and unloading,
-                  specialized equipment (if needed), inside delivery, unpacking,
-                  and debris removal. The exact services offered may vary
-                  depending on the carrier and the specific requirements of your
-                  shipment. It’s essential to communicate your needs with your
-                  chosen white glove service provider to ensure they can
-                  accommodate them.
+                  A. Arranging specialized freight services for your cargo
+                  involves working with freight forwarders, logistics providers,
+                  or specialized carriers with expertise in handling your
+                  specific type of cargo. Please provide them with detailed
+                  information about your cargo’s requirements, such as its size,
+                  weight, fragility, temperature sensitivity, or any other
+                  specific needs. They will assess your requirements and
+                  recommend the appropriate equipment, handling procedures, and
+                  transportation methods to ensure your cargo’s safe and secure
+                  transportation.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: How do I choose the right white glove shipping provider?
+                  Q. What are the challenges of specialized freight
+                  transportation?{" "}
                 </p>
                 <p className="point-p">
-                  A: When selecting a white glove shipping provider, consider
-                  their experience, reputation, and track record in handling
-                  similar shipments. Look for companies with expertise in
-                  handling the items you need to ship. Read customer reviews and
-                  testimonials to gauge their level of customer satisfaction.
-                  Additionally, communicate your specific requirements and
-                  expectations upfront to ensure the provider can meet them.
+                  A. Specialized freight transportation presents unique
+                  challenges, including:
+                  <br />
+                  <br />
+                  <span className="font-bold">Equipment requirement</span>
+                  Specialized cargo often requires specialized equipment, such
+                  as flatbed trailers, temperature-controlled containers, or
+                  heavy-duty cranes. Coordinating this equipment’s availability
+                  and proper utilization can take time and effort.
+                  <br />
+                  <br />{" "}
+                  <span className="font-bold">
+                    Compliance with regulations:
+                  </span>
+                   Depending on the type of cargo, there may be specific
+                  regulations, permits, or certifications required for
+                  transportation. Ensuring compliance with these regulations is
+                  crucial.
+                  <br />
+                  <br />{" "}
+                  <span className="font-bold">Expertise and handling</span>
+                   Certain cargoes demand specific expertise or handling
+                  procedures. Working with experienced professionals trained in
+                  the specialized requirements of the cargo being transported is
+                  essential.
+                  <br />
+                  <br /> <span className="font-bold">Security and safety:</span>
+                   Specialized cargo may require enhanced security measures to
+                  protect against theft, damage, or tampering. Implementing
+                  adequate security protocols and monitoring systems is
+                  essential.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: How much does white glove shipping cost?
+                  Q. Can specialized freight services be customized for unique
+                  requirements?
                 </p>
                 <p className="point-p">
-                  A: The cost of white glove shipping depends on various
-                  factors, including the size, weight, fragility, and
-                  destination of your shipment, as well as any additional
-                  services requested. White glove services are generally more
-                  expensive than standard shipping due to the specialized care
-                  involved. Obtaining quotes from multiple providers and
-                  comparing their offerings is recommended to find a balance
-                  between service quality and pricing that fits your budget.
+                  A. Yes, specialized freight services can be customized to meet
+                  unique requirements. Freight forwarders and logistics
+                  providers offering technical services often have the
+                  flexibility to tailor their solutions based on the specific
+                  needs of the cargo. This includes customized packaging,
+                  handling procedures, equipment selection, and transportation
+                  routes to ensure the safe and efficient transportation of the
+                  shipment.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: Is insurance included in white glove shipping?
+                  Q. How do I ensure my specialized cargo’s safe and secure
+                  transportation?
                 </p>
                 <p className="point-p">
-                  A: Most white glove shipping providers offer insurance
-                  coverage for your items during transit. However, the extent of
-                  coverage may vary, so it’s essential to clarify this with your
-                  chosen provider. Reviewing your insurance policies to
-                  determine if additional coverage is necessary for valuable or
-                  high-risk items is also advisable.
+                  A. To ensure the safe and secure transportation of specialized
+                  cargo, consider the following:
+                </p>
+                <div className="flex flex-col gap-2">
+                  <div className="flex items-center gap-2 ">
+                    <div className="bg-[#1a2941] shrink-0 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      Partner with experienced and reputable freight forwarders
+                      or logistics providers who specialize in handling your
+                      type of cargo.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 ">
+                    <div className="bg-[#1a2941] shrink-0 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      Provide detailed information about your cargo’s
+                      requirements and any specific handling or security
+                      instructions.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 ">
+                    <div className="bg-[#1a2941] shrink-0 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      Follow proper packaging guidelines to protect your cargo
+                      during transit.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 ">
+                    <div className="bg-[#1a2941] shrink-0 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      Utilize appropriate securing and cushioning methods to
+                      prevent shifting or damage.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 ">
+                    <div className="bg-[#1a2941] shrink-0 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      Implement additional security measures, such as seals,
+                      tracking devices, or specialized handling protocols if
+                      necessary.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 ">
+                    <div className="bg-[#1a2941] shrink-0 w-[6px] h-[6px] rounded-full"></div>
+                    <p className="point-p">
+                      Regularly communicate with your service provider to stay
+                      informed about the progress of your shipment and address
+                      any concerns or issues promptly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="section-header text-[21px]">
+                  Q. Are there any insurance considerations for specialized
+                  freight shipments?
+                </p>
+                <p className="point-p">
+                  A. Insurance considerations for specialized freight shipments
+                  are essential. Depending on the cargo type and value, you
+                  should consider obtaining appropriate insurance coverage to
+                  protect against potential loss, damage, or theft during
+                  transportation. Consult with insurance providers or freight
+                  forwarders specializing in cargo insurance to understand the
+                  coverage options available for your specific type of
+                  specialized freight.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: How do I prepare my items for white glove shipping?
+                  Q. Can specialized freight services be used for international
+                  shipments?
                 </p>
                 <p className="point-p">
-                  A: When preparing your items for white glove shipping, ensure
-                  they are adequately packaged and protected. Use appropriate
-                  packing materials, such as bubble wrap, packing peanuts, or
-                  foam padding, to safeguard fragile items. Label any delicate
-                  or sensitive items clearly. If you’re unsure about the
-                  packaging requirements, consult with your white glove service
-                  provider for guidance or inquire about the professional
-                  packing services they may offer.
+                  A. Yes, specialized freight services can be used for
+                  international shipments. Many freight forwarders and logistics
+                  providers offer technical assistance for cross-border
+                  transportation. They have the knowledge and experience to
+                  navigate international customs procedures, regulations, and
+                  transportation requirements. Working with these specialized
+                  providers can help ensure a smooth and efficient
+                  transportation process for your international shipments.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: How do I track my white glove shipment?
+                  Q. How do I determine the cost of specialized freight
+                  services? 
                 </p>
                 <p className="point-p">
-                  A: White glove shipping providers typically offer tracking
-                  capabilities, allowing you to monitor the progress of your
-                  shipment. They may provide tracking numbers or online portals
-                  where you can access real-time updates on the status and
-                  location of your items. Stay in communication with your
-                  provider and inquire about their tracking options to ensure
-                  you have visibility throughout the shipping process.
+                  A. The cost of specialized freight services depends on various
+                  factors, including the type of cargo, its size and weight, the
+                  required equipment or handling procedures, the distance
+                  traveled, and any additional services or permits needed. To
+                  determine the cost, consult with specialized freight providers
+                  who can assess your requirements and provide customized quotes
+                  based on your needs.
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <p className="section-header text-[21px]">
-                  Q: What should I do if there are issues or damages with my
-                  white glove shipment?
+                  Q. Can I track my specialized freight shipment? 
                 </p>
                 <p className="point-p">
-                  A: In the unfortunate event of issues or damages with your
-                  white glove shipment, promptly contact your service provider.
-                  They will guide you through the claims process and work
-                  towards resolving the problem to your satisfaction.
-                  Documenting any damages or discrepancies and providing
-                  supporting evidence, such as photographs, is essential to
-                  assist in the claims process.
+                  A. Many freight forwarders and logistics providers offer
+                  tracking capabilities for specialized freight shipments. They
+                  provide tracking numbers or online portals that allow you to
+                  monitor the progress of your shipment, view its current
+                  location, and receive real-time updates. This tracking
+                  capability provides visibility and helps you stay informed
+                  about the status of your specialized freight shipment.
                 </p>
               </div>
             </div>
@@ -1024,4 +1065,4 @@ function WhiteGloves() {
   );
 }
 
-export default WhiteGloves;
+export default SpecializedFreight;
