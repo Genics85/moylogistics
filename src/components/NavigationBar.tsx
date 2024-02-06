@@ -12,17 +12,24 @@ import { useClickOutsideToClose } from "../hooks/useClickOutsideToClose";
 function NavigationBar() {
   const [dropMenu, setDropMenu] = useState<boolean>(false);
   const [serviceMenu, setServiceMenu] = useState<boolean>(false);
+  const [pagesMenu, setPagesMenu] = useState<boolean>(false);
 
   const toggleServiceMenu = () => {
     setServiceMenu(!serviceMenu);
+  };
+  const togglePagesMenu = () => {
+    setPagesMenu(!pagesMenu);
   };
 
   const toggleDropMenu = () => {
     setDropMenu(!dropMenu);
   };
 
-  const wrapperRef = useRef<HTMLDivElement>(null);
-  useClickOutsideToClose(wrapperRef, () => setServiceMenu(false));
+  const serviceRef = useRef<HTMLDivElement>(null);
+  const pagesRef = useRef<HTMLDivElement>(null);
+
+  useClickOutsideToClose(serviceRef, () => setServiceMenu(false));
+  useClickOutsideToClose(pagesRef, () => setPagesMenu(false));
 
   return (
     <nav className="sticky z-50 inset-0 bg-white text-[#4d8137] flex items-center justify-between  lg:justify-center gap-20 py-4 lg:py-2">
@@ -42,7 +49,7 @@ function NavigationBar() {
           </NavLink>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2 "></div>
           <div
-            ref={wrapperRef}
+            ref={serviceRef}
             onClick={toggleServiceMenu}
             className={`hover:cursor-pointer relative pb-2`}
           >
@@ -129,15 +136,36 @@ function NavigationBar() {
               </NavLink>
             </div>
           </div>
+
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2"></div>
-          <NavLink
-            className={({ isActive }) =>
-              `${isActive ? " border-solid border-b-2 " : ""} pb-2`
-            }
-            to={"pages"}
+          <div
+            ref={pagesRef}
+            onClick={togglePagesMenu}
+            className={`hover:cursor-pointer relative pb-2`}
           >
-            Pages
-          </NavLink>
+            <div className="flex gap-1 items-center">
+              <p>Pages</p>
+              <img src={drop_down} alt="" />
+            </div>
+            <div
+              className={`${
+                pagesMenu ? "flex" : "hidden"
+              } bg-white text-[14px] font-semibold pb-2 flex-col items-center px-2 top-[150%] right-1/2 rounded-ee-lg rounded-es-lg translate-x-[50%] absolute w-[220px]`}
+            >
+              <NavLink
+                to={"freight-glossary"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Glossary
+              </NavLink>
+              <NavLink
+                to={"freight-insurance"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Freight Insurance
+              </NavLink>
+            </div>
+          </div>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2"></div>
           <NavLink
             className={({ isActive }) =>
@@ -152,9 +180,9 @@ function NavigationBar() {
             className={({ isActive }) =>
               `${isActive ? " border-solid border-b-2 " : ""} pb-2`
             }
-            to={"freight-glossary"}
+            to={"careers"}
           >
-            Contact
+            Careers
           </NavLink>
         </div>
         {/* Socials */}

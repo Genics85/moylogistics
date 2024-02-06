@@ -2,10 +2,6 @@ import home_icon from "../../assets/icons/services/home_icon.svg";
 import check_mark from "../../assets/icons/services/check_mark.svg";
 import details_icon from "../../assets/icons/services/more_details.svg";
 import read_more from "../../assets/icons/services/service_read_more.svg";
-import norto from "../../assets/images/services/norto.png";
-import points_one from "../../assets/images/services/points_one.png";
-import studio_green from "../../assets/images/services/studio_green.png";
-import outofthe_sandbox from "../../assets/images/services/outofthe_sandbox.png";
 import avatar from "../../assets/images/services/avatar.png";
 import star from "../../assets/icons/services/star.svg";
 import quotation from "../../assets/icons/services/quotation.svg";
@@ -31,6 +27,7 @@ import ltl_10 from "../../assets/images/ltl-freight/ltl_10.png";
 import ltl_11 from "../../assets/images/ltl-freight/ltl_11.png";
 import ltl_12 from "../../assets/images/ltl-freight/ltl_12.png";
 import ltl_video from "../../assets/images/ltl-freight/ltl_video.png";
+import StudioGreenBanner from "../../components/StudioGreenBanner";
 
 function LtlFreight() {
   return (
@@ -285,24 +282,7 @@ function LtlFreight() {
         </div>
       </section>
       <div className="flex flex-col gap-20 pt-20 ">
-        <section className="flex w-full items-center justify-center">
-          <div className="flex  flex-col  lg:flex-row">
-            <div className="w-[160px] md:w-[230px]">
-              <img src={studio_green} alt="" />
-            </div>
-            <div className=" w-[160px] border-[2px] border-solid border-primary_green  md:w-[230px]">
-              <img src={norto} alt="" />
-            </div>
-          </div>
-          <div className="flex flex-col lg:flex-row ">
-            <div className="w-[160px] md:w-[230px] border-[2px] border-solid border-primary_green ">
-              <img src={points_one} alt="" />
-            </div>
-            <div className="w-[160px] md:w-[230px] border-[2px] border-solid  border-primary_green ">
-              <img src={outofthe_sandbox} alt="" />
-            </div>
-          </div>
-        </section>
+        <StudioGreenBanner/>
         <section className="flex flex-col w-full items-center justify-center gap-10">
           <p className=" section-header ">What our customers are saying</p>
           <div className="flex w-[90%] gap-5">
