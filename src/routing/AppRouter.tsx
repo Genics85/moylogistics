@@ -17,6 +17,7 @@ import FrequentlyAskedQuestions from "../pages/frequently-asked-question/Frequen
 import FreightGlossary from "../pages/freight-glossary/FreightGlossary";
 import Careers from "../pages/careers/Careers";
 import FreightInsurance from "../pages/services/FreightInsurance";
+import FreightDamageClaims from "../pages/freight-damage-claims/FreightDamageClaims";
 
 function AppRouter() {
   return (
@@ -61,6 +62,10 @@ function AppRouter() {
         <Route
           path="freight-insurance"
           element={<FreightInsurance />}
+        />
+        <Route
+          path="freight-damage-claims"
+          element={<FreightDamageClaims />}
         />
         <Route
           path="frequently-asked-questions"

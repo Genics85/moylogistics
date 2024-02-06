@@ -12,13 +12,25 @@ import { useClickOutsideToClose } from "../hooks/useClickOutsideToClose";
 function NavigationBar() {
   const [dropMenu, setDropMenu] = useState<boolean>(false);
   const [serviceMenu, setServiceMenu] = useState<boolean>(false);
+  const [serviceMenuTablet, setServiceMenuTablet] = useState<boolean>(false);
   const [pagesMenu, setPagesMenu] = useState<boolean>(false);
+  const [pagesMenuTablet, setPagesMenuTablet] = useState<boolean>(false);
 
   const toggleServiceMenu = () => {
+    console.log("toggled");
     setServiceMenu(!serviceMenu);
   };
+  const toggleServiceMenuTablet = () => {
+    setPagesMenuTablet(false);
+    setServiceMenuTablet(!serviceMenuTablet);
+  };
+
   const togglePagesMenu = () => {
     setPagesMenu(!pagesMenu);
+  };
+  const togglePagesMenuTablet = () => {
+    setServiceMenuTablet(false);
+    setPagesMenuTablet(!pagesMenuTablet);
   };
 
   const toggleDropMenu = () => {
@@ -54,7 +66,7 @@ function NavigationBar() {
             className={`hover:cursor-pointer relative pb-2`}
           >
             <div className="flex gap-1 items-center">
-              <p>Service</p>
+              <p>Services</p>
               <img src={drop_down} alt="" />
             </div>
             <div
@@ -164,6 +176,12 @@ function NavigationBar() {
               >
                 Freight Insurance
               </NavLink>
+              <NavLink
+                to={"freight-damage-claims"}
+                className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+              >
+                Freight & Damage Claims
+              </NavLink>
             </div>
           </div>
           <div className="w-[2px] h-5 bg-[#4d81373a] pb-2"></div>
@@ -214,11 +232,119 @@ function NavigationBar() {
           dropMenu ? "flex" : "hidden"
         } absolute top-[100%] w-full bg-white p-5 gap-5 flex-col`}
       >
-        <p>Home</p>
-        <p>Service</p>
-        <p>Pages</p>
-        <p>Project</p>
-        <p>Contact</p>
+        <NavLink to={"home"}>Home</NavLink>
+        <div
+          onClick={toggleServiceMenuTablet}
+          className="flex gap-1 items-center"
+        >
+          <p>Services</p>
+          <img src={drop_down} alt="" />
+        </div>
+        <div
+          className={`${serviceMenuTablet ? "flex" : "hidden"} flex-col pl-5`}
+        >
+          <NavLink
+            to={"service/truckload"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Truckload Service
+          </NavLink>
+          <NavLink
+            to={"service/partial-truckload"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Partial Truckload Service
+          </NavLink>
+          <NavLink
+            to={"service/ltl-freight"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            LTL Freight
+          </NavLink>
+          <NavLink
+            to={"service/international-freight-shipping"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            International Freight Shipping
+          </NavLink>
+          <NavLink
+            to={"service/air-freight-shipping"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Air Freight Shipping
+          </NavLink>
+          <NavLink
+            to={"service/container-shipping"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Container Shipping
+          </NavLink>
+          <NavLink
+            to={"service/expedited-freight"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Expedited Freight
+          </NavLink>
+          <NavLink
+            to={"service/refrigerated-freight"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Refrigerated Freight
+          </NavLink>
+          <NavLink
+            to={"service/heavy-haul"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Heavy Haul
+          </NavLink>
+          <NavLink
+            to={"service/rail-freight"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Rail Freight
+          </NavLink>
+          <NavLink
+            to={"service/white-gloves"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            White Gloves
+          </NavLink>
+          <NavLink
+            to={"service/specialized-freight"}
+            className="hover:bg-primary_green hover:text-white text-start w-full py-2 rounded-md"
+          >
+            Specialized Freight
+          </NavLink>
+        </div>
+        <div
+          onClick={togglePagesMenuTablet}
+          className="flex gap-1 items-center"
+        >
+          <p>Pages</p>
+          <img src={drop_down} alt="" />
+        </div>
+        <div className={`${pagesMenuTablet ? "flex" : "hidden"} flex-col pl-5`}>
+          <NavLink
+            to={"freight-glossary"}
+            className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+          >
+            Glossary
+          </NavLink>
+          <NavLink
+            to={"freight-insurance"}
+            className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+          >
+            Freight Insurance
+          </NavLink>
+          <NavLink
+            to={"freight-damage-claims"}
+            className="hover:bg-primary_green hover:text-white text-start pl-2 w-full py-2 rounded-md"
+          >
+            Freight & Damage Claims
+          </NavLink>
+        </div>
+        <NavLink to={"frequently-asked-questions"}>FAQs</NavLink>
+        <NavLink to={"careers"}>Careers</NavLink>
       </div>
     </nav>
   );

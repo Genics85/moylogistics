@@ -9,10 +9,8 @@ import forward from "../../assets/icons/services/forward.svg";
 import certification from "../../assets/icons/services/certification.svg";
 import award_tag from "../../assets/icons/services/award_tag.svg";
 import freight_truck from "../../assets/images/services/freight_truck.png";
-import truck_freight from "../../assets/images/services/truck_freight.png";
 import banner_d from "../../assets/images/freight-insurance/insurance_background_d.png";
 import banner_t from "../../assets/images/freight-insurance/insurance_background_t.png";
-import ltl_freight_board from "../../assets/images/ltl-freight/ltl_freight_board.png";
 import ltl_1 from "../../assets/images/freight-insurance/insurance_1.png";
 import ltl_2 from "../../assets/images/freight-insurance/insurance_2.png";
 import ltl_3 from "../../assets/images/freight-insurance/insurance_3.png";
@@ -25,6 +23,10 @@ import ltl_9 from "../../assets/images/freight-insurance/insurance_9.png";
 import ltl_10 from "../../assets/images/freight-insurance/insurance_10.png";
 import ltl_11 from "../../assets/images/freight-insurance/insurance_11.png";
 import ltl_12 from "../../assets/images/freight-insurance/insurance_12.png";
+import insurance_board_0 from "../../assets/images/freight-insurance/insurance_board.png"
+import insurance_board from "../../assets/images/freight-insurance/insurance_board_2_d.png";
+import insurance_board_t from "../../assets/images/freight-insurance/insurance_board_2_t.png";
+
 import StudioGreenBanner from "../../components/StudioGreenBanner";
 
 function FreightInsurance() {
@@ -475,7 +477,7 @@ function FreightInsurance() {
         </section>
         <section className="flex p-4 flex-col lg:flex-row w-full justify-center items-center gap-12">
           <div className="w-full md:w-[600px] lg:w-[510px] ">
-            <img src={ltl_freight_board} alt="" />
+            <img src={insurance_board_0} alt="" />
           </div>
           <div className="flex flex-col gap-6 w-full md:w-[600px] lg:w-[700px] ">
             <p className="section-header">What Is Carrier Liability?</p>
@@ -1223,8 +1225,10 @@ function FreightInsurance() {
               </div>
             </div>
             <div className="flex flex-col lg:flex-row gap-6 pt-10  p-4 lg:p-10 items-center">
-              <div className="w-full lg:w-[510px] self-center  shrink-0">
-                <img className="w-full" src={truck_freight} alt="" />
+              <div className="w-full lg:w-[300px] self-center  shrink-0">
+                <img className="hidden lg:block w-full" src={insurance_board} alt="" />
+                <img className="lg:hidden" src={insurance_board_t} alt="" />
+
               </div>
               <div className=" flex flex-col gap-7 ">
                 <p className="section-header">
