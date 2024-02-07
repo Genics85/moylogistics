@@ -739,7 +739,7 @@ function FrequentlyAskedQuestions() {
       </section>
       <section className="p-4 pt-10 gap-10  lg:p-20  flex flex-col">
         <p className="section-header">Related links</p>
-        <div className="flex gap-10 justify-between">
+        <div className="flex gap-10 flex-col lg:flex-row justify-between">
           <div className=" lg:w-1/2 ">
             <img src={container_top} alt="" />
           </div>
