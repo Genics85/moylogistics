@@ -33,7 +33,7 @@ function Home() {
       {/* Carousel */}
       <section className="relative">
         <Carousel images={[carousel_1, carousel_2]} />
-        <p className="absolute top-1/3 left-1/2 -translate-x-1/2 leading-[40px] text-white font-bold text-[40px]">
+        <p className="absolute top-1/3 left-1/2 -translate-x-1/2 leading-[23px] md:leading-[40px] text-white font-bold text-[20px] md:text-[40px]">
           {" "}
           Logistics Supply Chain Partner
           <br /> to any Destination in the World
@@ -45,7 +45,7 @@ function Home() {
           <p className="section-header">Our Solutions</p>
           <div className="h-1 w-[90px] bg-[#4d8147]"></div>
         </div>
-        <p className=" w-[650px] text-[0.9rem] font-medium leading-[18px] text-center ">
+        <p className="w-full p-2 md:w-[650px] text-[0.9rem] font-medium leading-[18px] text-center ">
           As well as being a global leader in container shipping , our worldwide
           teams of industry specific experts mean we can offer our customers
           round-the-clock personalised service. This ensures we deliver fast and
@@ -53,10 +53,10 @@ function Home() {
           your needs.
         </p>
         <div
-          className="h-[270px] bg-cover flex gap-2 w-[90%]"
+          className="h-[270px] overflow-x-auto bg-cover flex gap-2 w-[90%]"
           style={{ backgroundImage: `url(${plane_bg})` }}
         >
-          <div className="flex w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-60">
+          <div className="flex w-1/2 shrink-0 md:w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-60">
             <div className="flex items-center gap-5 flex-col ">
               <img src={sea_transport} alt="" />
               <p className="text-white text-[24px] font-semibold text-center">
@@ -66,7 +66,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="flex w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-40">
+          <div className="flex w-1/2 shrink-0 md:w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-40">
             <div className="flex items-center gap-5 flex-col ">
               <img src={warehousing} alt="" />
               <p className="text-white text-[24px] font-semibold text-center">
@@ -76,7 +76,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="flex w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-40">
+          <div className="flex w-1/2 shrink-0 md:w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-40">
             <div className="flex items-center gap-5 flex-col ">
               <img src={air_fright} alt="" />
               <p className="text-white text-[24px] font-semibold text-center">
@@ -86,7 +86,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="flex w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-40">
+          <div className="flex w-1/2 shrink-0 md:w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-40">
             <div className="flex items-center gap-5 flex-col ">
               <img src={local_shipping} alt="" />
               <p className="text-white text-[24px] font-semibold text-center">
@@ -96,7 +96,7 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="flex w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-60">
+          <div className="flex w-1/2 shrink-0 md:w-1/5 h-full items-center justify-center bg-[#1a2914] opacity-60">
             <div className="flex items-center gap-5 flex-col ">
               <img src={local_shipping} alt="" />
               <p className="text-white text-[24px] font-semibold text-center">
@@ -133,7 +133,7 @@ function Home() {
           <p className="section-header">Your Shipping Needs Met</p>
           <div className="h-1 w-[90px] bg-[#4d8147]"></div>
         </div>
-        <p className=" w-[750px] text-[0.9rem] font-medium leading-[18px] text-start ">
+        <p className=" w-full p-2 md:w-[750px] text-[0.9rem] font-medium leading-[18px] text-start ">
           At MOY Logistics we pride ourselves on being a global container
           shipping company that delivers tailored solutions designed to meet the
           specific needs of each of our customers. Regardless of your cargo
@@ -147,9 +147,9 @@ function Home() {
           to deliver a professional, efficient shipping service, tailored to the
           specific needs of your business.
         </p>
-        <div className=" z-10 h-[250px] bg-cover flex items-center gap-2 w-[90%]">
+        <div className=" z-10 h-[250px] overflow-x-auto bg-cover flex items-center gap-2 w-[90%]">
           <div
-            className="flex w-1/5 h-full items-end justify-start "
+            className="flex w-1/2 shrink-0 md:w-1/5 h-full items-end justify-start "
             style={{ backgroundImage: `url(${liquid_transportation})` }}
           >
             <div className="w-full">
@@ -162,7 +162,7 @@ function Home() {
             </div>
           </div>
           <div
-            className="flex w-1/5 h-full items-end justify-start "
+            className="flex w-1/2 shrink-0 md:w-1/5 h-full items-end justify-start "
             style={{ backgroundImage: `url(${packaging_solutions})` }}
           >
             <div className="w-full">
@@ -173,7 +173,7 @@ function Home() {
             </div>
           </div>
           <div
-            className="flex w-1/5 h-full items-end justify-start "
+            className="flex w-1/2 shrink-0 md:w-1/5 h-full items-end justify-start "
             style={{ backgroundImage: `url(${contract_logistics})` }}
           >
             <div className="w-full">
@@ -184,7 +184,7 @@ function Home() {
             </div>
           </div>
           <div
-            className="flex w-1/5 h-full items-end justify-start "
+            className="flex w-1/2 shrink-0 md:w-1/5 h-full items-end justify-start "
             style={{ backgroundImage: `url(${warehouse_distribution})` }}
           >
             <div className="w-full">
@@ -197,7 +197,7 @@ function Home() {
             </div>
           </div>
           <div
-            className="flex w-1/5 h-full items-end justify-start "
+            className="flex w-1/2 shrink-0 md:w-1/5 h-full items-end justify-start "
             style={{ backgroundImage: `url(${specialized_transport})` }}
           >
             <div className="w-full">
@@ -226,7 +226,7 @@ function Home() {
               </p>
               <div className="h-1 w-[90px] bg-white"></div>
             </div>
-            <p className="text-white text-center text-[13px] w-[600px] leading-[20px] ">
+            <p className="text-white text-center text-[13px] w-full p-2 md:w-[600px] leading-[20px] ">
               Our global shipping network is developed for our customers. By
               focusing on delivering best-in-class service to our customers, we
               are always available to help you with your particular needs and
@@ -234,7 +234,7 @@ function Home() {
             </p>
             <button className="clear-btn bg-white">More Read</button>
           </div>
-          <div className="w-full flex justify-center gap-5 border-t-[0.2px] border-solid border-[#969696]">
+          <div className="w-full hidden md:flex justify-center  gap-5 border-t-[0.2px] border-solid border-[#969696]">
             <div className="flex gap-2 border-solid border-[#969696] border-r-[1px] pt-5 pr-10 pb-10">
               <p className="text-[40px] text-white font-bold">24</p>
               <div className="flex items-center gap-2">
@@ -242,8 +242,10 @@ function Home() {
                 <p className="text-white">Our Location</p>
               </div>
             </div>
-            <div className="flex gap-2 border-solid border-[#969696] border-r-[1px] pt-5 pr-10 pb-10">
-              <p className="text-[40px] text-white font-bold">1294</p>
+            <div className="flex gap-2 border-solid border-[#969696] border-r-[1px] pt-5 pr-0 md:pr-10 pb-10">
+              <p className="text-[20px] md:text-[40px] text-white font-bold">
+                1294
+              </p>
               <div className="flex items-center gap-2">
                 <div className="w-[12px] h-[12px] bg-white"></div>
                 <p className="text-white">Delivered Packages</p>
@@ -268,19 +270,19 @@ function Home() {
       </section>
       <section className="flex flex-col items-center justify-center gap-10 ">
         <div className="flex flex-col items-center gap-2">
-          <p className="section-header">
+          <p className="section-header text-center">
             Discover the Latest News About MOY Logistics
           </p>
           <div className="h-1 w-[90px] bg-[#4d8147]"></div>
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center w-full ">
           <button className="w-[66px]">
             <img src={chevron_right} alt="" />
           </button>
 
-          <div className="flex gap-2 w-full">
+          <div className="flex gap-2 w-full overflow-x-auto">
             <div
-              className="flex font-bold flex-col text-white w-1/4 h-[350px] justify-between items-start"
+              className="flex font-bold flex-col text-white w-3/5 shrink-0 md:w-1/4 h-[350px] justify-between items-start"
               style={{ backgroundImage: `url(${discover_1})` }}
             >
               <div className="bg-primary_green ml-3 flex py-1 px-3 items-center justify-center ">
@@ -298,7 +300,7 @@ function Home() {
               </div>
             </div>
             <div
-              className="flex font-bold flex-col text-white w-1/4 h-[350px] justify-between items-start"
+              className="flex font-bold flex-col text-white w-3/5 shrink-0 md:w-1/4 h-[350px] justify-between items-start"
               style={{ backgroundImage: `url(${discover_2})` }}
             >
               <div className="bg-primary_green ml-3 flex py-1 px-3 items-center justify-center ">
@@ -316,7 +318,7 @@ function Home() {
               </div>
             </div>
             <div
-              className="flex font-bold flex-col text-white w-1/4 h-[350px] justify-between items-start"
+              className="flex font-bold flex-col text-white w-3/5 shrink-0 md:w-1/4 h-[350px] justify-between items-start"
               style={{ backgroundImage: `url(${discover_3})` }}
             >
               <div className="bg-primary_green ml-3 flex py-1 px-3 items-center justify-center ">
@@ -334,7 +336,7 @@ function Home() {
               </div>
             </div>
             <div
-              className="flex font-bold flex-col text-white w-1/4 h-[350px] justify-between items-start"
+              className="flex font-bold flex-col text-white w-3/5 shrink-0 md:w-1/4 h-[350px] justify-between items-start"
               style={{ backgroundImage: `url(${discover_4})` }}
             >
               <div className="bg-primary_green ml-3 flex py-1 px-3 items-center justify-center ">
@@ -371,7 +373,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className=" gap-2 hidden md:flex">
           <button className="w-[66px]">
             <img src={chevron_right} alt="" />
           </button>
@@ -427,10 +429,10 @@ function Home() {
         </div>
       </section>
       {/* Opportunity */}
-      <section className="flex items-center justify-start pt-20 gap-10 text-[#1a2914]">
+      <section className="flex flex-col md:flex-row items-center justify-start pt-20 gap-10 text-[#1a2914]">
         <div className=" relative h-auto  pl-[5%] py-[5%] ">
           <div className="absolute -z-10 left-0 top-0 border-2 border-solid border-primary_green h-[100%] w-[90%] "></div>
-          <div className="w-[600px] relative">
+          <div className=" w-full md:w-[600px] relative">
             <img src={opportunity} alt="" />
             <div className="absolute left-1/2 -translate-x-[50%] bottom-0 bg-white items-center p-3 flex gap-2">
               <div className="w-[50px]">
